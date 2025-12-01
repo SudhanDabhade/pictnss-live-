@@ -341,15 +341,6 @@ const Carousel = () => {
       {/* Modern Slide Indicators - Bottom Right */}
       <div className="absolute bottom-8 sm:bottom-12 right-6 sm:right-8 lg:right-12 z-30">
         <div className="flex items-center gap-4">
-          {/* Slide Counter */}
-          <div className="hidden sm:flex items-center gap-2 text-white/70 font-mono text-sm">
-            <span className="text-white font-semibold text-lg">
-              {String(currentIndex + 1).padStart(2, '0')}
-            </span>
-            <span className="w-8 h-px bg-white/40"></span>
-            <span>{String(carouselSlides.length).padStart(2, '0')}</span>
-          </div>
-          
           {/* Modern Pill Indicators */}
           <div className="flex items-center gap-2 p-2 rounded-full bg-black/20 backdrop-blur-sm">
             {carouselSlides.map((_, index) => (
@@ -396,14 +387,6 @@ const Carousel = () => {
               </svg>
             )}
           </button>
-          
-          {/* Scroll indicator */}
-          <div className="hidden md:flex items-center gap-2 text-white/60 text-sm">
-            <div className="w-6 h-10 rounded-full border-2 border-white/30 flex justify-center pt-2">
-              <div className="w-1 h-2 bg-white/60 rounded-full animate-bounce"></div>
-            </div>
-            <span>Scroll to explore</span>
-          </div>
         </div>
       </div>
 
