@@ -33,9 +33,14 @@ const Camps = () => {
           <div className="text-center">
             {/* Camp Icon */}
             <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/30 rounded-full mb-6">
-              <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {/*<svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
                   d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+              </svg>*/}
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tent-tree-icon lucide-tent-tree">
+                <circle cx="4" cy="4" r="2"/>
+                <path d="m14 5 3-3 3 3"/><path d="m14 10 3-3 3 3"/><path d="M17 14V2"/>
+                <path d="M17 14H7l-5 8h20Z"/><path d="M8 14v8"/><path d="m9 14 5 8"/>
               </svg>
             </div>
             
@@ -86,9 +91,10 @@ const Camps = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Nature Image Background */}
-              <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-300">
+              <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
                 <img 
-                  src={`https://images.unsplash.com/photo-${469474968028 + index}-56623f02e42e?w=400&h=300&fit=crop`}
+                  //src={`https://images.unsplash.com/photo-${469474968028 + index}-56623f02e42e?w=400&h=300&fit=crop`}
+                  src="https://i.pinimg.com/originals/d3/5c/41/d35c410cdc733d720f1a24830639679f.jpg"
                   alt=""
                   className="w-full h-full object-cover"
                 />
@@ -101,23 +107,28 @@ const Camps = () => {
               {/* Content */}
               <div className="relative p-8 text-center min-h-[200px] flex flex-col items-center justify-center">
                 {/* Camp Icon */}
-                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center mb-4
+                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center mb-4
                   group-hover:bg-secondary group-hover:scale-110 transition-all duration-300">
-                  <svg className="w-7 h-7 text-secondary group-hover:text-white transition-colors" 
+                  {/*<svg className="w-7 h-7 text-secondary group-hover:text-white transition-colors" 
                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
                       d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                  </svg>*/}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tent-tree-icon lucide-tent-tree">
+                    <circle cx="4" cy="4" r="2"/>
+                    <path d="m14 5 3-3 3 3"/><path d="m14 10 3-3 3 3"/><path d="M17 14V2"/>
+                    <path d="M17 14H7l-5 8h20Z"/><path d="M8 14v8"/><path d="m9 14 5 8"/>
                   </svg>
                 </div>
                 
                 {/* Year */}
-                <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-1 
+                <h2 className="text-4xl md:text-5xl font-extrabold text-secondary mb-1 
                   group-hover:scale-110 transition-transform duration-300">
                   {year}
                 </h2>
                 
                 {/* Subtitle */}
-                <p className="text-gray-600 font-medium">NSS Camp</p>
+                <p className="text-gray-800 font-bold">NSS Camp</p>
                 
                 {/* View Link */}
                 <div className="mt-4 flex items-center text-secondary font-medium text-sm 

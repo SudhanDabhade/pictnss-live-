@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-//import ScrollToTop from './components/ScrollToTop';
+//import ScrollToTop from './components/ScrollToTop';   ""IGNORE THIS LINE ""
 
 // Pages
 import Home from './pages/Home';
@@ -26,13 +26,25 @@ import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
 
+
 // Scroll to top component
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
+/*const ScrollToTop = () => {
+  const { pathname } = window.location;
   
   React.useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    window.scrollTo(0, 0);
   }, [pathname]);
+  
+  return null;
+};*/
+
+
+const ScrollToTop = () => {
+  const location = useLocation();
+  
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [location.key]);
   
   return null;
 };
