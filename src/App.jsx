@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-//import ScrollToTop from './components/ScrollToTop';   ""IGNORE THIS LINE ""
+
 
 // Pages
 import Home from './pages/Home';
@@ -22,6 +22,7 @@ import Camps from './pages/Camps';
 import CampYear from './pages/CampYear';
 import CampDetails from './pages/CampDetails';
 import CampActivityDetails from './pages/CampActivityDetails';
+import SchoolTeaching from './pages/SchoolTeaching';
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
@@ -98,6 +99,9 @@ function App() {
             <Route path="/camps/:year" element={<CampYear />} />
             <Route path="/camps/:year/:id" element={<CampDetails />} />
             <Route path="/camps/:year/:id/activity/:activityId" element={<CampActivityDetails />} />
+
+            {/*School Teaching*/}
+            <Route path="/SchoolTeaching" element={<SchoolTeaching/>} />
             
             {/* Magazine Page */}
             <Route path="/magazine" element={<Magazine />} />
