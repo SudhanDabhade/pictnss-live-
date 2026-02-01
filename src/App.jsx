@@ -22,10 +22,11 @@ import Camps from './pages/Camps';
 import CampYear from './pages/CampYear';
 import CampDetails from './pages/CampDetails';
 import CampActivityDetails from './pages/CampActivityDetails';
-import SchoolTeaching from './pages/SchoolTeaching';
+import SchoolTeaching from './pages/SchoolTeaching';   // l-1 
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
+import SchoolTeachingDetails from './pages/SchoolTeachingDetails';
 
 
 // Scroll to top component
@@ -102,6 +103,7 @@ function App() {
 
             {/*School Teaching*/}
             <Route path="/SchoolTeaching" element={<SchoolTeaching/>} />
+            <Route path="School-Teaching/:id" element={<SchoolTeachingDetails/>}/>
             
             {/* Magazine Page */}
             <Route path="/magazine" element={<Magazine />} />

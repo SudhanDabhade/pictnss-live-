@@ -1,400 +1,163 @@
 /**
- * Magazine Data
- * NSS Year-wise digital magazine/yearbook content
- * Each magazine contains pages with images, articles, and highlights
+ * School Teaching Data
+ * Contains records of weekly teaching sessions conducted by NSS volunteers
+ * Schedule: Every Saturday
  */
 
-export const magazines = [
+export const teachingSessions = [
+  // --- 2026 Sessions ---
   {
-    id: 'mag-2025',
+    id: 101,
+    year: 2026,
+    date: "January 24, 2026",
+    title: "Republic Day Creative Workshop",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "5th - 7th Standard",
+    subject: "Arts & Crafts / History",
+    thumbnail: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=300&fit=crop",
+    volunteers: 15,
+    shortDescription: "Crafting decorations and storytelling about Indian freedom fighters.",
+    description: `With Republic Day approaching, this Saturday's session was dedicated to instilling patriotism through creativity. Volunteers organized an art workshop where students made tri-color badges, flags, and paper flowers to decorate their classrooms.
+
+    In the second half, a storytelling session was conducted where volunteers narrated inspiring stories of freedom fighters like Bhagat Singh and Subhash Chandra Bose. The session concluded with a group rehearsal of the National Anthem.`,
+    learningOutcome: "Students learned about the significance of Republic Day and developed craft skills.",
+    gallery: [
+      "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=600&h=400&fit=crop", // Crafting
+      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=400&fit=crop", // Classroom interaction
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop", // Kids smiling
+    ]
+  },
+  {
+    id: 102,
+    year: 2026,
+    date: "January 17, 2026",
+    title: "Fun with Science: Practical Experiments",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "6th - 8th Standard",
+    subject: "General Science",
+    thumbnail: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=300&fit=crop",
+    volunteers: 12,
+    shortDescription: "Demonstrating basic physics and chemistry concepts using household items.",
+    description: `To make science more approachable, volunteers demonstrated simple experiments using everyday objects. Topics covered included air pressure, density (oil vs water), and basic chemical reactions (baking soda volcanoes).
+
+    The hands-on approach fascinated the students, who were encouraged to predict the outcomes before each experiment. This inquiry-based learning method helped spark curiosity and critical thinking.`,
+    learningOutcome: "Understanding fundamental scientific principles through observation and deduction.",
+    gallery: [
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop", // Science experiment
+      "https://images.unsplash.com/photo-1564429238980-16e22e18ff74?w=600&h=400&fit=crop", // Group learning
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", // Teaching
+    ]
+  },
+  {
+    id: 103,
+    year: 2026,
+    date: "January 10, 2026",
+    title: "Vedic Maths & Speed Calculation",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "5th - 8th Standard",
+    subject: "Mathematics",
+    thumbnail: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400&h=300&fit=crop",
+    volunteers: 10,
+    shortDescription: "Teaching mental math tricks to solve problems faster.",
+    description: `Many students fear mathematics. This session aimed to remove that fear by introducing 'Vedic Maths' tricks for multiplication and division. Volunteers taught short-cut methods to square numbers ending in 5 and multiply two-digit numbers mentally.
+
+    We also conducted a 'Math Relay' game where students formed teams to solve problems on the blackboard, turning calculation into a fun competitive sport.`,
+    learningOutcome: "Improved calculation speed and reduced anxiety towards mathematics.",
+    gallery: [
+      "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600&h=400&fit=crop", // Math board
+      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=400&fit=crop", // Classroom
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop", // Happy students
+    ]
+  },
+
+  // --- 2025 Sessions (Selected Highlights) ---
+  {
+    id: 104,
     year: 2025,
-    title: 'Samarpan 2025',
-    subtitle: 'Journey of Service Excellence',
-    coverImage: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400',
-    accentColor: '#1E40AF', // NSS Blue
-    secondaryAccent: '#DC2626', // NSS Red
-    totalPages: 24,
-    publishDate: 'March 2025',
-    description: 'Celebrating another remarkable year of service, compassion, and community building by PICT NSS Unit.',
-    pages: [
-      {
-        pageNum: 1,
-        type: 'title',
-        title: 'Samarpan 2025',
-        subtitle: 'PICT NSS Unit Annual Magazine',
-        content: 'Not Me, But You',
-        image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600'
-      },
-      {
-        pageNum: 2,
-        type: 'message',
-        title: "Principal's Message",
-        author: 'Dr. Rajesh Kumar',
-        designation: 'Principal, PICT',
-        content: 'It gives me immense pleasure to present the 2025 edition of Samarpan. The NSS unit of PICT has consistently demonstrated exceptional commitment to community service. This year saw record-breaking participation in various social initiatives, from blood donation drives to environmental campaigns. I congratulate the entire team for their dedication and urge them to continue inspiring others.',
-        image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400'
-      },
-      {
-        pageNum: 3,
-        type: 'message',
-        title: "Program Officer's Note",
-        author: 'Prof. Sneha Patil',
-        designation: 'NSS Program Officer',
-        content: 'The journey of 2024-25 has been extraordinary. Our volunteers have touched countless lives through 50+ activities, 3 special camps, and numerous awareness programs. From plantation drives to health camps, from literacy programs to disaster relief, our students have shown that youth can be the catalyst for positive change.',
-        image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400'
-      },
-      {
-        pageNum: 4,
-        type: 'article',
-        title: 'Year in Numbers',
-        content: 'This year witnessed phenomenal growth in NSS activities.',
-        stats: [
-          { label: 'Volunteers', value: '500+' },
-          { label: 'Activities', value: '50+' },
-          { label: 'Service Hours', value: '15,000+' },
-          { label: 'Lives Impacted', value: '10,000+' }
-        ]
-      },
-      {
-        pageNum: 5,
-        type: 'gallery',
-        title: 'Memorable Moments',
-        images: [
-          { src: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300', caption: 'Blood Donation Camp' },
-          { src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=300', caption: 'Tree Plantation' },
-          { src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=300', caption: 'Village Outreach' },
-          { src: 'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=300', caption: 'Awareness Rally' }
-        ]
-      },
-      {
-        pageNum: 6,
-        type: 'article',
-        title: 'Special Camp 2025',
-        subtitle: 'Village Adoption Program - Wagholi',
-        content: 'The 7-day special camp at Wagholi was a transformative experience. 120 volunteers worked tirelessly on sanitation, education, and health initiatives. Highlights included construction of 5 soak pits, teaching 200+ students, and conducting health checkups for 500+ villagers. The camp fostered lasting bonds between students and the community.',
-        image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600'
-      },
-      {
-        pageNum: 7,
-        type: 'gallery',
-        title: 'Camp Highlights',
-        images: [
-          { src: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=300', caption: 'Community Work' },
-          { src: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=300', caption: 'Teaching Session' },
-          { src: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=300', caption: 'Health Camp' },
-          { src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=300', caption: 'Shramdan' }
-        ]
-      },
-      {
-        pageNum: 8,
-        type: 'article',
-        title: 'Blood Donation Drives',
-        content: 'Our blood donation campaigns collected 450+ units of blood this year across 4 mega drives. Partnership with Sassoon Hospital and Jankalyan Blood Bank ensured maximum reach and impact. Special recognition to 25 regular donors who have donated more than 5 times.',
-        image: 'https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=600'
-      },
-      {
-        pageNum: 9,
-        type: 'article',
-        title: 'Environmental Initiatives',
-        subtitle: 'Go Green Campaign',
-        content: 'The Go Green campaign planted 2000+ saplings across Pune. Weekly cleanliness drives at Mula-Mutha river, plastic-free campus initiatives, and e-waste collection drives marked our commitment to environmental sustainability. The "Say No to Single-Use Plastic" campaign reduced plastic usage on campus by 40%.',
-        image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600'
-      },
-      {
-        pageNum: 10,
-        type: 'team',
-        title: 'Core Committee 2024-25',
-        members: [
-          { name: 'Aarav Sharma', role: 'President', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150' },
-          { name: 'Priya Deshmukh', role: 'Vice President', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150' },
-          { name: 'Rahul Mehta', role: 'Secretary', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150' },
-          { name: 'Sneha Kulkarni', role: 'Treasurer', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150' }
-        ]
-      },
-      {
-        pageNum: 11,
-        type: 'article',
-        title: 'Awards & Recognition',
-        content: 'PICT NSS Unit received the "Best NSS Unit" award from Savitribai Phule Pune University for the third consecutive year. Five volunteers received state-level recognition for exceptional service. The unit was also appreciated by district administration for flood relief work.',
-        image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=600'
-      },
-      {
-        pageNum: 12,
-        type: 'closing',
-        title: 'Looking Ahead',
-        content: 'As we conclude this year, we look forward to expanding our reach and impact. New initiatives in digital literacy, mental health awareness, and skill development are planned. Together, we will continue to embody the spirit of "Not Me, But You".',
-        image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600'
-      }
+    date: "December 20, 2025",
+    title: "Spoken English & Public Speaking",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "7th - 8th Standard",
+    subject: "English Language",
+    thumbnail: "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=400&h=300&fit=crop",
+    volunteers: 14,
+    shortDescription: "Confidence building activities and basic conversation practice.",
+    description: `Focusing on communication skills, this session encouraged students to speak in English. Volunteers introduced themselves and asked students to do the same using simple sentence structures.
+
+    Activities included 'Just A Minute' (JAM), where students spoke for one minute on their favorite topics (like 'My Best Friend' or 'My Village'). We focused on vocabulary building and correcting common grammatical errors in a supportive environment.`,
+    learningOutcome: "Increased confidence in speaking English and expanded vocabulary.",
+    gallery: [
+      "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=600&h=400&fit=crop", // Speaking
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop", // Mentoring
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", // Classroom
     ]
   },
   {
-    id: 'mag-2024',
-    year: 2024,
-    title: 'Samarpan 2024',
-    subtitle: 'Serving with Purpose',
-    coverImage: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400',
-    accentColor: '#1E40AF',
-    secondaryAccent: '#DC2626',
-    totalPages: 20,
-    publishDate: 'March 2024',
-    description: 'A year of resilience, dedication, and meaningful community engagement.',
-    pages: [
-      {
-        pageNum: 1,
-        type: 'title',
-        title: 'Samarpan 2024',
-        subtitle: 'PICT NSS Unit Annual Magazine',
-        content: 'Not Me, But You',
-        image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600'
-      },
-      {
-        pageNum: 2,
-        type: 'message',
-        title: "Principal's Message",
-        author: 'Dr. Rajesh Kumar',
-        designation: 'Principal, PICT',
-        content: 'The NSS unit continues to be the pride of PICT. Their unwavering commitment to social service inspires the entire college community. This year marked a return to full-scale activities post-pandemic, and our volunteers exceeded all expectations.',
-        image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400'
-      },
-      {
-        pageNum: 3,
-        type: 'article',
-        title: 'Year Highlights',
-        content: 'From conducting the largest blood donation camp in PICT history to organizing skill development workshops for rural youth, 2023-24 was a year of firsts and achievements.',
-        stats: [
-          { label: 'Volunteers', value: '450+' },
-          { label: 'Activities', value: '45+' },
-          { label: 'Service Hours', value: '12,000+' },
-          { label: 'Blood Units', value: '380+' }
-        ]
-      },
-      {
-        pageNum: 4,
-        type: 'article',
-        title: 'Special Camp - Uruli Kanchan',
-        content: 'The village adoption camp at Uruli Kanchan focused on water conservation and sanitation. Construction of check dams, cleaning of wells, and awareness programs on water harvesting were the highlights. The camp also featured a medical camp serving 300+ villagers.',
-        image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600'
-      },
-      {
-        pageNum: 5,
-        type: 'gallery',
-        title: 'Activity Snapshots',
-        images: [
-          { src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=300', caption: 'Shramdan' },
-          { src: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300', caption: 'Blood Donation' },
-          { src: 'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=300', caption: 'Rally' },
-          { src: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=300', caption: 'Construction' }
-        ]
-      },
-      {
-        pageNum: 6,
-        type: 'team',
-        title: 'Core Committee 2023-24',
-        members: [
-          { name: 'Vikram Joshi', role: 'President', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150' },
-          { name: 'Ananya Nair', role: 'Vice President', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150' },
-          { name: 'Rohan Pawar', role: 'Secretary', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150' },
-          { name: 'Kavya Shah', role: 'Treasurer', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150' }
-        ]
-      },
-      {
-        pageNum: 7,
-        type: 'closing',
-        title: 'Gratitude',
-        content: 'We thank all volunteers, faculty advisors, and college administration for their continued support. Special thanks to our partner NGOs and government bodies who made our initiatives successful.',
-        image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600'
-      }
+    id: 105,
+    year: 2025,
+    date: "December 6, 2025",
+    title: "Computer Literacy Basics",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "5th - 8th Standard",
+    subject: "Technology",
+    thumbnail: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop",
+    volunteers: 10,
+    shortDescription: "Introduction to parts of a computer and MS Paint.",
+    description: `Volunteers carried their laptops to the school to give students a hands-on experience with computers. For many students, this was their first time interacting with a laptop.
+
+    The session covered the basic parts of a computer (Input/Output devices), how to turn it on/off, and using the mouse. The highlight was letting the students draw digital art using MS Paint, which they thoroughly enjoyed.`,
+    learningOutcome: "Familiarity with computer hardware and basic interface navigation.",
+    gallery: [
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop", // Kids with laptops
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop", // Digital learning
+      "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&h=400&fit=crop", // Screen time
     ]
   },
   {
-    id: 'mag-2023',
-    year: 2023,
-    title: 'Samarpan 2023',
-    subtitle: 'Rising Together',
-    coverImage: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400',
-    accentColor: '#1E40AF',
-    secondaryAccent: '#DC2626',
-    totalPages: 18,
-    publishDate: 'March 2023',
-    description: 'Post-pandemic resurgence of community service and social responsibility.',
-    pages: [
-      {
-        pageNum: 1,
-        type: 'title',
-        title: 'Samarpan 2023',
-        subtitle: 'PICT NSS Unit Annual Magazine',
-        content: 'Not Me, But You',
-        image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600'
-      },
-      {
-        pageNum: 2,
-        type: 'message',
-        title: "Program Officer's Note",
-        author: 'Prof. Anil Desai',
-        designation: 'NSS Program Officer',
-        content: 'After two years of restricted activities due to the pandemic, 2022-23 marked our triumphant return to full-fledged community service. Our volunteers showed remarkable enthusiasm and dedication.',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400'
-      },
-      {
-        pageNum: 3,
-        type: 'article',
-        title: 'Back in Action',
-        content: 'The year began with orientation programs for 200+ new volunteers. Workshops on leadership, first aid, and disaster management equipped our team for the challenges ahead.',
-        stats: [
-          { label: 'New Volunteers', value: '200+' },
-          { label: 'Activities', value: '35+' },
-          { label: 'Service Hours', value: '8,000+' }
-        ]
-      },
-      {
-        pageNum: 4,
-        type: 'article',
-        title: 'Health Awareness Campaign',
-        content: 'COVID recovery support, vaccination drives, and mental health awareness programs were our priority. We organized 10+ health camps reaching 2000+ beneficiaries.',
-        image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600'
-      },
-      {
-        pageNum: 5,
-        type: 'gallery',
-        title: 'Moments to Remember',
-        images: [
-          { src: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=300', caption: 'Education Drive' },
-          { src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=300', caption: 'Tree Plantation' },
-          { src: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300', caption: 'Blood Donation' },
-          { src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=300', caption: 'Camp Activities' }
-        ]
-      },
-      {
-        pageNum: 6,
-        type: 'closing',
-        title: 'Moving Forward',
-        content: 'As we look back at a year of recovery and growth, we are committed to expanding our impact and reaching more communities in need.',
-        image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600'
-      }
-    ]
-  },
-  {
-    id: 'mag-2022',
-    year: 2022,
-    title: 'Samarpan 2022',
-    subtitle: 'Service Beyond Boundaries',
-    coverImage: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400',
-    accentColor: '#1E40AF',
-    secondaryAccent: '#DC2626',
-    totalPages: 16,
-    publishDate: 'March 2022',
-    description: 'Virtual volunteering and innovative community service during challenging times.',
-    pages: [
-      {
-        pageNum: 1,
-        type: 'title',
-        title: 'Samarpan 2022',
-        subtitle: 'PICT NSS Unit Annual Magazine',
-        content: 'Not Me, But You',
-        image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600'
-      },
-      {
-        pageNum: 2,
-        type: 'article',
-        title: 'Adapting to Change',
-        content: 'The pandemic taught us that service knows no boundaries. Virtual volunteering became our new normal as we conducted online tutoring, digital literacy programs, and mental health support sessions.',
-        stats: [
-          { label: 'Online Sessions', value: '100+' },
-          { label: 'Students Tutored', value: '500+' },
-          { label: 'Webinars', value: '25+' }
-        ]
-      },
-      {
-        pageNum: 3,
-        type: 'article',
-        title: 'COVID Relief Work',
-        content: 'Distribution of ration kits, medicines, and sanitizers to underprivileged families. Our volunteers also helped in vaccination registration and awareness.',
-        image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=600'
-      },
-      {
-        pageNum: 4,
-        type: 'gallery',
-        title: 'Virtual & On-Ground',
-        images: [
-          { src: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=300', caption: 'Online Teaching' },
-          { src: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=300', caption: 'Relief Work' },
-          { src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=300', caption: 'Health Camp' },
-          { src: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300', caption: 'Donation Drive' }
-        ]
-      },
-      {
-        pageNum: 5,
-        type: 'closing',
-        title: 'Resilience',
-        content: 'Despite limitations, our spirit remained unbroken. We learned that true service is about intention and impact, not just physical presence.',
-        image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600'
-      }
-    ]
-  },
-  {
-    id: 'mag-2021',
-    year: 2021,
-    title: 'Samarpan 2021',
-    subtitle: 'Hope in Adversity',
-    coverImage: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400',
-    accentColor: '#1E40AF',
-    secondaryAccent: '#DC2626',
-    totalPages: 14,
-    publishDate: 'March 2021',
-    description: 'Finding ways to serve when the world stood still.',
-    pages: [
-      {
-        pageNum: 1,
-        type: 'title',
-        title: 'Samarpan 2021',
-        subtitle: 'PICT NSS Unit Annual Magazine',
-        content: 'Not Me, But You',
-        image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600'
-      },
-      {
-        pageNum: 2,
-        type: 'message',
-        title: 'A Year Like No Other',
-        content: 'The COVID-19 pandemic challenged us in unprecedented ways. But our volunteers rose to the occasion, finding innovative ways to serve from home while supporting frontline workers.',
-        image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=600'
-      },
-      {
-        pageNum: 3,
-        type: 'article',
-        title: 'Virtual Volunteering',
-        content: 'Online tutoring for students whose education was disrupted, digital literacy for senior citizens, and COVID awareness campaigns through social media.',
-        stats: [
-          { label: 'Online Volunteers', value: '150+' },
-          { label: 'Awareness Posts', value: '200+' },
-          { label: 'Families Helped', value: '300+' }
-        ]
-      },
-      {
-        pageNum: 4,
-        type: 'article',
-        title: 'Frontline Support',
-        content: 'Providing meals and supplies to healthcare workers, assisting in hospital logistics, and creating awareness materials in multiple languages.',
-        image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600'
-      },
-      {
-        pageNum: 5,
-        type: 'closing',
-        title: 'Hope Prevails',
-        content: 'Through the darkness of the pandemic, our volunteers became beacons of hope. We proved that the spirit of service cannot be quarantined.',
-        image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600'
-      }
+    id: 106,
+    year: 2025,
+    date: "November 15, 2025",
+    title: "Origami & Paper Craft Workshop",
+    schoolName: "Z.P. Primary School, Dhankawadi",
+    targetClass: "1st - 4th Standard",
+    subject: "Arts & Crafts",
+    thumbnail: "https://images.unsplash.com/photo-1512130639912-78dc5e923838?w=400&h=300&fit=crop",
+    volunteers: 18,
+    shortDescription: "Developing fine motor skills through paper folding activities.",
+    description: `A fun-filled Saturday dedicated to the younger students (1st to 4th standard). Volunteers taught them the Japanese art of Origami. Students learned to make paper boats, planes, and simple birds.
+
+    This activity was chosen to help improve the children's fine motor skills, patience, and ability to follow instructions. The session ended with a boat racing competition in a water tub.`,
+    learningOutcome: "Development of creativity, patience, and fine motor coordination.",
+    gallery: [
+      "https://images.unsplash.com/photo-1512130639912-78dc5e923838?w=600&h=400&fit=crop", // Craft
+      "https://images.unsplash.com/photo-1460518451285-97b6aa326961?w=600&h=400&fit=crop", // Group fun
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=400&fit=crop", // Smiles
     ]
   }
 ];
 
-// Helper function to get magazine by year
-export const getMagazineByYear = (year) => {
-  return magazines.find(mag => mag.year === parseInt(year));
+// --- Helper Functions ---
+
+// Get sessions by year
+export const getTeachingSessionsByYear = (year) => {
+  return teachingSessions.filter(session => session.year === parseInt(year));
 };
 
-// Helper function to get all years
-export const getMagazineYears = () => {
-  return magazines.map(mag => mag.year).sort((a, b) => b - a);
+// Get session by ID
+export const getTeachingSessionById = (id) => {
+  return teachingSessions.find(session => session.id === parseInt(id));
 };
 
-export default magazines;
+// Get distinct years available in data
+export const getTeachingYears = () => {
+  return [...new Set(teachingSessions.map(s => s.year))].sort((a, b) => b - a);
+};
+
+// Get sessions by subject (for filtering)
+export const getSessionsBySubject = (subjectFragment) => {
+  return teachingSessions.filter(session => 
+    session.subject.toLowerCase().includes(subjectFragment.toLowerCase())
+  );
+};
+
+export default teachingSessions;
