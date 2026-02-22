@@ -22,24 +22,11 @@ import Camps from './pages/Camps';
 import CampYear from './pages/CampYear';
 import CampDetails from './pages/CampDetails';
 import CampActivityDetails from './pages/CampActivityDetails';
-import SchoolTeaching from './pages/SchoolTeaching';   // l-1 
+import SchoolTeaching from './pages/SchoolTeaching';   
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
 import SchoolTeachingDetails from './pages/SchoolTeachingDetails';
-
-
-// Scroll to top component
-/*const ScrollToTop = () => {
-  const { pathname } = window.location;
-  
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  
-  return null;
-};*/
-
 
 const ScrollToTop = () => {
   const location = useLocation();
