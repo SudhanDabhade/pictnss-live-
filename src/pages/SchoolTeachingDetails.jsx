@@ -1,12 +1,12 @@
 /**
  * SchoolTeachingDetails Page Component
  * Displays detailed information about a specific Saturday teaching session
- * Includes: Banner, Learning Outcomes, Full Description, and Gallery
+ * Updated to include Class-wise Activity Log
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { getTeachingSessionById } from '../data/schoolteaching'; // Ensure this import path is correct
+import { getTeachingSessionById } from '../data/schoolteaching'; 
 import Lightbox from '../components/Lightbox';
 
 const SchoolTeachingDetails = () => {
@@ -20,12 +20,17 @@ const SchoolTeachingDetails = () => {
   // Fetch session data
   const session = getTeachingSessionById(id);
 
+  // Scroll to top on mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Handle case where session is not found
   if (!session) {
     return (
-      <div className="min-h-screen bg-softGrey pt-24 pb-16 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 pt-24 pb-16 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-textDark mb-4">Session Not Found</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Session Not Found</h1>
           <p className="text-gray-600 mb-6">The teaching session you are looking for does not exist.</p>
           <Link
             to="/school-teaching"
@@ -39,11 +44,11 @@ const SchoolTeachingDetails = () => {
   }
 
   // Prepare gallery images for lightbox
-  const galleryImages = session.gallery.map((src, index) => ({
+  const galleryImages = session.gallery ? session.gallery.map((src, index) => ({
     src,
     title: `${session.title} - Image ${index + 1}`,
     category: 'School Teaching',
-  }));
+  })) : [];
 
   // Lightbox handlers
   const openLightbox = (index) => {
@@ -66,64 +71,60 @@ const SchoolTeachingDetails = () => {
   };
 
   return (
-    <div className="min-h-screen bg-softGrey pt-20">
+    <div className="min-h-screen bg-gray-50 pt-20">
       
       {/* --- Banner Section --- */}
-      <div className="relative h-[300px] md:h-[400px] lg:h-[500px]">
+      <div className="relative h-[350px] md:h-[450px] lg:h-[500px]">
         <img
           src={session.thumbnail}
           alt={session.title}
           className="w-full h-full object-cover"
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
         
         {/* Content */}
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="max-w-7xl mx-auto">
             {/* Breadcrumb */}
-            <nav className="flex items-center space-x-2 text-white/60 mb-4 text-sm">
+            <nav className="flex items-center space-x-2 text-white/70 mb-6 text-sm">
               <Link to="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
               <Link to="/school-teaching" className="hover:text-white transition-colors">School Teaching</Link>
               <span>/</span>
-              <span className="text-white truncate max-w-[200px]">{session.title}</span>
+              <span className="text-white truncate max-w-[200px]">{session.weekLabel || 'Session Details'}</span>
             </nav>
             
-            {/* Tags */}
-            <div className="flex flex-wrap gap-3 mb-4">
-               <span className="bg-primary/90 text-secondary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+            {/* Tags & Week Badge */}
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+               {session.weekLabel && (
+                 <span className="bg-white text-secondary px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider">
+                   {session.weekLabel}
+                 </span>
+               )}
+               <span className="bg-secondary/90 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-white/20">
                  {session.subject}
-               </span>
-               <span className="bg-white/20 backdrop-blur-md text-white px-3 py-1 rounded-full text-xs font-bold border border-white/30">
-                 {session.targetClass}
                </span>
             </div>
 
             {/* Title */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 animate-fade-in">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in leading-tight">
               {session.title}
             </h1>
             
             {/* Meta Data */}
-            <div className="flex flex-wrap gap-4 md:gap-8 text-white/90 font-medium">
+            <div className="flex flex-wrap gap-4 md:gap-8 text-white/90 font-medium text-sm md:text-base">
               <div className="flex items-center">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 mr-2 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 {session.date}
               </div>
               <div className="flex items-center">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 mr-2 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
                 {session.schoolName}
-              </div>
-              <div className="flex items-center">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-                {session.volunteers} Volunteers
               </div>
             </div>
           </div>
@@ -154,13 +155,43 @@ const SchoolTeachingDetails = () => {
               </div>
             </div>
 
+            {/* NEW: Class-wise Activity Log (The Register View) */}
+            {session.classActivities && (
+              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 mb-8">
+                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                  <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                  Session Activity Log
+                 </h2>
+                 <div className="overflow-hidden bg-gray-50 rounded-xl border border-gray-100">
+                    <table className="min-w-full divide-y divide-gray-200">
+                       <thead className="bg-gray-100">
+                          <tr>
+                             <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Standard / Batch</th>
+                             <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Activity Conducted</th>
+                          </tr>
+                       </thead>
+                       <tbody className="divide-y divide-gray-200">
+                          {session.classActivities.map((item, idx) => (
+                             <tr key={idx} className="hover:bg-white transition-colors">
+                                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-800">{item.standard}</td>
+                                <td className="px-6 py-4 text-sm text-gray-600">{item.activity}</td>
+                             </tr>
+                          ))}
+                       </tbody>
+                    </table>
+                 </div>
+              </div>
+            )}
+
             {/* Main Description */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-fade-in mb-8">
-              <h2 className="text-2xl font-bold text-textDark mb-6 flex items-center gap-2">
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 animate-fade-in mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                 <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
                 </svg>
-                Session Details
+                Detailed Report
               </h2>
               
               <div className="prose prose-lg max-w-none text-gray-600">
@@ -173,26 +204,26 @@ const SchoolTeachingDetails = () => {
             </div>
 
             {/* Gallery Section */}
-            {session.gallery && session.gallery.length > 0 && (
-              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-slide-up">
-                <h2 className="text-2xl font-bold text-textDark mb-6 flex items-center gap-2">
+            {galleryImages.length > 0 && (
+              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 animate-slide-up">
+                <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                   <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  Classroom Gallery
+                  Session Gallery
                 </h2>
                 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {session.gallery.map((image, index) => (
+                  {galleryImages.map((image, index) => (
                     <div
                       key={index}
                       onClick={() => openLightbox(index)}
                       className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer
-                        shadow-card hover:shadow-card-hover transition-all duration-300"
+                        shadow-md hover:shadow-xl transition-all duration-300"
                     >
                       <img
-                        src={image}
-                        alt={`${session.title} gallery ${index + 1}`}
+                        src={image.src}
+                        alt={image.title}
                         className="w-full h-full object-cover transform group-hover:scale-110 
                           transition-transform duration-500"
                       />
@@ -215,37 +246,49 @@ const SchoolTeachingDetails = () => {
 
           {/* Right Column: Sidebar Stats */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-2xl p-6 shadow-card animate-fade-in sticky top-24">
-              <h3 className="text-lg font-bold text-textDark mb-4 border-b border-gray-100 pb-2">Overview</h3>
+            <div className="bg-white rounded-2xl p-6 shadow-lg shadow-gray-200/50 sticky top-24 border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-6 border-b border-gray-100 pb-4">Session Overview</h3>
               
               <div className="space-y-4">
-                <div className="flex items-center justify-between p-3 bg-softGrey rounded-xl">
-                  <span className="text-gray-500 text-sm">Class Taught</span>
-                  <span className="font-semibold text-secondary text-right">{session.targetClass}</span>
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                  <span className="text-gray-500 text-sm font-medium">Class Taught</span>
+                  <span className="font-bold text-gray-900 text-right">{session.targetClass}</span>
                 </div>
 
-                <div className="flex items-center justify-between p-3 bg-softGrey rounded-xl">
-                  <span className="text-gray-500 text-sm">Subject</span>
-                  <span className="font-semibold text-secondary text-right">{session.subject}</span>
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                  <span className="text-gray-500 text-sm font-medium">Subject</span>
+                  <span className="font-bold text-gray-900 text-right">{session.subject}</span>
                 </div>
                 
-                <div className="flex items-center justify-between p-3 bg-softGrey rounded-xl">
-                  <span className="text-gray-500 text-sm">Volunteers</span>
-                  <span className="font-semibold text-secondary text-right">{session.volunteers}</span>
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                  <span className="text-gray-500 text-sm font-medium">Volunteers</span>
+                  <span className="font-bold text-secondary text-right">{session.volunteers}</span>
                 </div>
                 
-                <div className="flex items-center justify-between p-3 bg-softGrey rounded-xl">
-                  <span className="text-gray-500 text-sm">Photos</span>
-                  <span className="font-semibold text-secondary text-right">{session.gallery?.length || 0}</span>
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                  <span className="text-gray-500 text-sm font-medium">Photos</span>
+                  <span className="font-bold text-gray-900 text-right">{galleryImages.length}</span>
                 </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-gray-100">
+                  <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4">Share this activity</h4>
+                  <div className="flex gap-2">
+                     <button className="flex-1 py-2 bg-blue-50 text-blue-600 rounded-lg text-sm font-semibold hover:bg-blue-100 transition-colors">
+                        WhatsApp
+                     </button>
+                     <button className="flex-1 py-2 bg-gray-100 text-gray-600 rounded-lg text-sm font-semibold hover:bg-gray-200 transition-colors">
+                        Copy Link
+                     </button>
+                  </div>
               </div>
 
               <button
                 onClick={() => navigate(-1)}
-                className="w-full mt-6 inline-flex items-center justify-center px-6 py-3 
-                  bg-secondary text-white font-semibold rounded-xl 
-                  hover:bg-secondary/90 transform hover:scale-[1.02] 
-                  transition-all duration-200 group"
+                className="w-full mt-6 inline-flex items-center justify-center px-6 py-3.5 
+                  bg-gray-900 text-white font-semibold rounded-xl 
+                  hover:bg-gray-800 transform hover:scale-[1.02] 
+                  transition-all duration-200 group shadow-lg shadow-gray-900/20"
               >
                 <svg 
                   className="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform" 

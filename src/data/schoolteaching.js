@@ -9,138 +9,122 @@ export const teachingSessions = [
   {
     id: 101,
     year: 2026,
-    date: "January 24, 2026",
-    title: "Republic Day Creative Workshop",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "5th - 7th Standard",
-    subject: "Arts & Crafts / History",
-    thumbnail: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=300&fit=crop",
-    volunteers: 15,
-    shortDescription: "Crafting decorations and storytelling about Indian freedom fighters.",
-    description: `With Republic Day approaching, this Saturday's session was dedicated to instilling patriotism through creativity. Volunteers organized an art workshop where students made tri-color badges, flags, and paper flowers to decorate their classrooms.
-
-    In the second half, a storytelling session was conducted where volunteers narrated inspiring stories of freedom fighters like Bhagat Singh and Subhash Chandra Bose. The session concluded with a group rehearsal of the National Anthem.`,
-    learningOutcome: "Students learned about the significance of Republic Day and developed craft skills.",
+    date: "Feburay 1, 2026", // Approximate Saturday for Week 18
+    weekLabel: "Week 1",
+    title: "Active Learning & Logical Reasoning",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "Holistic Development",
+    thumbnail: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop", // Smiling kids
+    volunteers: 18,
+    shortDescription: "A productive session covering basic literacy, scholarship math, and logical reasoning across all batches.",
+    description: `This week’s session focused on active learning across all classes. 1st standard students practiced English alphabets and numbers with a fun 'Chinese Whisper' activity. 
+    
+    Scholarship students (5th & 8th) worked on logical reasoning and geometry for their upcoming exams. The session ended with a high-energy recap where students shared what they learned.`,
+    learningOutcome: "Strengthened core concepts in Math and Logic; improved vocabulary through interactive games.",
+    // NEW FIELD: Class-wise breakdown for the "Register" view
+    classActivities: [
+      { standard: "1st Std", activity: "English alphabets, Numbers, Chinese Whisper Game" },
+      { standard: "2nd - 3rd Std", activity: "Maths (Sum & Product), Logical Reasoning" },
+      { standard: "4th Std", activity: "Geometry & Scholarship Preparation" },
+      { standard: "5th Std", activity: "English Grammar & Logical Reasoning" },
+      { standard: "6th Std", activity: "LCM, HCF, and History" }
+    ],
     gallery: [
-      "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=600&h=400&fit=crop", // Crafting
-      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=400&fit=crop", // Classroom interaction
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop", // Kids smiling
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=400&fit=crop"
     ]
   },
   {
     id: 102,
     year: 2026,
-    date: "January 17, 2026",
-    title: "Fun with Science: Practical Experiments",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "6th - 8th Standard",
-    subject: "General Science",
-    thumbnail: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=300&fit=crop",
-    volunteers: 12,
-    shortDescription: "Demonstrating basic physics and chemistry concepts using household items.",
-    description: `To make science more approachable, volunteers demonstrated simple experiments using everyday objects. Topics covered included air pressure, density (oil vs water), and basic chemical reactions (baking soda volcanoes).
-
-    The hands-on approach fascinated the students, who were encouraged to predict the outcomes before each experiment. This inquiry-based learning method helped spark curiosity and critical thinking.`,
-    learningOutcome: "Understanding fundamental scientific principles through observation and deduction.",
+    date: "January 03, 2026", // Savitribai Phule Jayanti (Approx)
+    weekLabel: "Week 17",
+    title: "Savitribai Phule Jayanti & Food Fest",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "All Standards",
+    subject: "Value Education & Celebration",
+    thumbnail: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400&h=300&fit=crop", // Celebration/Books
+    volunteers: 20,
+    shortDescription: "Celebrating the pioneer of girls' education followed by a student-led Food Festival.",
+    description: `The session began with a tribute to Savitribai Phule. Students delivered short speeches about her contribution to girls' education. 
+    
+    Later, volunteers participated in the 'School Food Festival' where students prepared and sold food at stalls, learning real-world management skills. Regular teaching continued for Scholarship batches.`,
+    learningOutcome: "Inspiration from history and entrepreneurial skills through the food stall activity.",
+    classActivities: [
+      { standard: "All Students", activity: "Speeches on Savitribai Phule & Food Festival" },
+      { standard: "1st - 2nd Std", activity: "Self-Introduction in English" },
+      { standard: "4th - 5th Std", activity: "Scholarship Practice (English)" },
+      { standard: "7th Std", activity: "Computer Lab: File & Folder Operations" }
+    ],
     gallery: [
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop", // Science experiment
-      "https://images.unsplash.com/photo-1564429238980-16e22e18ff74?w=600&h=400&fit=crop", // Group learning
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", // Teaching
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1564429238980-16e22e18ff74?w=600&h=400&fit=crop"
     ]
   },
+  
+  // --- 2025 Sessions ---
   {
     id: 103,
-    year: 2026,
-    date: "January 10, 2026",
-    title: "Vedic Maths & Speed Calculation",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "5th - 8th Standard",
-    subject: "Mathematics",
-    thumbnail: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400&h=300&fit=crop",
-    volunteers: 10,
-    shortDescription: "Teaching mental math tricks to solve problems faster.",
-    description: `Many students fear mathematics. This session aimed to remove that fear by introducing 'Vedic Maths' tricks for multiplication and division. Volunteers taught short-cut methods to square numbers ending in 5 and multiply two-digit numbers mentally.
-
-    We also conducted a 'Math Relay' game where students formed teams to solve problems on the blackboard, turning calculation into a fun competitive sport.`,
-    learningOutcome: "Improved calculation speed and reduced anxiety towards mathematics.",
+    year: 2025,
+    date: "December 20, 2025",
+    weekLabel: "Week 15",
+    title: "Computer Awareness & AI Learning",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "2nd - 7th Standard",
+    subject: "Technology",
+    thumbnail: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop", // Computer
+    volunteers: 12,
+    shortDescription: "Bridging the digital divide with basics of Hardware and Introduction to AI.",
+    description: `A tech-focused Saturday! We introduced students to computer hardware components. The highlight was a live demonstration of AI tools like ChatGPT.
+    
+    We explained how AI can be a 'Study Buddy' and the importance of using technology responsibly. The curiosity in the room was electric!`,
+    learningOutcome: "Digital literacy and awareness of modern AI tools.",
+    classActivities: [
+      { standard: "2nd - 7th Std", activity: "Computer Hardware Basics & Networking" },
+      { standard: "Senior Group", activity: "Intro to AI (ChatGPT) & Responsible Use" }
+    ],
     gallery: [
-      "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600&h=400&fit=crop", // Math board
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=400&fit=crop", // Classroom
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop", // Happy students
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop"
     ]
   },
-
-  // --- 2025 Sessions (Selected Highlights) ---
   {
     id: 104,
     year: 2025,
-    date: "December 20, 2025",
-    title: "Spoken English & Public Speaking",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "7th - 8th Standard",
-    subject: "English Language",
+    date: "December 06, 2025",
+    weekLabel: "Week 12",
+    title: "Mahaparinirvan Diwas & NMMS Prep",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "Social Awareness & Comp Exams",
     thumbnail: "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=400&h=300&fit=crop",
-    volunteers: 14,
-    shortDescription: "Confidence building activities and basic conversation practice.",
-    description: `Focusing on communication skills, this session encouraged students to speak in English. Volunteers introduced themselves and asked students to do the same using simple sentence structures.
-
-    Activities included 'Just A Minute' (JAM), where students spoke for one minute on their favorite topics (like 'My Best Friend' or 'My Village'). We focused on vocabulary building and correcting common grammatical errors in a supportive environment.`,
-    learningOutcome: "Increased confidence in speaking English and expanded vocabulary.",
+    volunteers: 15,
+    shortDescription: "Tribute to Dr. Babasaheb Ambedkar and starting the new NMMS Exam batch.",
+    description: `We observed Mahaparinirvan Diwas with a session on Dr. Babasaheb Ambedkar's role in shaping the Constitution.
+    
+    Academically, we launched the new NMMS preparation batch for 7th standard, starting with MAT (Mental Ability Test) questions.`,
+    learningOutcome: "Social awareness regarding the Constitution and competitive exam readiness.",
+    classActivities: [
+      { standard: "All Students", activity: "Tribute to Dr. Babasaheb Ambedkar" },
+      { standard: "4th - 5th Std", activity: "Mental Ability: Calendar & Date Concepts" },
+      { standard: "7th Std", activity: "NMMS Batch: Intro to MAT" },
+      { standard: "6th Std", activity: "Computer Lab Session" }
+    ],
     gallery: [
-      "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=600&h=400&fit=crop", // Speaking
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop", // Mentoring
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", // Classroom
-    ]
-  },
-  {
-    id: 105,
-    year: 2025,
-    date: "December 6, 2025",
-    title: "Computer Literacy Basics",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "5th - 8th Standard",
-    subject: "Technology",
-    thumbnail: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop",
-    volunteers: 10,
-    shortDescription: "Introduction to parts of a computer and MS Paint.",
-    description: `Volunteers carried their laptops to the school to give students a hands-on experience with computers. For many students, this was their first time interacting with a laptop.
-
-    The session covered the basic parts of a computer (Input/Output devices), how to turn it on/off, and using the mouse. The highlight was letting the students draw digital art using MS Paint, which they thoroughly enjoyed.`,
-    learningOutcome: "Familiarity with computer hardware and basic interface navigation.",
-    gallery: [
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop", // Kids with laptops
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop", // Digital learning
-      "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&h=400&fit=crop", // Screen time
-    ]
-  },
-  {
-    id: 106,
-    year: 2025,
-    date: "November 15, 2025",
-    title: "Origami & Paper Craft Workshop",
-    schoolName: "Z.P. Primary School, Dhankawadi",
-    targetClass: "1st - 4th Standard",
-    subject: "Arts & Crafts",
-    thumbnail: "https://images.unsplash.com/photo-1512130639912-78dc5e923838?w=400&h=300&fit=crop",
-    volunteers: 18,
-    shortDescription: "Developing fine motor skills through paper folding activities.",
-    description: `A fun-filled Saturday dedicated to the younger students (1st to 4th standard). Volunteers taught them the Japanese art of Origami. Students learned to make paper boats, planes, and simple birds.
-
-    This activity was chosen to help improve the children's fine motor skills, patience, and ability to follow instructions. The session ended with a boat racing competition in a water tub.`,
-    learningOutcome: "Development of creativity, patience, and fine motor coordination.",
-    gallery: [
-      "https://images.unsplash.com/photo-1512130639912-78dc5e923838?w=600&h=400&fit=crop", // Craft
-      "https://images.unsplash.com/photo-1460518451285-97b6aa326961?w=600&h=400&fit=crop", // Group fun
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=400&fit=crop", // Smiles
+      "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=600&h=400&fit=crop"
     ]
   }
 ];
 
 // --- Helper Functions ---
 
-// Get sessions by year
+// Get sessions by year (Sorted by Week/Date descending)
 export const getTeachingSessionsByYear = (year) => {
-  return teachingSessions.filter(session => session.year === parseInt(year));
+  return teachingSessions
+    .filter(session => session.year === parseInt(year))
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
 };
 
 // Get session by ID
@@ -153,7 +137,7 @@ export const getTeachingYears = () => {
   return [...new Set(teachingSessions.map(s => s.year))].sort((a, b) => b - a);
 };
 
-// Get sessions by subject (for filtering)
+// Get sessions by subject
 export const getSessionsBySubject = (subjectFragment) => {
   return teachingSessions.filter(session => 
     session.subject.toLowerCase().includes(subjectFragment.toLowerCase())
