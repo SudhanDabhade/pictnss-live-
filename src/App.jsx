@@ -12,7 +12,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-
 // Pages
 import Home from './pages/Home';
 import Activities from './pages/Activities';
