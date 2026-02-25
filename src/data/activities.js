@@ -8,7 +8,7 @@ export const activities = [
   {
     id: 1,
     year: 2025,
-    title: "Tree Plantation Drive",
+    title: "Rakhi making workshop & Rakshabandhan activity",
     thumbnail: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
     shortDescription: "Planted 500+ saplings across PICT campus and nearby areas.",
     description: `The Tree Plantation Drive 2025 was one of our most successful environmental initiatives. Over 200 volunteers gathered early morning to plant more than 500 saplings across the PICT campus and neighboring communities.
@@ -16,9 +16,9 @@ export const activities = [
 The event was inaugurated by the Principal and the NSS Program Officer, who emphasized the importance of environmental conservation. Various species of native trees were planted, including Neem, Peepal, Banyan, and flowering plants.
 
 Volunteers were divided into teams, each responsible for a specific area. The drive also included an awareness session about climate change and the role of trees in maintaining ecological balance. Local residents appreciated our efforts and many pledged to maintain the saplings planted near their homes.`,
-    date: "March 15, 2025",
+    date: "26th July 2025 - 09th August 2025",
     location: "PICT Campus & Surrounding Areas",
-    volunteers: 200,
+    volunteers: 54,
     gallery: [
       "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop",
@@ -320,27 +320,27 @@ The sessions were well-received, with many participants expressing relief and gr
     ]
   },
   {
-  id: 16,
-  year: 2026,
-  title: "Police Mitra – Dagdusheth Ganpati Planning & Crowd Management",
-  thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop", // reused from Road Safety
-  shortDescription: "Assisted Pune Police in crowd and queue management during Dagdusheth Ganpati festival.",
-  description: `As part of the Police Mitra initiative, PICT NSS volunteers supported Pune Police during the Dagdusheth Ganpati festival. Duties included crowd flow management, guiding senior citizens, maintaining safety lanes, assisting lost-and-found booths, and coordinating during the Maha Aarti rush hours.
+    id: 16,
+    year: 2026,
+    title: "Police Mitra – Dagdusheth Ganpati Planning & Crowd Management",
+    thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop", // reused from Road Safety
+    shortDescription: "Assisted Pune Police in crowd and queue management during Dagdusheth Ganpati festival.",
+    description: `As part of the Police Mitra initiative, PICT NSS volunteers supported Pune Police during the Dagdusheth Ganpati festival. Duties included crowd flow management, guiding senior citizens, maintaining safety lanes, assisting lost-and-found booths, and coordinating during the Maha Aarti rush hours.
 
 Volunteers were stationed at key points around the mandir under the guidance of police officials. This activity gave students real-world exposure to large-scale event planning, discipline, and civic responsibility.`,
-  date: "September 12, 2025",
-  location: "Shreemant Dagdusheth Halwai Ganpati Mandir, Pune",
-  volunteers: 120,
-  gallery: [
-    // Road Safety (best police/crowd images)
-    "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    date: "September 12, 2025",
+    location: "Shreemant Dagdusheth Halwai Ganpati Mandir, Pune",
+    volunteers: 120,
+    gallery: [
+      // Road Safety (best police/crowd images)
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
 
-    // Anti-Drug Rally (crowd movement)
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
-  ]
-},
+      // Anti-Drug Rally (crowd movement)
+      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
+    ]
+  },
 
 
 ];
