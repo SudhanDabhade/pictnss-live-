@@ -72,19 +72,19 @@ Special focus was given to clearing plastic waste and promoting the use of biode
 
   // 2024 Activities
   {
-    id: 4,
+    id: "2024_FE_SE_Induction",
     year: 2024,
-    title: "Digital Literacy Program",
+    title: "FE-SE Induction",
     thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
-    shortDescription: "Trained 200+ villagers in basic computer and internet skills.",
-    description: `The Digital Literacy Program was conducted in nearby villages to bridge the digital divide. Our volunteers taught basic computer operations, internet usage, and digital payment methods to rural residents.
-
-The program ran for two months with weekly sessions. Participants learned to use smartphones effectively, access government services online, and protect themselves from cyber fraud. Senior citizens showed remarkable enthusiasm in learning new technologies.
-
-This initiative has empowered many villagers to access digital services independently, improving their quality of life and connecting them with the digital world.`,
-    date: "November 15, 2024",
-    location: "Narhe Village",
-    volunteers: 50,
+    shortDescription: "PICT NSS welcomed new FE and SE members through an interactive induction.",
+    description: `The PICT NSS conducted successful FE-SE Induction on 18th April to welcome new members of the
+FE and SE. The program aimed to introduce the club, its activities and the benefits of joining NSS.
+The program began with the fun quiz to create positive and interactive atmosphere to attendees.
+Following the quiz, a video showcasing memories from past NSS camps were shared.
+The FE-SE Induction concluded successfully, leaving a positive impression on attendees.`,
+    date: "18th April 2024, 4:30 pm onwards",
+    location: "Pune Institute of Computer Technology",
+    volunteers: 40,
     gallery: [
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
@@ -93,19 +93,21 @@ This initiative has empowered many villagers to access digital services independ
     ]
   },
   {
-    id: 5,
+    id: "2024_Nirmal_Wari",
     year: 2024,
-    title: "Health Awareness Camp",
+    title: "Nirmal Wari Activity",
     thumbnail: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300&fit=crop",
-    shortDescription: "Free health checkups and awareness sessions for 500+ beneficiaries.",
-    description: `A comprehensive Health Awareness Camp was organized in collaboration with local healthcare providers. The camp offered free health checkups including blood pressure monitoring, blood sugar testing, and eye examinations.
-
-Expert doctors delivered talks on preventive healthcare, nutrition, and the importance of regular health screenings. Special attention was given to women's health issues and child nutrition.
-
-Over 500 people from nearby communities benefited from this camp. Medicines were distributed free of cost to those in need, and follow-up consultations were arranged for serious cases.`,
-    date: "September 20, 2024",
-    location: "Ambegaon Community Center",
-    volunteers: 75,
+    shortDescription: "Volunteers supported Warkaris through logistics and cleanliness, gaining spiritual insight and community purpose.",
+    description: `On 1st July, 2024 we conducted Nirmal Wari Activity aimed to assist the Warkaris on their spiritual
+journey, promoting cleanliness and support throughout their pilgrimage. This activity took place at
+Vitthal Mandir in Bhavani Peth, engaging volunteers in meaningful work and offering a chance to
+experience the profound dedication of the Warkaris.
+Tasks included assisting with logistics, maintaining cleanliness, and offering moral support to the
+pilgrims. This hands-on involvement allowed volunteers to gain a deeper understanding of the Warkari
+tradition and the significance of their pilgrimage.`,
+    date: "July 01, 2024",
+    location: "Vitthal Mandir, Bhavani Peth.",
+    volunteers: 49,
     gallery: [
       "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=400&fit=crop",
@@ -114,23 +116,248 @@ Over 500 people from nearby communities benefited from this camp. Medicines were
     ]
   },
   {
-    id: 6,
+    id: "2024_Tree_Plantation",
     year: 2024,
-    title: "Road Safety Awareness",
+    title: "Tree Plantation Activity",
     thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
-    shortDescription: "Traffic awareness campaign reaching 1000+ commuters.",
-    description: `PICT NSS Unit conducted a Road Safety Awareness campaign in collaboration with Pune Traffic Police. The campaign aimed to educate commuters about traffic rules, helmet usage, and the dangers of drunk driving.
+    shortDescription: "PICT NSS teamed up with 'Zade Laawa Zade Jagwa' on July 6th for a Tree Plantation drive, promoting biodiversity and environmental responsibility.",
+    description: `On 6th July, “Tree Plantation” activity was organized for students. The initiative aimed to instill
+environmental awareness among students and promote the importance of tree planting for a sustainable
+future. The Activity was planned in association with “Zade Laawa Zade Jagwa” environmentalist group
+who takes care of the biodiversity park.
 
-Volunteers were stationed at major traffic signals distributing pamphlets and interacting with commuters. Street plays highlighting the consequences of reckless driving were performed at busy intersections.
-
-The campaign also included a pledge-taking ceremony where hundreds of two-wheeler riders committed to always wearing helmets and following traffic rules.`,
-    date: "July 10, 2024",
-    location: "Major Intersections in Pune",
-    volunteers: 100,
+Our “Tree Plantation” activity highlighted how planting trees helps fight climate change, protects the
+environment, and improves our quality of life. It showed why it's important for everyone to work together
+to care for our planet.`,
+    date: "July 06, 2024, 7:00 am to 11:00 am",
+    location: "Late Uttamrao Patil Bio diversity Park, Narhe (Near Swaminarayan Hills)",
+    volunteers: 36,
     gallery: [
       "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_career_abroad",
+    year: 2024,
+    title: "Career Abroad Seminar",
+    thumbnail: "https://images.unsplash.com/photo-1523240715639-99781318260b?w=400&h=300&fit=crop",
+    shortDescription: "A comprehensive seminar in collaboration with Patson’s Career Abroad Consultant providing strategic guidance on international education and job markets.",
+    description: `On August 2nd, 2024, PICT NSS organized a 'Career Abroad' seminar featuring expert insights from Mr. Rajiv Patil of Patson’s Career Abroad Consultant. The session was designed to demystify the complex process of pursuing international professional and academic opportunities for engineering students.
+
+The seminar covered critical aspects of navigating over 1,700 global universities, effective visa application strategies, and the optimization of Optional Practical Training (OPT). Attendees gained high-level insights into the global job market, helping them develop strategic career plans and enhance their competitiveness on an international scale.`,
+    date: "August 02, 2024, 4:30 pm to 5:30 pm",
+    location: "ENTC Seminar Hall, PICT, Pune",
+    volunteers: 57,
+    gallery: [
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_tree_conservation",
+    year: 2024,
+    title: "Tree Conservation Activity",
+    thumbnail: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
+    shortDescription: "A hands-on conservation drive at Narhe Bio-diversity Park focused on planting, sapling maintenance, and ecosystem stewardship.",
+    description: `On August 3rd, 2024, NSS PICT organized a 'Tree Conservation Drive' to instill environmental awareness and promote sustainable practices. The initiative went beyond simple planting, engaging 83 volunteers in the long-term maintenance of saplings and ecological education.
+
+By working directly in the Late Uttamrao Patil Bio-diversity Park, volunteers gained a profound understanding of the delicate balance required to sustain a local ecosystem. The activity fostered a spirit of environmental stewardship, encouraging participants to identify areas for personal improvement in their daily environmental impact while raising collective awareness about the vital role trees play in fighting climate change.`,
+    date: "August 03, 2024, 7:00 am to 11:00 am",
+    location: "Late Uttamrao Patil Bio-diversity Park, Narhe",
+    volunteers: 83,
+    gallery: [
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_rakhi_workshop",
+    year: 2024,
+    title: "Rakhi and Greeting Card Making Workshop",
+    thumbnail: "https://images.unsplash.com/photo-1594191341852-9cc986470876?w=400&h=300&fit=crop",
+    shortDescription: "A collaborative workshop with iVolunteer NGO where volunteers crafted over 150 rakhis and 50+ cards for our nation's brave soldiers.",
+    description: `On August 10th, 2024, PICT NSS in collaboration with iVolunteer NGO organized a special Raksha Bandhan workshop. The event served as a heartfelt tribute to our soldiers, providing students an opportunity to express their gratitude through creative handiwork.
+
+Participating volunteers crafted various styles of rakhis and personal greeting cards to be sent to the borders. Beyond the creative output, the initiative fostered a strong sense of national pride and unity among the 73 participants, as they worked together to send messages of support and joy to those protecting our nation.`,
+    date: "August 10, 2024, 2:00 pm to 4:00 pm",
+    location: "PICT College (Canteen - 3rd floor)",
+    volunteers: 73,
+    gallery: [
+      "https://images.unsplash.com/photo-1628153345100-84382f6e91da?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1594191341852-9cc986470876?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1624314138470-5a2f24623f10?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1557002666-513693630f9d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1628153322139-382a81387693?w=600&h=400&fit=crop"
+    ]
+  },
+  {
+    id: "2024_raksha_bandhan_honors",
+    year: 2024,
+    title: "Raksha Bandhan Celebration",
+    thumbnail: "https://images.unsplash.com/photo-1594191341852-9cc986470876?w=400&h=300&fit=crop",
+    shortDescription: "A two-day celebration honoring the unsung heroes of our society, including fire brigade personnel, soldiers, and college staff.",
+    description: `On August 19th and 20th, 2024, PICT NSS volunteers, in collaboration with LCS4Society, organized a heartfelt Raksha Bandhan celebration. The event was dedicated to honoring the 'unsung heroes' who ensure our safety and community well-being every day.
+
+Over the two-day period, 24 volunteers visited the Central Fire Brigade at Ghorpade Peth and the NCC Headquarters in Pune to tie rakhis to firefighters and soldiers, expressing gratitude for their selfless service. The celebration also extended to the PICT campus, where volunteers honored college security personnel and canteen workers, successfully fostering a deep sense of respect, community bonding, and cultural appreciation.`,
+    date: "August 19 & 20, 2024, 11:00 am to 6:00 pm",
+    location: "Central Fire Brigade (Ghorpade Peth), NCC HQ, and PICT Campus",
+    volunteers: 24,
+    gallery: [
+      "https://images.unsplash.com/photo-1594191341852-9cc986470876?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1624314138470-5a2f24623f10?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1628153322139-382a81387693?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_policemitra",
+    year: 2024,
+    title: "Policemitra Activity",
+    thumbnail: "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?w=400&h=300&fit=crop",
+    shortDescription: "Volunteers collaborated with Faraskhana Police Station to manage massive crowds and ensure devotee safety during the Ganpati Festival.",
+    description: `On the night of September 16th, 2024, PICT NSS volunteers participated in the 'Policemitra' initiative in collaboration with Faraskhana Police Station. The activity was centered at iconic locations including Shreemant Dagdusheth Halwai Ganpati, Guruchi Talim, and Tambdi Jogeshwari to assist with the immense crowd flow during Pune's Ganpati Festival.
+
+Working through the night from 8:00 PM to 2:00 AM, 24 volunteers played a crucial role in managing queues, assisting with prasad distribution, and ensuring smooth devotee movement. This hands-on experience provided volunteers with a unique insight into public safety management and strengthened their sense of social duty and community responsibility.`,
+    date: "September 16, 2024, 8:00 pm to 2:00 am",
+    location: "Dagdusheth Halwai Ganpati & nearby Mandals, Pune",
+    volunteers: 24,
+    gallery: [
+      "https://images.unsplash.com/photo-1561488132-bc9123aa290a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1620389240492-9577908c6974?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_naam_foundation",
+    year: 2024,
+    title: "Naam Foundation 9th Anniversary Volunteering",
+    thumbnail: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop",
+    shortDescription: "Volunteers assisted the Naam Foundation during its 9th-anniversary event, managing crowds and supporting social welfare initiatives for underprivileged communities.",
+    description: `On September 21st, 2024, a team of 23 PICT NSS volunteers participated in the 9th Anniversary celebration of the Naam Foundation at Ganesh Kala Krida Manch. The foundation, renowned for its work with underprivileged communities and drought-affected farmers in Maharashtra, required organized support to handle the large-scale commemorative event.
+
+The volunteers took on diverse responsibilities, including venue arrangement, registration support, and crowd management. A significant part of their role involved assisting senior citizens and special guests to ensure their comfort throughout the program. This activity not only contributed to the event's success but also provided volunteers with exposure to large-scale social welfare operations and community empowerment projects.`,
+    date: "September 21, 2024, 10:00 am onwards",
+    location: "Ganesh Kala Krida Manch, Swargate, Pune",
+    volunteers: 23,
+    gallery: [
+      "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1475721027187-4024733924f7?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_drug_awareness_play",
+    year: 2024,
+    title: "Street Play: Awareness about Drug Addiction",
+    thumbnail: "https://images.unsplash.com/photo-1503073321235-efdf3e17b3d2?w=400&h=300&fit=crop",
+    shortDescription: "A compelling street play performed during the FE Induction to highlight the devastating physical and emotional consequences of drug addiction.",
+    description: `On September 24th, 2024, a team of 14 NSS volunteers performed a powerful street play at the FE Induction Shamiyana on the PICT campus. The performance was specifically designed to resonate with incoming First-Year students, portraying the realistic journey of college students falling into addiction and the subsequent consequences.
+
+The play emphasized the harsh effects of substance abuse on the human body, as well as the mental and emotional toll it takes on students' lives and their families. By using a relatable narrative, the activity successfully reduced the stigma surrounding the topic, increased awareness among the new batch, and promoted healthy, drug-free lifestyle choices within the college community.`,
+    date: "September 24, 2024, 12:30 pm to 2:00 pm",
+    location: "FE Induction Shamiyana, PICT Campus",
+    volunteers: 14,
+    gallery: [
+      "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1460518451285-97b6aa326961?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_nss_day",
+    year: 2024,
+    title: "NSS Day Celebration",
+    thumbnail: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=400&h=300&fit=crop",
+    shortDescription: "A commemorative event celebrating the spirit of NSS with guest speaker Mr. Abhijit Pokharnikar and certificate distribution for dedicated volunteers.",
+    description: `On September 24th, 2024, PICT NSS celebrated National Service Scheme (NSS) Day to honor the spirit of 'Not Me, But You.' The event featured Mr. Abhijit Pokharnikar from 'Dadachi Shala' as the guest of honor, who shared his profound social experiences and inspired the volunteers to deepen their commitment to social welfare.
+
+The celebration served as a platform to recognize the hard work of the volunteers, with the distribution of NSS certificates to eligible students. The program concluded with a ceremonial cake cutting, fostering a sense of unity and shared purpose among the 80 participants while reinforcing the core cultural values and community impact of the NSS.`,
+    date: "September 24, 2024, 5:00 pm to 7:00 pm",
+    location: "IT Seminar Hall, PICT",
+    volunteers: 80,
+    gallery: [
+      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1531050171654-776e727b4777?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_gandhi_jayanti_swachhta",
+    year: 2024,
+    title: "Gandhi Jayanti Cleanliness Drives & Rally",
+    thumbnail: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop",
+    shortDescription: "A series of impactful cleanliness initiatives across Pune to commemorate Gandhi Jayanti, focusing on urban plogging, campus hygiene, and public awareness.",
+    description: `On October 2nd, 2024, PICT NSS commemorated Mahatma Gandhi's birth anniversary through three synchronized initiatives under the 'Swachh Bharat Abhiyan' vision:
+
+1. **Cleanliness Awareness Rally:** In collaboration with Puneri Swag NGO, 16 volunteers participated in a rally from Katraj to Bharati Vidyapeeth, advocating for a cleaner city.
+2. **Campus Cleanliness Drive:** A dedicated team of volunteers led an intensive cleaning operation across the PICT campus, reinforcing the principles of 'Swachhta' and collective responsibility among students and faculty.
+3. **Hanuman Tekdi Plogging Drive:** In partnership with iVolunteer NGO and Pune Ploggers, volunteers climbed Hanuman Tekdi (FC Hills) to collect and sort litter, specifically targeting plastic waste and glass bottles to protect local wildlife and ecosystems.
+
+Together, these activities fostered a spirit of civic duty, resulting in a cleaner environment and a renewed pledge for ongoing sustainability efforts within the community.`,
+    date: "October 02, 2024, 7:30 am to 10:00 am",
+    location: "PICT Campus, Katraj, and Hanuman Tekdi (FC Hills)",
+    volunteers: 30,
+    gallery: [
+      "https://images.unsplash.com/photo-1618477461839-245366432249?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1595273670150-db0a3bf37bca?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1567393528677-d6df27d999e3?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_prism_conference",
+    year: 2024,
+    title: "PRISM’24 Conference Participation",
+    thumbnail: "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?w=400&h=300&fit=crop",
+    shortDescription: "PICT NSS showcased social innovation at the PRISM’24 conference, engaging with NGOs like UNICEF and Naam Foundation to discuss sustainable development.",
+    description: `On October 4th, 2024, six volunteers represented PICT NSS at the PRISM’24 (Public Reform, Innovation, Sustainability, and Management) conference held at VIT, Pune. This state-level platform invited NSS units across Maharashtra to present their social contributions through innovative PowerPoint presentations.
+
+The conference featured insightful sessions from major organizations including the Deepstambh Foundation, Naam Foundation, and UNICEF. These talks emphasized the importance of social reform and sustainable management in community work. Our participation facilitated a rich exchange of ideas, strengthened collaborative partnerships with other NSS units, and resulted in earning the Sevasrujan Award, further motivating our team toward impactful social service.`,
+    date: "October 04, 2024, 11:00 am to 5:00 pm",
+    location: "VIT, Bibwewadi, Pune",
+    volunteers: 6,
+    gallery: [
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1475721027187-4024733924f7?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_savali_visit",
+    year: 2024,
+    title: "Savali Organisation Visit",
+    thumbnail: "https://images.unsplash.com/photo-1469571480357-0a8a01aa0978?w=400&h=300&fit=crop",
+    shortDescription: "A compassionate visit to Savali Organisation focused on bringing joy to mentally challenged individuals through art, music, and interactive games.",
+    description: `On October 19th, 2024, 18 PICT NSS volunteers visited the Savali Organisation in Kothrud, a center dedicated to supporting mentally challenged individuals. The visit was designed to create a meaningful connection through shared activities and emotional support.
+
+Volunteers organized and participated in drawing sessions, singing performances, and interactive games, creating an environment filled with care and creativity. This experience allowed volunteers to develop deep empathy and a better understanding of the challenges faced by this segment of society. The activity underscored the importance of community connection and the profound impact that simple acts of kindness and presence can have on personal growth and social welfare.`,
+    date: "October 19, 2024, 12:00 pm to 2:00 pm",
+    location: "Savali Organisation, Kothrud, Pune",
+    volunteers: 18,
+    gallery: [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2024_food_donation",
+    year: 2024,
+    title: "Food Donation Drive",
+    thumbnail: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+    shortDescription: "A massive food redistribution initiative across Pune city, collecting surplus food from messes and the college canteen to feed the underprivileged.",
+    description: `On October 19th, 2024, 31 PICT NSS volunteers mobilized to address food waste and hunger through a coordinated Food Donation Drive. The team worked with local mess owners and the PICT college canteen to collect fresh, surplus food that would have otherwise gone to waste.
+
+The volunteers covered several key areas in Pune, including Swargate, Parvati Paytha, and Gangadham Chowk, ensuring the food reached those in need. This initiative was met with great enthusiasm from local food vendors and mess owners, successfully promoting the concept of resource redistribution and social responsibility. The drive not only provided immediate relief but also strengthened the bond between the student community and the local neighborhood.`,
+    date: "October 19, 2024, 2:00 pm to 6:00 pm",
+    location: "PICT Campus, Swargate, Parvati, and Gangadham Chowk",
+    volunteers: 31,
+    gallery: [
+      "https://images.unsplash.com/photo-1593113636949-fb3b1590859a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=600&h=400&fit=crop",
     ]
   },
 
@@ -352,7 +579,7 @@ export const getActivitiesByYear = (year) => {
 
 // Helper function to get activity by ID
 export const getActivityById = (id) => {
-  return activities.find(activity => activity.id === parseInt(id));
+  return activities.find(activity => String(activity.id) === String(id));
 };
 
 // Get all available years
