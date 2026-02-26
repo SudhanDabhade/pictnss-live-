@@ -12,10 +12,10 @@ import Lightbox from '../components/Lightbox';
 const CampActivityDetails = () => {
   const { year, id, activityId } = useParams();
   const navigate = useNavigate();
-  
+
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+
   const camp = getCampById(id);
   const activity = getCampActivity(id, activityId);
 
@@ -59,7 +59,7 @@ const CampActivityDetails = () => {
       <div className="relative h-[400px] md:h-[500px] overflow-hidden">
         <img src={activity.coverImage} alt={activity.title} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20"></div>
-        
+
         {/* Hero Content */}
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="max-w-5xl mx-auto">
@@ -73,19 +73,44 @@ const CampActivityDetails = () => {
               <span>/</span>
               <span className="text-white truncate max-w-[200px]">{activity.title}</span>
             </nav>
-            
-            {/* Activity Badge */}
+
+            {/* Activity Badge 
             <div className="inline-flex items-center px-4 py-2 bg-primary rounded-full mb-4">
               <svg className="w-4 h-4 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
               <span className="text-secondary font-medium text-sm">Camp Activity</span>
-            </div>
-            
+            </div>*/}
+
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 animate-fade-in">
               {activity.title}
             </h1>
-            
+
+            <div className="flex flex-wrap gap-4 text-white/80 mb-3 animate-slide-up">
+              {/* Date */}
+              {activity.date && (
+                <div className="flex items-center">
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  {activity.date}
+                </div>
+              )}
+
+              {/* Location (from parent camp) */}
+              {camp.location && (
+                <div className="flex items-center">
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  {camp.location}
+                </div>
+              )}
+            </div>
+
             <p className="text-white/80 text-lg max-w-3xl animate-slide-up">
               {activity.shortDescription}
             </p>
@@ -95,7 +120,7 @@ const CampActivityDetails = () => {
 
       {/* Main Content */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Activity Description */}
         <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card mb-8 animate-fade-in">
           <h2 className="text-2xl font-bold text-textDark mb-6 flex items-center">
@@ -120,7 +145,7 @@ const CampActivityDetails = () => {
               </svg>
               Activity Gallery
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {activity.photos.map((photo, index) => (
                 <div key={index} onClick={() => openLightbox(index)} className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer shadow-card hover:shadow-card-hover transition-all duration-300 transform hover:-translate-y-1">

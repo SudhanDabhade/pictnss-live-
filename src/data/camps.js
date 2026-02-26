@@ -8,8 +8,8 @@ export const camps = [
   {
     id: 1,
     year: 2025,
-    title: "NSS special camp at Panvadi, Tal: Purandar, Dist: Pune",
-    thumbnail: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop",
+    title: "NSS special camp at Panvadi",
+    thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
     location: "Panvadi, Tal: Purandar, Dist: Pune",
     dates: "January 20-26, 2025",
     volunteers: 120,
@@ -320,27 +320,48 @@ The playground has become the favorite gathering spot for children after school 
 
   // 2022 Camp
   {
-    id: 4,
+    id: 2022,
     year: 2022,
-    title: "NSS Special Camp 2022 - Bhor Taluka",
+    title: "NSS Special Camp at Khopi",
     thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
-    location: "Bhor Taluka, Pune District",
-    dates: "January 8-15, 2022",
-    volunteers: 90,
-    shortDescription: "Post-pandemic recovery camp focusing on health and sanitation.",
-    description: `The 2022 camp was designed as a post-pandemic recovery initiative, focusing heavily on health awareness and sanitation infrastructure. Held at Bhor Taluka with 90 volunteers, the camp addressed urgent community health needs.
+    location: "Khopi, Tal: Bhor, Dist: Pune",
+    dates: "December 15-21, 2022",
+    volunteers: 50,
+    shortDescription: "A 7-day winter special camp at Khopi village focused on social engineering, digital literacy, and community infrastructure maintenance under the 'Not Me But You' motto.",
+    description: `The 2022 NSS Special Camp at Khopi was a meaningful project that helped students connect what they learn in college with the real-life needs of a village. For seven days, volunteers lived in the village and worked hard to improve it. They painted a major river bridge and more than 150 trees to make them look better and last longer.
 
-Volunteers constructed sanitation facilities, conducted extensive health checkups, and trained local health workers. Mental health support sessions were also organized for those affected by pandemic-related losses.
+Beyond physical work, the students helped the people of Khopi in other important ways. They helped over 100 villagers sign up for their Voter IDs using a mobile app. They also went door-to-door to teach people how to stay safe from online scams on WhatsApp and Facebook.
 
-This camp marked NSS's commitment to supporting communities in their recovery from the COVID-19 pandemic.`,
+The best part of the camp happened at the local school. Volunteers taught science and math through fun games to help children stop being afraid of these subjects. They also organized a "Home Minister" event for the village women, giving them a fun break from their busy daily chores. By the end of the week, the village was safer, cleaner, and more connected, and the students truly lived by the NSS motto: "Not Me, But You".`,
     schedule: [
-      { day: "Day 1", summary: "Travel and orientation - journey to Bhor, camp setup, COVID safety protocols briefing, and comprehensive village mapping." },
-      { day: "Day 2", summary: "Sanitation focus - village sanitation survey, toilet construction begins, health worker training sessions, evening meditation." },
-      { day: "Day 3", summary: "Health initiative - construction continues, health checkup camp for villagers, nutrition awareness sessions, group discussions." },
-      { day: "Day 4", summary: "Hygiene day - handwashing stations installation, mental health awareness session, youth engagement activities, cultural exchange." },
-      { day: "Day 5", summary: "Wellness focus - waste management training, medical camp, counseling sessions for families, sports activities." },
-      { day: "Day 6", summary: "Completion day - project completion, community training on maintenance, awareness rally, farewell program." },
-      { day: "Day 7", summary: "Handover day - facility handover to village committee, documentation, closing ceremony, return journey." },
+      {
+        day: "Day 1",
+        summary: "Arrival, camp setup, and 'Science with Fun' workshop involving live experiments like steganography for Zilla Parishad school students."
+      },
+      {
+        day: "Day 2",
+        summary: "Inauguration ceremony, Women's Empowerment street play, and a massive Voter ID registration drive for 100+ villagers."
+      },
+      {
+        day: "Day 3",
+        summary: "Shramdaan focused on bridge cleaning and temple deep-cleaning, alongside door-to-door surveys for Government schemes and digital literacy."
+      },
+      {
+        day: "Day 4",
+        summary: "Tree painting for conservation and the 'Home Minister' event for village women, followed by a motivational talk on Social Engineering."
+      },
+      {
+        day: "Day 5",
+        summary: "Continuation of tree painting and an evening Cultural Program featuring performances by both volunteers and school children."
+      },
+      {
+        day: "Day 6",
+        summary: "Free Health Camp for 80 patients, village water tank cleaning/disinfection, and JEE-NEET career guidance for junior college students."
+      },
+      {
+        day: "Day 7",
+        summary: "Morning trek through Khopi hills, followed by facility handover, closing ceremony, and return journey."
+      },
     ],
     testimonials: [
       { name: "Vikram Singh", role: "Volunteer", quote: "Helping the community recover from COVID was the most meaningful work I've ever done." },
@@ -354,54 +375,36 @@ This camp marked NSS's commitment to supporting communities in their recovery fr
       "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
     ],
     activities: [
+      /* --- DAY 1 ACTIVITIES --- */
       {
         id: 1,
-        title: "Sanitation Facilities Construction",
-        coverImage: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=400&h=300&fit=crop",
-        shortDescription: "Building toilets and sanitation infrastructure for village households.",
-        description: `The primary focus of the 2022 camp was constructing proper sanitation facilities. Volunteers built 15 individual household toilets and a community toilet block near the village center.
+        title: "Science with Fun",
+        coverImage: "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?w=400&h=300&fit=crop",
+        shortDescription: "Interactive science experiments to spark curiosity in school children.",
+        description: `The Science with Fun was the first and kick-off activity at Khopi village organised at the Zilla Parishad School. This school runs from class 1 to class 7 with a staff of 5 teachers and about 80 students. The activities were performed live in front of the students and were a part of the curriculum. They were simple yet conceptual and were performed easily at home. For example – the extinguishing of candle in absence of oxygen, the steganography using the lemon juice, density difference of clear and salty water etc. The response by the students was very great and they had enough pre-requisite for the experiments. 
 
-The project followed Swachh Bharat guidelines, with proper septic systems and ventilation. Local masons supervised the construction while volunteers provided labor support.
-
-Training was provided to families on proper usage and maintenance, significantly improving the village's sanitation index.`,
+It was a two-sided communication and the students answered almost all the questions. At places where they were structed, there the volunteers helped them out of the doubt. The headmistress and teachers adorned the activity with their presence and guidance. The first activity with such a success was very motivating and therefore kept the whole PICT NSS team up on adrenaline throughout the 7 days course.`,
+        date: "15 December 2022",
         photos: [
-          "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&h=400&fit=crop",
+          "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?w=600&h=400&fit=crop"
         ]
       },
+      /* --- DAY 2 ACTIVITIES --- */
       {
         id: 2,
-        title: "COVID Recovery Health Camp",
-        coverImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop",
-        shortDescription: "Comprehensive health checkups focusing on post-COVID recovery.",
-        description: `A specialized health camp addressed post-COVID recovery concerns. Doctors screened over 150 villagers for respiratory issues, diabetes, and other conditions that may have been aggravated during the pandemic.
+        title: "Voter ID Registration and Corrections",
+        coverImage: "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?w=400&h=300&fit=crop",
+        shortDescription: "Helping 100+ villagers sign up for and update their Voter IDs using a mobile app.",
+        description: `Voting is a fundamental process in a democratic system. It is a chance for the citizens of a country to have a say in the people who represent them or an issue that impacts them. Informed voting and participating in elections are one of the responsibilities of citizens of a country. Only individuals who possess a voter ID card will be allowed to cast their votes. The voter ID card is an identity document issued by the Election Commission of India to adult domiciles of India who have reached the age of 18. A voter ID card is very essential as it not only allows one to vote but also acts as a valid and unique identity proof.
 
-Special attention was given to long-COVID symptoms. Nutritional supplements and basic medicines were distributed to those in need.
-
-Mental health counselors conducted sessions for families who lost members during the pandemic, providing much-needed emotional support.`,
+PICT NSS organized an activity for Voter ID registration under Khopi sarpanch for people of Khopi village (Tal. Bhor, Dist Pune). The villagers were briefed about the process of registering for a voter ID and our team completed the full process of Voter ID registration for villagers. Earlier the process of registration was very lengthy and time-consuming but now it can be done online through the app "Voter Helpline." The NSS volunteers successfully uploaded the necessary documents of villagers on the app and initiated the process. The volunteers interacted with the villagers and Sarpanch of Khopi present there and the activity was successfully completed.`,
+        date: "16 December 2022",
         photos: [
-          "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=400&fit=crop",
+          "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?w=600&h=400&fit=crop"
         ]
       },
-      {
-        id: 3,
-        title: "Health Worker Training Program",
-        coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300&fit=crop",
-        shortDescription: "Training local youth as community health volunteers.",
-        description: `A comprehensive training program equipped 10 local youth with basic health knowledge and first-aid skills. The training was conducted by healthcare professionals from nearby primary health centers.
 
-Topics covered included wound care, recognizing emergency symptoms, proper handwashing techniques, and COVID-appropriate behavior. Participants received certificates and basic first-aid kits.
 
-These trained volunteers now serve as the village's first responders for minor health issues and awareness campaigns.`,
-        photos: [
-          "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&h=400&fit=crop",
-          "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
-        ]
-      },
     ]
   },
 
