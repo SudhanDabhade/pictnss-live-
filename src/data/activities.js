@@ -6,67 +6,75 @@
 export const activities = [
   // 2025 Activities
   {
-    id: 1,
+    id: "2025_vachan_sankalpa",
     year: 2025,
-    title: "Rakhi making workshop & Rakshabandhan activity",
+    title: "Vachan Sankalpa Maharashtracha",
+    thumbnail: "https://images.unsplash.com/photo-1529007486339-27d35227f6e1?w=400&h=300&fit=crop",
+    shortDescription: "A three-day literacy initiative featuring group reading sessions and book exhibitions.",
+    description: `From January 8th to 10th, 2025, PICT NSS partnered with the Library Department to host 'Vachan Sankalpa Maharashtracha'. This series of events was designed to reignite the joy of reading and intellectual curiosity among students and faculty.
+
+The program included diverse interactive activities such as structured group reading sessions, comprehensive library tours to help students navigate resources, and specialized workshops focused on improving reading skills. To further engage participants, a book review competition was held, recognizing students who demonstrated exceptional critical thinking and comprehension. This initiative successfully fostered a vibrant culture of reading and discussion within the campus.`,
+    date: "January 08-10, 2025, 3:00 pm to 4:00 pm",
+    location: "IT Seminar Hall & PICT Library",
+    volunteers: 15,
+    gallery: [
+      "https://images.unsplash.com/photo-1491843384429-30494622eb90?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2025_marathi_vishwa_sammelan",
+    year: 2025,
+    title: "Shobhayatra – Marathi Vishwa Sammelan",
+    thumbnail: "https://images.unsplash.com/photo-1620389240492-9577908c6974?w=400&h=300&fit=crop",
+    shortDescription: "Volunteers participated in a cultural procession from Balgandharv to FC Ground to celebrate Marathi heritage.",
+    description: `On January 31st, 2025, the PICT NSS unit participated in the Marathi Vishwa Sammelan, a major celebration of Marathi heritage organized in collaboration with SPPU. The highlight of our participation was the 'Shobhayatra' (cultural procession) where 30 volunteers carried the theme of Shri Chakradhar Swami.
+
+Starting from Balgandharv Natymandhir and ending at FC College Ground, our team utilized banners and slogans to emphasize spiritual wisdom ('Adhyatma') and the cultural values of Maharashtra. The activity aimed to bridge the gap between traditional heritage and modern youth, successfully engaging the public in a dialogue about spirituality and cultural identity.`,
+    date: "January 31, 2025, 8:00 am to 2:00 pm",
+    location: "Balgandharv Natymandhir to FC College Ground, Pune",
+    volunteers: 30,
+    gallery: [
+      "https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1566733971217-d11ef7c8b3ed?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2025_taljai_shramadan",
+    year: 2025,
+    title: "Shramadan & Tree Plantation at Taljai Hills",
     thumbnail: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
-    shortDescription: "Planted 500+ saplings across PICT campus and nearby areas.",
-    description: `The Tree Plantation Drive 2025 was one of our most successful environmental initiatives. Over 200 volunteers gathered early morning to plant more than 500 saplings across the PICT campus and neighboring communities.
+    shortDescription: "A Shivjayanti tribute through large-scale cleanliness and plantation drives at Taljai Hills.",
+    description: `On February 19th, 2025, 40 PICT NSS volunteers commemorated Shivjayanti by dedicating their morning to environmental restoration at Taljai Hills. The 'Shramadan' initiative involved a rigorous cleanliness drive focused on removing plastic waste to restore the hill's natural ecosystem.
 
-The event was inaugurated by the Principal and the NSS Program Officer, who emphasized the importance of environmental conservation. Various species of native trees were planted, including Neem, Peepal, Banyan, and flowering plants.
-
-Volunteers were divided into teams, each responsible for a specific area. The drive also included an awareness session about climate change and the role of trees in maintaining ecological balance. Local residents appreciated our efforts and many pledged to maintain the saplings planted near their homes.`,
-    date: "26th July 2025 - 09th August 2025",
-    location: "PICT Campus & Surrounding Areas",
-    volunteers: 54,
+In addition to the cleanup, volunteers conducted a tree plantation drive, planting various native saplings to enhance the local biodiversity and green cover. Accompanied by the chants of Chhatrapati Shivaji Maharaj, the activity successfully combined cultural celebration with environmental stewardship, fostering a sense of leadership and civic responsibility among the participants.`,
+    date: "February 19, 2025, 7:00 am to 11:00 am",
+    location: "Taljai Hills, Pune",
+    volunteers: 40,
     gallery: [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
     ]
   },
   {
-    id: 2,
+    id: "2025_blood_donation",
     year: 2025,
-    title: "Blood Donation Camp",
-    thumbnail: "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=400&h=300&fit=crop",
-    shortDescription: "Collected 150+ units of blood in collaboration with local hospitals.",
-    description: `PICT NSS Unit organized a massive Blood Donation Camp in collaboration with Sassoon Hospital and Red Cross Society. The camp witnessed an overwhelming response from students and faculty members.
+    title: "Blood Donation Camp & Street Play",
+    thumbnail: "https://images.unsplash.com/photo-1615461066841-6116ecaaba30?w=400&h=300&fit=crop",
+    shortDescription: "A major collection drive resulting in over 230 units of blood for local healthcare services.",
+    description: `The Blood Donation Drive, organized by PICT NSS in collaboration with PICTOREAL, was a major success in supporting local healthcare. To maximize outreach, volunteers performed a street play across the campus to raise awareness about the critical need for blood donations and to debunk common myths.
 
-Over 150 units of blood were collected during the one-day event. Medical professionals from Sassoon Hospital conducted thorough health checkups before blood donation. Refreshments were provided to all donors, and certificates of appreciation were distributed.
-
-The camp also featured informative sessions about the importance of regular blood donation and how it saves lives. Many first-time donors participated and expressed their willingness to donate regularly in the future.`,
-    date: "February 28, 2025",
-    location: "PICT Auditorium",
-    volunteers: 150,
+The event saw an enthusiastic response with 230 donors coming forward from the student body and staff. The day concluded with a thanksgiving ceremony to express gratitude to the volunteers, donors, and the medical team from the blood bank. This initiative not only contributed significantly to the local blood supply but also fostered a deep sense of social responsibility and unity within the college community.`,
+    date: "March 04, 2025, 10:00 am to 6:30 pm",
+    location: "PICT Campus, Pune",
+    volunteers: 40,
     gallery: [
-      "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: 3,
-    year: 2025,
-    title: "Swachh Bharat Abhiyan",
-    thumbnail: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop",
-    shortDescription: "Campus and neighborhood cleanliness drive with 300+ participants.",
-    description: `As part of the Swachh Bharat Mission, PICT NSS Unit conducted an extensive cleanliness drive covering the entire campus and neighboring residential areas. More than 300 enthusiastic volunteers participated in this initiative.
-
-The drive began with an oath-taking ceremony where all participants pledged to keep their surroundings clean. Teams were formed and assigned specific zones. Waste segregation awareness was also spread among local residents.
-
-Special focus was given to clearing plastic waste and promoting the use of biodegradable materials. The local municipality supported the drive by providing cleaning equipment and waste collection vehicles.`,
-    date: "January 26, 2025",
-    location: "PICT Campus & Dhankawadi Area",
-    volunteers: 300,
-    gallery: [
-      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1571498664957-fde285d79857?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524721696987-b9527df9e512?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1536856424696-981882d92d41?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
     ]
   },
 
@@ -363,125 +371,271 @@ The volunteers covered several key areas in Pune, including Swargate, Parvati Pa
 
   // 2023 Activities
   {
-    id: 7,
+    id: "2023_g20_awareness_rally",
     year: 2023,
-    title: "Women Empowerment Workshop",
-    thumbnail: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=300&fit=crop",
-    shortDescription: "Skill development and awareness program for 150+ women.",
-    description: `A comprehensive Women Empowerment Workshop was organized focusing on skill development, financial literacy, and legal awareness. Women from nearby communities participated enthusiastically.
+    title: "G20 Awareness Bike Rally: National Youth Day",
+    thumbnail: "https://images.unsplash.com/photo-1610411130093-696238356821?w=400&h=300&fit=crop",
+    shortDescription: "A massive 2,000-person bike rally to celebrate India's G20 Presidency and Swami Vivekananda Jayanti.",
+    description: `On January 12th, 2023, coinciding with National Youth Day and Swami Vivekananda Jayanti, 11 PICT NSS volunteers joined a massive bike rally organized by PMC and SPPU. The event celebrated India's G20 Presidency and its theme, 'Vasudhaiva Kutumbakam' (One Earth, One Family, One Future). 
 
-The workshop covered various topics including self-defense techniques, government schemes for women, starting small businesses, and digital financial management. Expert speakers from various fields shared their knowledge and experiences.
-
-Many participants expressed interest in starting their own ventures after learning about available resources and support systems.`,
-    date: "August 12, 2023",
-    location: "PICT Seminar Hall",
-    volunteers: 60,
+Despite ongoing end-semester examinations, the volunteers demonstrated immense dedication, riding from the COEP ground through historic landmarks like Shaniwar Wada and Lal Mahal, concluding at the SPPU Main Building. The rally aimed to spread awareness about G20 priority areas, including sustainable lifestyles (LiFE) and collaborative education. This event highlighted the 'Power of Youth' in driving national pride and global cooperation, ending with a commemorative gathering at the Vice-Chancellor’s residence.`,
+    date: "January 12, 2023, 8:00 am to 10:00 am",
+    location: "COEP Ground to Savitribai Phule Pune University (SPPU)",
+    volunteers: 11,
     gallery: [
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1599427303058-f06cbdf4bb91?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2023_savali_care_center",
+    year: 2023,
+    title: "Savali: Specially Abled Care Center Visit",
+    thumbnail: "https://images.unsplash.com/photo-1559023953-a3957ba747fb?w=400&h=300&fit=crop",
+    shortDescription: "A heartwarming Republic Day initiative focusing on morale-boosting activities for children with developmental disabilities.",
+    description: `On India's 74th Republic Day, PICT NSS volunteers visited 'Savali,' a specialized care center in Kothrud, Pune, dedicated to individuals with intellectual disabilities. Recognizing that roughly 15% of the global population lives with disabilities, the team aimed to create an inclusive environment of joy and social participation.
+
+The day was filled with interactive sessions including music, dance, and games like musical chairs, designed to boost the children's morale and motor skills. Beyond the activities, the NSS team donated essential health equipment, including a vaporizer and an electrothermal hot water bag, to support the center's daily care routines. This visit provided volunteers with deep insights into the unique needs and remarkable abilities of special-needs children, fostering a spirit of empathy and social responsibility.`,
+    date: "January 26, 2023",
+    location: "Savali Care Center, Kothrud, Pune",
+    volunteers: "PICT NSS Volunteer Team",
+    gallery: [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2023_blood_donation_drive",
+    year: 2023,
+    title: "Blood Donation Drive",
+    thumbnail: "https://images.unsplash.com/photo-1615461066841-6116ecaaba30?w=400&h=300&fit=crop",
+    shortDescription: "A major collection drive resulting in over 341 units of blood for local Healthcare services.",
+    description: `On February 15th, 2023, PICT NSS, in collaboration with Pictoreal and the Poona Serological Institute Blood Bank, organized a large-scale blood donation camp. The initiative successfully collected over 341 units of blood from selfless students and faculty members.
+
+By addressing the acute shortage of blood in the region, the drive emphasized how a small percentage of additional donors can save the lives of accident victims and patients in critical condition. Throughout the day, volunteers spread awareness about the benefits of annual donation, fostering a culture of voluntary service and community health support.`,
+    date: "February 15, 2023",
+    location: "PICT Campus, Pune",
+    volunteers: 40,
+    gallery: [
+      "https://images.unsplash.com/photo-1524721696987-b9527df9e512?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1615461065624-21b562ee5566?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2023_rte_awareness",
+    year: 2023,
+    title: "RTE Awareness Drive: Bhumi NGO",
+    thumbnail: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
+    shortDescription: "A door-to-door campaign in slum areas to inform parents about Right to Education (RTE) benefits.",
+    description: `In collaboration with Bhumi Organization, PICT NSS conducted an awareness drive in the Panmala Vasahat slum area to educate families about the Right to Education (RTE) Act. The focus was on the 25% seat reservation in private schools, which provides free education from Class 1 to Class 8 for eligible children.
+
+Volunteers visited households to identify children aged 2 to 7 and assisted parents by filling out registration forms and verifying documents like Aadhar cards and income certificates. By the end of the drive, every household in the area was informed about government schemes and provided with helpline numbers. This activity significantly developed social work awareness among volunteers while helping underprivileged children access quality education.`,
+    date: "March 05, 2023, 10:00 am to 1:00 pm",
+    location: "Panmala Vasahat, Sinhgad Road, Pune",
+    volunteers: 25,
+    gallery: [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2023_softskills_workshop",
+    year: 2023,
+    title: "Softskills Workshop",
+    thumbnail: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop",
+    shortDescription: "A practical session focused on improving communication and critical thinking among volunteers.",
+    description: `On March 3rd, 2023, PICT NSS conducted a specialized Softskills activity to enhance the interpersonal capabilities of its volunteers. The session was built around critical thinking exercises where participants were presented with multiple real-world situations and given time to formulate their responses.
+
+The workshop transitioned into a brainstorming segment, allowing each participant to share their reactions and suggestions in a healthy, conversational environment. This interactive approach not only improved individual communication skills but also strengthened the connectivity and coordination between the NSS volunteers, preparing them for more effective community service.`,
+    date: "March 03, 2023",
+    location: "PICT Campus, Pune",
+    volunteers: 30,
+    gallery: [
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: 8,
-    year: 2023,
-    title: "Book Donation Drive",
-    thumbnail: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
-    shortDescription: "Collected and distributed 2000+ books to underprivileged schools.",
-    description: `The annual Book Donation Drive collected over 2000 books from generous donors across Pune. These books were sorted, categorized, and distributed to underprivileged schools and community libraries.
-
-Volunteers spent weeks collecting, cleaning, and organizing the books. A special distribution ceremony was held where children from various schools received new books for their libraries.
-
-This initiative has helped improve literacy rates in target areas and encouraged a reading culture among young students.`,
-    date: "June 5, 2023",
-    location: "Various Schools in Rural Pune",
-    volunteers: 80,
-    gallery: [
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: 9,
-    year: 2023,
-    title: "Anti-Drug Awareness Rally",
-    thumbnail: "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=400&h=300&fit=crop",
-    shortDescription: "Awareness rally and sessions reaching thousands of youth.",
-    description: `An Anti-Drug Awareness Rally was organized to educate youth about the dangers of substance abuse. The rally passed through major areas of Pune, spreading the message of drug-free living.
-
-Interactive sessions were conducted in schools and colleges, featuring reformed individuals sharing their experiences. Information about rehabilitation centers and helpline numbers was widely distributed.
-
-The campaign received extensive media coverage and appreciation from local authorities for its impact on community awareness.`,
-    date: "March 25, 2023",
-    location: "Pune City",
-    volunteers: 200,
-    gallery: [
-      "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
     ]
   },
 
   // 2022 Activities
   {
-    id: 10,
+    id: "2022_tree_plantation_akam",
     year: 2022,
-    title: "COVID Vaccination Drive",
-    thumbnail: "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=400&h=300&fit=crop",
-    shortDescription: "Assisted in vaccinating 1000+ individuals against COVID-19.",
-    description: `PICT NSS volunteers played a crucial role in the COVID-19 vaccination drive by assisting healthcare workers at vaccination centers. Volunteers helped with registration, crowd management, and post-vaccination observation.
+    title: "Tree Plantation & Watering",
+    thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    shortDescription: "A drive to plant and conserve over 100 plants at Narhe Biodiversity Park.",
+    description: `On June 26th, 2022, as part of the 'Azadi Ka Amrut Mahotsav' celebrations, 45 PICT NSS volunteers visited the Uttamrao Patil Biodiversity Park in Narhe. The activity was focused on combating deforestation by directly contributing to the local ecosystem through active conservation.
 
-Special camps were organized for elderly citizens and differently-abled individuals who had difficulty reaching vaccination centers. Door-to-door awareness campaigns were also conducted to address vaccine hesitancy.
-
-The dedication shown by our volunteers during this critical time was recognized by health authorities and local administration.`,
-    date: "May 15, 2022",
-    location: "Multiple Vaccination Centers",
-    volunteers: 120,
+Under the guidance of Mr. Ingole Sir and Dr. N. G. Aher, volunteers planted 35 new saplings and performed maintenance work on 100 existing plants. This work included clearing invasive weeds and ensuring proper watering. The session served as an educational experience, helping students understand the critical importance of paying back to nature and the role of trees in providing oxygen and maintaining ecological balance.`,
+    date: "June 26, 2022, 7:00 am onwards",
+    location: "Uttamrao Patil Biodiversity Park, Narhe",
+    volunteers: 45,
     gallery: [
-      "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1614023342667-6f060e52b28e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1611689102192-1f6e0e52df0a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1582559930335-9005022f48f4?w=600&h=400&fit=crop",
     ]
   },
   {
-    id: 11,
+    id: "2022_har_ghar_tiranga",
     year: 2022,
-    title: "River Cleaning Initiative",
-    thumbnail: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=400&h=300&fit=crop",
-    shortDescription: "Cleaned 5km stretch of Mutha River with 250+ volunteers.",
-    description: `A massive River Cleaning Initiative was undertaken to clean a 5km stretch of the Mutha River. Over 250 volunteers participated in this environmental conservation effort.
+    title: "Har Ghar Tiranga Campaign",
+    thumbnail: "https://images.unsplash.com/photo-1532375811400-d72049d9488a?w=400&h=300&fit=crop",
+    shortDescription: "A national initiative to distribute 100 flags and promote respect for the Tiranga.",
+    description: `As part of the 'Azadi Ka Amrut Mahotsav', PICT NSS organized the 'Har Ghar Tiranga' campaign to foster a personal connection with the National Flag. In association with the PICT Sport Committee, 100 flags were collected from SPPU and distributed to staff, students, and the local community.
 
-Teams worked systematically to remove plastic waste, debris, and other pollutants from the riverbanks and shallow waters. Awareness boards were installed along the riverbank to discourage dumping.
-
-Local fishermen and residents appreciated this initiative and pledged to help maintain the cleanliness of the river.`,
-    date: "October 2, 2022",
-    location: "Mutha River Banks",
-    volunteers: 250,
-    gallery: [
-      "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1498623116890-37e912163d5d?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: 12,
-    year: 2022,
-    title: "Career Guidance Sessions",
-    thumbnail: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=300&fit=crop",
-    shortDescription: "Guided 300+ students from rural schools about career options.",
-    description: `Career Guidance Sessions were organized for students from government schools and rural areas. Our volunteers, along with industry professionals, shared insights about various career paths.
-
-Sessions covered topics like engineering, medicine, arts, sports, and entrepreneurship. Information about scholarships, entrance exams, and application processes was provided.
-
-Many students found direction for their future through these sessions, with several successfully pursuing higher education with proper guidance.`,
-    date: "August 20, 2022",
-    location: "Government Schools in Pune District",
+Volunteers played a crucial role in educating participants on the Flag Code of India, demonstrating the correct way to hoist, carry, and fold the Tiranga with respect. To ensure the flag was treated with continued dignity, 32 staff members returned their flags to the unit for safe storage after August 16th. This campaign successfully invoked a sense of patriotism and responsibility toward nation-building among all participants.`,
+    date: "August 13, 2022",
+    location: "PICT Campus, Pune",
     volunteers: 40,
     gallery: [
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1590059530490-67df9295561a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1589115243812-790176964082?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1627581515055-6b45a006ba9a?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_independence_day_rally",
+    year: 2022,
+    title: "Independence Day Rally",
+    thumbnail: "https://images.unsplash.com/photo-1532375811400-d72049d9488a?w=400&h=300&fit=crop",
+    shortDescription: "A 'Sadbhavana' rally commemorating 75 years of Indian Independence.",
+    description: `On August 15th, 2022, on the eve of Independence Day, the PICT NSS team and the PICT Sport Committee organized a 'Sadbhavana' rally. The event saw participation from the Principal, HODs, staff, and students.
+
+During the march, students raised patriotic slogans such as "Vande Mataram" and "Bharat Mata ki Jay," honoring the sacrifices of freedom fighters. Volunteers actively interacted with the public along the route to explain the significance of the 'Azadi Ka Amrut Mahotsav' (AKAM). The peaceful rally concluded with the distribution of sweets and snacks to all participants.`,
+    date: "August 15, 2022",
+    location: "PICT Campus and surrounding areas",
+    volunteers: 50,
+    gallery: [
+      "https://images.unsplash.com/photo-1590059530490-67df9295561a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1589115243812-790176964082?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_dadachi_shala",
+    year: 2022,
+    title: "Dadachi Shala Session",
+    thumbnail: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
+    shortDescription: "A guest session by Abhijeet Pokharnikar on providing quality education to street children.",
+    description: `In September 2022, PICT NSS organized a session featuring Abhijeet Pokharnikar, who introduced 'Dadachi Shala,' an organization dedicated to providing free, quality education to underprivileged and street children across India. The session focused on the core philosophy that giving is a privilege rather than a duty.
+
+Abhijeet Sir shared insights into the challenges faced by street children, including linguistic and cultural barriers faced by migratory families, and the struggle to transition children from begging to learning. The discussion highlighted constitutional rights such as the Right to Education (RTE) and the necessity of financial literacy and technical education in today’s world. The event concluded with PICT NSS pledging future support to help increase literacy rates and establish financial stability within these communities.`,
+    date: "September 16, 2022",
+    location: "PICT Campus, Pune",
+    volunteers: 25,
+    gallery: [
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_gmabi_eradication",
+    year: 2022,
+    title: "GMABI Cosmos Eradication Drive",
+    thumbnail: "https://images.unsplash.com/photo-1620389240492-9577908c6974?w=400&h=300&fit=crop",
+    shortDescription: "Ecological drive at Taljai Hills to remove invasive 'Cosmos sulphureus' weeds.",
+    description: `As part of the 'Azadi Ka Amrut Mahotsav', 45 PICT NSS volunteers collaborated with MABI, Biospheres, and the PMC for the 'Eupatorium Eradication Drive'[cite: 99, 115]. The focus was on removing 'Cosmos sulphureus', a Mexican invasive weed threatening the local ecosystem[cite: 104].
+
+Led by Dr. Sachin Punekar and NSS PO Amol S. Ingole, volunteers gathered at Taljai Hill at 08:00 Hrs to learn about Invasive Alien Species (IAS) and their impact on ecology and health[cite: 102, 116, 117]. After identifying the target weeds, the team cleared the area while chanting environmental slogans like "Hatva Tan Vachva Van"[cite: 120, 121]. This initiative served as a significant effort to 'pay back to nature' and protect native biodiversity[cite: 126].`,
+    date: "September 18, 2022",
+    location: "Taljai Hills, Pune",
+    volunteers: 45,
+    gallery: [
+      "https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1500622388414-802ed147e99e?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_nss_day",
+    year: 2022,
+    title: "NSS Day Celebration",
+    thumbnail: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=400&h=300&fit=crop",
+    shortDescription: "Commemorating the foundation of NSS with alumni interactions and social welfare pledges.",
+    description: `To mark the 75th year of India's Independence, PICT celebrated NSS Day, an occasion observed annually since 1969 to promote social welfare and self-development. The program focuses on instilling the idea of unbiased service and providing a life of dignity to those in need.
+
+On July 24th, 2022, PICT organized a special session where current volunteers interacted with alumni. These seniors shared their past experiences in various activities and camps, providing deep insights into the functioning and importance of the NSS. The celebration, which emphasized learning from community resources and disaster relief values, concluded with a cake-cutting ceremony for all participants.`,
+    date: "July 24, 2022",
+    location: "PICT Campus, Pune",
+    volunteers: 35,
+    gallery: [
+      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_run_for_unity",
+    year: 2022,
+    title: "Run For Unity: Azadi Ka Amrit Mahotsav",
+    thumbnail: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=400&h=300&fit=crop",
+    shortDescription: "A commemorative run celebrating Rashtriya Ekta Diwas and the 75th year of India's Independence.",
+    description: `On October 31st, 2022, the PICT NSS team organized the 'Unity Run' to mark Rashtriya Ekta Diwas (National Unity Day). This date commemorates the birth anniversary of Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and the 'Iron Man of India' who was instrumental in the nation's unification.
+
+The event began with a formal 'Pledge for Unity,' followed by a run led by 33 volunteers and NSS alumni. Participants carried banners and raised patriotic slogans such as 'Vande Mataram' and 'Bharat Mata ki Jay' to promote solidarity. Along the route, volunteers engaged with the public to explain the significance of 'Unity in Diversity.' The activity successfully fostered a sense of patriotism and honored the historical efforts of India’s founding leaders.`,
+    date: "October 31, 2022, finishing around 8:00 am",
+    location: "PICT Campus and surrounding areas",
+    volunteers: 33,
+    gallery: [
+      "https://images.unsplash.com/photo-1599581121639-509532551379?w=600&h=400&fit=crop", // Placeholder for Unity Run
+      "https://images.unsplash.com/photo-1566908829550-e6551b002797?w=600&h=400&fit=crop", // Placeholder for Patriotism
+    ]
+  },
+  {
+    id: "2022_tree_conservation_watering",
+    year: 2022,
+    title: "Tree Conservation and Watering",
+    thumbnail: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop",
+    shortDescription: "A maintenance drive to protect local plant species at Uttamrao Patil Biodiversity Park.",
+    description: `On November 20th, 2022, 37 PICT NSS volunteers returned to the Uttamrao Patil Biodiversity Park to continue their environmental stewardship through tree conservation. The team emphasized that their duty extends beyond just planting; it involves the continuous nurturing and protection of trees to ensure a healthy ecosystem.
+
+The primary focus of this event was the removal of invasive alien species, weeds, and unwanted grass that threatened to stifle the growth of native local plants. Volunteers worked collectively until 11:00 AM to clear these hazards and provide necessary watering. This hands-on experience helped the team develop a strong sense of environmental responsibility and provided practical knowledge on identifying and curing various plant diseases.`,
+    date: "November 20, 2022, 7:00 am to 11:00 am",
+    location: "Uttamrao Patil Biodiversity Park, Narhe",
+    volunteers: 37,
+    gallery: [
+      "https://images.unsplash.com/photo-1592150621344-82454a99d7b4?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_voter_registration",
+    year: 2022,
+    title: "Voter Registration Drive",
+    thumbnail: "https://images.unsplash.com/photo-1540910419892-f7e722a49298?w=400&h=300&fit=crop",
+    shortDescription: "Facilitating democratic participation through online Voter ID registration.",
+    description: `PICT NSS organized a dedicated Voter ID registration drive to empower students and local citizens with their fundamental right to vote[cite: 193]. Recognizing that an informed electorate is essential for a healthy democracy, the unit focused on simplifying the registration process for adult residents who have reached the age of 18[cite: 189, 192].
+
+Volunteers guided students from the First, Second, and Third years through the modern digital registration process using the "Voter Helpline" app[cite: 194, 195]. This initiative bypassed the traditionally lengthy paperwork, allowing users to upload necessary documents directly from their mobile devices[cite: 196]. Under the enlightenment provided by the officers of the Election Commission of India, the drive successfully increased awareness regarding voting as a powerful tool for civic expression[cite: 188, 197].`,
+    date: "November 25, 2022",
+    location: "PICT Campus, Pune",
+    volunteers: 12,
+    gallery: [
+      "https://images.unsplash.com/photo-1590233461230-610113c60461?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1589115243812-790176964082?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2022_constitution_day_celebration",
+    year: 2022,
+    title: "Constitution Day: Mass Preamble Reading",
+    thumbnail: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=400&h=300&fit=crop",
+    shortDescription: "A collective pledge to uphold the values of the Indian Constitution through a Mass Preamble Reading and awareness quiz.",
+    description: `On November 26th, 2022, PICT NSS observed Constitution Day (National Law Day) to honor the adoption of the Indian Constitution in 1949. The event was integrated into the First-Year Induction Ceremony, where over 600 students, staff, and volunteers gathered for a 'Mass Preamble Reading.' 
+
+This collective recitation served as a reminder of the foundational pillars of our democracy—Justice, Liberty, Equality, and Fraternity. Following the reading, participants engaged in a constitutional quiz to deepen their understanding of Indian law and the democratic process. The activity successfully instilled a sense of national pride and highlighted the monumental drafting efforts led by Dr. B.R. Ambedkar. Participants also received official certificates to commemorate their pledge to the nation's values.`,
+    date: "November 26, 2022",
+    location: "PICT Campus (Main Auditorium/Induction Hall)",
+    volunteers: "600+ Participants (Students & Staff)",
+    gallery: [
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&h=400&fit=crop",
     ]
   },
 
