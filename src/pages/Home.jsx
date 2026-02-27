@@ -17,7 +17,7 @@ const highlights = [
     description: "Active student volunteers making a difference",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
           d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
       </svg>
     ),
@@ -29,7 +29,7 @@ const highlights = [
     description: "Impactful events organized every year",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
           d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
       </svg>
     ),
@@ -41,7 +41,7 @@ const highlights = [
     description: "Week-long residential camp for holistic development",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
           d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
       </svg>
     ),
@@ -53,7 +53,7 @@ const highlights = [
     description: "Empowering young minds to serve the nation",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
           d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
@@ -63,7 +63,7 @@ const highlights = [
 // Recent activities preview
 const recentActivities = [
   {
-    id: 1,
+    id: "2025_taljai_shramadan",
     title: "Tree Plantation Drive",
     date: "March 2025",
     image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
@@ -88,7 +88,7 @@ const Home = () => {
       {/* Hero Carousel Section */}
       <section className="relative">
         <Carousel />
-        
+
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce-gentle">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center pt-2">
@@ -108,26 +108,26 @@ const Home = () => {
                   Welcome to PICT NSS
                 </span>
               </div>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-textDark leading-tight">
                 PICT NSS —{' '}
                 <span className="text-secondary">Not Me, But You</span>
               </h1>
-              
+
               <p className="text-gray-600 text-lg leading-relaxed">
-                The National Service Scheme (NSS) at Pune Institute of Computer Technology 
-                is dedicated to developing the personality and character of student youth 
-                through voluntary community service. We believe that the welfare of an 
+                The National Service Scheme (NSS) at Pune Institute of Computer Technology
+                is dedicated to developing the personality and character of student youth
+                through voluntary community service. We believe that the welfare of an
                 individual is ultimately dependent on the welfare of society as a whole.
               </p>
-              
+
               <p className="text-gray-600 leading-relaxed">
-                Our volunteers engage in various social service activities throughout the year, 
-                including blood donation camps, tree plantation drives, cleanliness campaigns, 
-                health awareness programs, and the annual NSS special camp. Join us in making 
+                Our volunteers engage in various social service activities throughout the year,
+                including blood donation camps, tree plantation drives, cleanliness campaigns,
+                health awareness programs, and the annual NSS special camp. Join us in making
                 a difference!
               </p>
-              
+
               <div className="flex flex-wrap gap-4 pt-4">
                 <Link
                   to="/activities"
@@ -136,16 +136,16 @@ const Home = () => {
                     transition-all duration-300 group"
                 >
                   Explore Activities
-                  <svg 
-                    className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <svg
+                    className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
-                
+
                 <Link
                   to="/team"
                   className="inline-flex items-center px-6 py-3 bg-primary text-secondary font-semibold 
@@ -185,7 +185,7 @@ const Home = () => {
                   />
                 </div>
               </div>
-              
+
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -left-6 bg-secondary text-white px-6 py-4 rounded-2xl shadow-lg">
                 <p className="text-3xl font-bold">5+</p>
@@ -224,16 +224,16 @@ const Home = () => {
                   transition-all duration-300 group-hover:rotate-6">
                   {item.icon}
                 </div>
-                
+
                 {/* Title */}
                 <h3 className="text-3xl font-bold text-secondary mb-1 group-hover:scale-110 
                   transition-transform duration-300">
                   {item.title}
                 </h3>
-                
+
                 {/* Subtitle */}
                 <p className="text-textDark font-semibold mb-2">{item.subtitle}</p>
-                
+
                 {/* Description */}
                 <p className="text-gray-500 text-sm">{item.description}</p>
               </div>
@@ -261,10 +261,10 @@ const Home = () => {
                 hover:text-secondary/80 group"
             >
               View All
-              <svg 
-                className="w-5 h-5 ml-1 transform group-hover:translate-x-1 transition-transform" 
-                fill="none" 
-                stroke="currentColor" 
+              <svg
+                className="w-5 h-5 ml-1 transform group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
                 viewBox="0 0 24 24"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -274,7 +274,7 @@ const Home = () => {
 
           {/* Activity Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {recentActivities.map((activity, index) => (
+            {recentActivities.map((activity, string) => (
               <Link
                 key={activity.id}
                 to={`/activities/2025/${activity.id}`}
@@ -290,10 +290,10 @@ const Home = () => {
                       transition-transform duration-500"
                   />
                 </div>
-                
+
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                
+
                 {/* Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <p className="text-sm text-white/80 mb-1">{activity.date}</p>
@@ -301,7 +301,7 @@ const Home = () => {
                     {activity.title}
                   </h3>
                 </div>
-                
+
                 {/* Hover Arrow */}
                 <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 backdrop-blur-sm 
                   rounded-full flex items-center justify-center transform translate-x-12 
