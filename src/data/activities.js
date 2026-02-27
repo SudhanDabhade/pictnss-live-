@@ -464,7 +464,7 @@ The workshop transitioned into a brainstorming segment, allowing each participan
     id: "2022_tree_plantation_akam",
     year: 2022,
     title: "Tree Plantation & Watering",
-    thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dbntmh7wx/image/upload/v1771947291/cld-sample-2.jpg",
     shortDescription: "A drive to plant and conserve over 100 plants at Narhe Biodiversity Park.",
     description: `On June 26th, 2022, as part of the 'Azadi Ka Amrut Mahotsav' celebrations, 45 PICT NSS volunteers visited the Uttamrao Patil Biodiversity Park in Narhe. The activity was focused on combating deforestation by directly contributing to the local ecosystem through active conservation.
 

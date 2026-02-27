@@ -19,7 +19,7 @@ const Camps = () => {
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
           <img
-            src="Gemini_Generated_Image_1pwew11pwew11pwe.png"
+            src="https://res.cloudinary.com/dbntmh7wx/image/upload/v1772175525/Gemini_Generated_Image_1pwew11pwew11pwe_ct8c9n.png"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -83,7 +83,7 @@ const Camps = () => {
               <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
                 <img
                   //src={`https://images.unsplash.com/photo-${469474968028 + index}-56623f02e42e?w=400&h=300&fit=crop`}
-                  src="2.png"
+                  src="https://res.cloudinary.com/dbntmh7wx/image/upload/v1772175526/2_nvawlj.png"
                   alt=""
                   className="w-full h-full object-cover"
                 />
