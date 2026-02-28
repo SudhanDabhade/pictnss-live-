@@ -1,6 +1,6 @@
 # PICT NSS Unit Website
 
-A beautiful, modern React website for the National Service Scheme (NSS) unit at PICT. Built with React 18, React Router, and Tailwind CSS.
+A  beautiful, modern React website for the National Service Scheme (NSS) unit at PICT. Built with React 18, React Router, and Tailwind CSS.
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.5-38B2AC?style=flat&logo=tailwind-css)

@@ -11,14 +11,14 @@ import Lightbox from '../components/Lightbox';
 
 const CampYear = () => {
   const { year } = useParams();
-  
+
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+
   const camps = getCampsByYear(year);
   const allYears = getCampYears();
   const camp = camps[0];
-  
+
   const yearExists = allYears.includes(parseInt(year));
 
   const galleryImages = camp?.gallery?.map((src, index) => ({
@@ -56,7 +56,7 @@ const CampYear = () => {
       <div className="relative h-[350px] md:h-[450px] overflow-hidden">
         <img src={camp.thumbnail} alt={camp.title} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20"></div>
-        
+
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="max-w-7xl mx-auto">
             <nav className="flex items-center space-x-2 text-white/60 mb-4 text-sm">
@@ -66,11 +66,11 @@ const CampYear = () => {
               <span>/</span>
               <span className="text-white">{year}</span>
             </nav>
-            
+
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 animate-fade-in">
               {camp.title}
             </h1>
-            
+
             <div className="flex flex-wrap gap-4 md:gap-6 text-white/90">
               <div className="flex items-center">
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,7 +91,7 @@ const CampYear = () => {
                 {camp.volunteers} Volunteers
               </div>
             </div>
-            
+
             <div className="mt-6 flex items-center space-x-2">
               <span className="text-white/60 text-sm">Jump to:</span>
               <div className="flex flex-wrap gap-1">
@@ -119,7 +119,7 @@ const CampYear = () => {
               <p className="text-gray-500">A summary of the week-long journey</p>
             </div>
           </div>
-          
+
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card mb-8 animate-fade-in">
             <div className="prose prose-lg max-w-none text-gray-600">
               {camp.description.split('\n\n').map((paragraph, index) => (
@@ -179,7 +179,16 @@ const CampYear = () => {
                     </div>
                     <div className="p-5">
                       <h3 className="text-lg font-bold text-textDark mb-2 group-hover:text-secondary transition-colors duration-200 line-clamp-1">{activity.title}</h3>
-                      <p className="text-gray-600 text-sm mb-4 line-clamp-2">{activity.shortDescription}</p>
+                      <p className="text-gray-600 text-sm mb-3 line-clamp-2">{activity.shortDescription}</p>
+                      {activity.date && (
+                        <p className="text-xs text-gray-500 mb-3 flex items-center italic">
+                          <svg className="w-3.5 h-3.5 mr-1.5 flex-shrink-0 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                          </svg>
+                          {activity.date}
+                        </p>
+                      )}
                       <div className="flex items-center text-secondary font-medium text-sm">
                         <span>View Details</span>
                         <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
