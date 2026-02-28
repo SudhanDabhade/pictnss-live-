@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Dropdown from "./Dropdown";
 
-const years = ["2025", "2024", "2023", "2022", "2021"];
+const years = ["2026", "2025", "2024", "2023", "2022"];
 
 const Navbar = () => {
   const [activitiesOpen, setActivitiesOpen] = useState(false);
@@ -79,7 +79,21 @@ const Navbar = () => {
                   color: isActive("/activities") ? "#0f2a55" : "#1a1a1a",
                 }}
               >
-                Activities ▼
+                Activities
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className={`transition-transform duration-300 ${activitiesOpen ? 'rotate-180' : ''}`}
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
                 {isActive("/activities") && underline}
               </Link>
 
@@ -99,12 +113,38 @@ const Navbar = () => {
                   color: isActive("/camps") ? "#0f2a55" : "#1a1a1a",
                 }}
               >
-                NSS Camp ▼
+                NSS Camp
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className={`transition-transform duration-300 ${campsOpen ? 'rotate-180' : ''}`}
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
                 {isActive("/camps") && underline}
               </Link>
 
               <Dropdown items={years} basePath="/camps" isOpen={campsOpen} />
             </div>
+
+            {/* School Teaching */}
+            <Link
+              to="/schoolteaching"
+              className={baseLink}
+              style={{
+                color: isActive("/schoolteaching") ? "#0f2a55" : "#1a1a1a",
+              }}
+            >
+              School Teaching
+              {isActive("/schoolteaching") && underline}
+            </Link>
 
             {/* Magazine */}
             <Link
