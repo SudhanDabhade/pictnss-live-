@@ -52,7 +52,7 @@ const Team = () => {
         
         {/* Program Officers Section */}
         <section className="mb-16">
-          <div className="text-center mb-8">
+          <div className="text-center mb-20">
             <span className="inline-block bg-primary text-secondary text-sm font-semibold 
               px-4 py-1.5 rounded-full mb-3">
               Leadership
@@ -78,7 +78,7 @@ const Team = () => {
 
         {/* Student Leaders Section */}
         <section className="mb-16">
-          <div className="text-center mb-8">
+          <div className="text-center mb-20">
             <span className="inline-block bg-primary text-secondary text-sm font-semibold 
               px-4 py-1.5 rounded-full mb-3">
               Core Team
@@ -104,7 +104,7 @@ const Team = () => {
 
         {/* Volunteers Section */}
         <section className="mb-16">
-          <div className="text-center mb-8">
+          <div className="text-center mb-20">
             <span className="inline-block bg-primary text-secondary text-sm font-semibold 
               px-4 py-1.5 rounded-full mb-3">
               Heart of NSS
