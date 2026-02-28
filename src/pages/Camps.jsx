@@ -79,7 +79,7 @@ const Camps = () => {
                 transition-all duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              {/* Nature Image Background */}
+              {/* Nature Image Background 
               <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
                 <img
                   //src={`https://images.unsplash.com/photo-${469474968028 + index}-56623f02e42e?w=400&h=300&fit=crop`}
@@ -87,7 +87,7 @@ const Camps = () => {
                   alt=""
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div>*/}
 
               {/* Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent 
