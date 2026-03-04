@@ -21,7 +21,7 @@ const SchoolTeaching = () => {
 
   return (
     <div className="min-h-screen bg-softGrey pt-24 pb-16">
-      
+
       {/* --- Page Header --- */}
       <div className="relative bg-secondary py-16 md:py-20 mb-12 overflow-hidden">
         {/* Abstract Background Elements */}
@@ -37,7 +37,7 @@ const SchoolTeaching = () => {
                 </svg>
                 <span className="text-white font-medium text-sm">Every Saturday Activity</span>
               </div>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 animate-fade-in">
                 School Teaching
               </h1>
@@ -70,7 +70,7 @@ const SchoolTeaching = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* --- Year Filter --- */}
         <div className="flex flex-wrap items-center gap-4 mb-10 animate-fade-in">
           <span className="text-gray-500 font-medium">Select Year:</span>
@@ -80,8 +80,8 @@ const SchoolTeaching = () => {
                 key={year}
                 onClick={() => setActiveYear(year)}
                 className={`px-5 py-2 rounded-xl text-sm font-semibold transition-all duration-300 transform hover:-translate-y-0.5
-                  ${activeYear === year 
-                    ? 'bg-secondary text-white shadow-lg shadow-secondary/30' 
+                  ${activeYear === year
+                    ? 'bg-secondary text-white shadow-lg shadow-secondary/30'
                     : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
                   }`}
               >
@@ -95,23 +95,23 @@ const SchoolTeaching = () => {
         {sessions.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sessions.map((session, index) => (
-              <div 
+              <div
                 key={session.id}
                 className="group bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300 animate-slide-up flex flex-col h-full"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Thumbnail - Now links to Details Page */}
-                <Link 
-                  to={`/school-teaching/${session.id}`}
+                <Link
+                  to={`/schoolteaching/${session.id}`}
                   className="relative h-48 overflow-hidden cursor-pointer block"
                 >
-                  <img 
-                    src={session.thumbnail} 
-                    alt={session.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" 
+                  <img
+                    src={session.thumbnail}
+                    alt={session.title}
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
-                  
+
                   {/* Date Badge */}
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-sm font-bold text-secondary shadow-sm">
                     {session.date}
@@ -141,7 +141,7 @@ const SchoolTeaching = () => {
                     </span>
                   </div>
 
-                  <Link to={`/school-teaching/${session.id}`}>
+                  <Link to={`/schoolteaching/${session.id}`}>
                     <h3 className="text-xl font-bold text-textDark mb-3 group-hover:text-secondary transition-colors">
                       {session.title}
                     </h3>
@@ -174,9 +174,9 @@ const SchoolTeaching = () => {
                       </svg>
                       {session.volunteers} Volunteers
                     </div>
-                    
-                    <Link 
-                      to={`/school-teaching/${session.id}`}
+
+                    <Link
+                      to={`/schoolteaching/${session.id}`}
                       className="text-secondary text-sm font-semibold hover:text-accent transition-colors flex items-center"
                     >
                       Details
