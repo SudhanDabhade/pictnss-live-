@@ -117,6 +117,48 @@ Volunteers were guided on proper plantation and conservation techniques, ensurin
     ]
   },
   {
+    id: "2025_rakhi_making_rakshabandhan",
+    year: 2025,
+    title: "Rakhi Making Workshop & Rakshabandhan Activity",
+    thumbnail: "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773491429/IMG20250808165515_ljlwlr.jpg",
+    shortDescription: "A combined Rakhi Making Workshop and Rakshabandhan Celebration in collaboration with iVolunteer NGO, Love Care Share Foundation, and Sainik Mitra Parivar across multiple venues.",
+    description: `The NSS Unit of PICT organized a combined Rakhi Making Workshop and Rakshabandhan Celebration in collaboration with iVolunteer NGO, Love Care Share Foundation, and Sainik Mitra Parivar.
+
+The activity was conducted in two phases with 54 volunteers participating. The first phase, on 26th July 2025, involved a Rakhi Making and Greeting Card Workshop on the PICT campus, using materials provided by iVolunteer NGO. In the second phase, held on 9th August 2025, these handmade rakhis were used during the Rakshabandhan celebration across four locations: Paraplegic Rehabilitation Centre, Central Fire Brigade Pune, Vimlabai Lunkad School, and the PICT campus. Volunteers tied rakhis to soldiers, firefighters, students, and staff, spreading joy and embodying the true spirit of Rakshabandhan.
+
+This combined activity highlighted the cultural significance of Rakshabandhan while extending its spirit to real-life heroes. The rakhi-making session encouraged creativity and instilled empathy, service, and gratitude among volunteers. Celebrating with soldiers, firefighters, students, and campus staff promoted inclusivity and honoured those who serve society selflessly. The initiative nurtured patriotic feelings, strengthened social awareness, and fostered a deeper sense of community bonding.
+
+Implementation:
+
+1. Coordination and Planning: The activity was organized by the PICT NSS Unit with iVolunteer NGO, Love Care Share Foundation, and Sainik Mitra Parivar. Schedules were set for the Rakhi Making Workshop on 26th July 2025 and the celebration on 9th August 2025. Volunteers were briefed on objectives, conduct, and etiquette for interacting with soldiers, firefighters, students, and staff.
+
+2. Execution: On 26th July, volunteers made handmade rakhis and greeting cards on campus. On 9th August, these were taken to four locations—PRC, Central Fire Brigade, Vimlabai Lunkad School, and PICT campus. Volunteers tied rakhis, shared sweets, and expressed gratitude at each venue.
+
+3. Participation and Engagement: The workshop promoted teamwork and creativity. During the celebration, volunteers interacted warmly with soldiers, firefighters, students, and staff, building strong emotional and community connections.
+
+4. Outcome: Numerous handmade rakhis and cards were created and meaningfully used. The celebration strengthened community bonds and promoted values of gratitude and unity.`,
+    date: "July 26 & August 09 2025",
+    location: "Paraplegic Rehabilitation Center, Central Fire Brigade, Vimlabai Lunkad School & PICT Campus, Pune",
+    volunteers: 54,
+    gallery: [
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489391/nss_2025_1_ocaxyx.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489692/IMG20250808104702_gyq2cp.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489391/IMG_20250809_180015_l8vxcw.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489392/IMG_20250809_180222_rv8yde.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489395/IMG_20250809_181252_bleam3.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489398/IMG_20250809_183153_lhpqdy.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773489397/IMG_20250809_183232_brjos7.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490243/IMG_20250808_140833_1_za1cat.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490242/IMG_20250808_140934_orlbui.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490239/IMG20250808135859_wrdodk.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490519/IMG20250808140819_iyjgkv.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490239/IMG20250808141746_gc1tqu.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490750/IMG-20250808-WA0069_vct4w2.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490750/IMG_20250808_235614_x32x9k.jpg",
+      "https://res.cloudinary.com/dbntmh7wx/image/upload/v1773490747/IMG-20250808-WA0178_wuxqyd.jpg",
+    ]
+  },
+  {
     id: "2025_police_mitra",
     year: 2025,
     title: "Police Mitra Activity – Crowd Management During Ganesh Festival",

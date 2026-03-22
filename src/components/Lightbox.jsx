@@ -29,7 +29,7 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
     document.addEventListener('keydown', handleKeyDown);
     // Prevent body scroll when lightbox is open
     document.body.style.overflow = 'hidden';
-    
+
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = 'unset';
@@ -74,10 +74,10 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
           hover:scale-110 group"
         aria-label="Previous image"
       >
-        <svg 
-          className="w-6 h-6 transform group-hover:-translate-x-0.5 transition-transform" 
-          fill="none" 
-          stroke="currentColor" 
+        <svg
+          className="w-6 h-6 transform group-hover:-translate-x-0.5 transition-transform"
+          fill="none"
+          stroke="currentColor"
           viewBox="0 0 24 24"
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -92,10 +92,10 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
           hover:scale-110 group"
         aria-label="Next image"
       >
-        <svg 
-          className="w-6 h-6 transform group-hover:translate-x-0.5 transition-transform" 
-          fill="none" 
-          stroke="currentColor" 
+        <svg
+          className="w-6 h-6 transform group-hover:translate-x-0.5 transition-transform"
+          fill="none"
+          stroke="currentColor"
           viewBox="0 0 24 24"
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -104,12 +104,28 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
 
       {/* Image Container */}
       <div className="relative max-w-[90vw] max-h-[85vh] z-40 animate-scale-up">
-        <img
-          src={currentImage.src || currentImage}
-          alt={currentImage.title || `Image ${currentIndex + 1}`}
-          className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
-        />
-        
+        {currentImage.src && currentImage.src.endsWith('.mp4') ? (
+          <video
+            src={currentImage.src}
+            controls
+            autoPlay
+            className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+          />
+        ) : typeof currentImage === 'string' && currentImage.endsWith('.mp4') ? (
+          <video
+            src={currentImage}
+            controls
+            autoPlay
+            className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+          />
+        ) : (
+          <img
+            src={currentImage.src || currentImage}
+            alt={currentImage.title || `Image ${currentIndex + 1}`}
+            className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+          />
+        )}
+
         {/* Image Info */}
         {(currentImage.title || currentImage.category) && (
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent rounded-b-lg">
@@ -149,16 +165,24 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
                 }
               }}
               className={`flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden transition-all duration-200
-                ${actualIndex === currentIndex 
-                  ? 'ring-2 ring-white scale-110' 
+                ${actualIndex === currentIndex
+                  ? 'ring-2 ring-white scale-110'
                   : 'opacity-60 hover:opacity-100'
                 }`}
             >
-              <img
-                src={img.src || img}
-                alt={`Thumbnail ${actualIndex + 1}`}
-                className="w-full h-full object-cover"
-              />
+              {(img.src && img.src.endsWith('.mp4')) || (typeof img === 'string' && img.endsWith('.mp4')) ? (
+                <video
+                  src={img.src || img}
+                  className="w-full h-full object-cover"
+                  muted
+                />
+              ) : (
+                <img
+                  src={img.src || img}
+                  alt={`Thumbnail ${actualIndex + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              )}
             </button>
           );
         })}

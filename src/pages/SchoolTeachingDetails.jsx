@@ -221,12 +221,23 @@ const SchoolTeachingDetails = () => {
                       className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer
                         shadow-md hover:shadow-xl transition-all duration-300"
                     >
-                      <img
-                        src={image.src}
-                        alt={image.title}
-                        className="w-full h-full object-cover transform group-hover:scale-110 
-                          transition-transform duration-500"
-                      />
+                      {image.src && image.src.endsWith('.mp4') ? (
+                        <video
+                          src={image.src}
+                          className="w-full h-full object-cover transform group-hover:scale-110 
+                            transition-transform duration-500"
+                          muted
+                          loop
+                          playsInline
+                        />
+                      ) : (
+                        <img
+                          src={image.src}
+                          alt={image.title}
+                          className="w-full h-full object-cover transform group-hover:scale-110 
+                            transition-transform duration-500"
+                        />
+                      )}
                       <div className="absolute inset-0 bg-secondary/0 group-hover:bg-secondary/40 
                         transition-all duration-300 flex items-center justify-center">
                         <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center
