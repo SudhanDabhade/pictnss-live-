@@ -279,7 +279,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "2nd - 7th Standard",
     subject: "Technology & Language",
-    thumbnail: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185714/Screenshot_2026-03-22_185004_vefghu.png",
     volunteers: 5,
     shortDescription: "The first NSS school teaching session of 2025 covering computer basics, mathematical shapes, and English fundamentals.",
     description: `For the first NSS school teaching activity, a total of 5 volunteers were present and actively involved throughout the session. Responsibilities were shared among the volunteers, including classroom teaching, student interaction, guidance, and maintaining discipline.
@@ -292,8 +292,11 @@ export const teachingSessions = [
       { standard: "3rd - 6th Std", activity: "Basic English: Vocabulary, Sentence Formation & Daily-use Words" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185714/Screenshot_2026-03-22_185004_vefghu.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185715/Screenshot_2026-03-22_185041_tu11nf.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185716/Screenshot_2026-03-22_185104_oszcei.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185715/Screenshot_2026-03-22_185116_isdmcy.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185717/Screenshot_2026-03-22_185125_zq483d.png"
     ]
   },
   {
@@ -305,7 +308,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "All Standards",
     subject: "Physical Education & Health",
-    thumbnail: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185791/Screenshot_2026-03-22_185219_zlhwyx.png",
     volunteers: 4,
     shortDescription: "This week session promoted physical fitness, healthy habits, and teamwork through traditional outdoor games.",
     description: ` NSS School Teaching Activity was conducted during week with the aim of promoting physical fitness and healthy habits among school students. Volunteers explained the importance of regular physical exercise and how daily workouts help in maintaining good health, improving concentration, and building discipline.
@@ -318,8 +321,10 @@ export const teachingSessions = [
       { standard: "All Students", activity: "Gift Distribution (Flowers) for Motivation" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1461896836934-bd45ba8f8e7a?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185791/Screenshot_2026-03-22_185219_zlhwyx.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185792/Screenshot_2026-03-22_185225_skqv6r.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185803/Screenshot_2026-03-22_185232_wymrgi.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185803/Screenshot_2026-03-22_185243_gufjdl.png"
     ]
   },
   {
@@ -331,7 +336,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "1st - 7th Standard",
     subject: "Technology, Maths & Language",
-    thumbnail: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185863/Screenshot_2026-03-22_185358_i92ac7.png",
     volunteers: 4,
     shortDescription: "Subject-wise academic support covering computer skills with Paint, basic Maths, and English Chaudakhadi.",
     description: `The third NSS School Teaching Activity was conducted with the aim of providing subject-wise academic support to students of different classes. Volunteers taught basic computer skills to 7th standard students in the computer laboratory, including simple drawing activities using the Paint application to develop practical understanding.
@@ -344,8 +349,8 @@ export const teachingSessions = [
       { standard: "3rd - 6th Std", activity: "English Chaudakhadi: Reading & Pronunciation Foundation" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185863/Screenshot_2026-03-22_185358_i92ac7.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774185860/Screenshot_2026-03-22_185406_apaqda.png"
     ]
   },
   {
@@ -357,7 +362,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "1st - 7th Standard",
     subject: "Technology & Language",
-    thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186110/Screenshot_2026-03-22_185451_vumjl8.png",
     volunteers: 4,
     shortDescription: "Strengthening computer knowledge through Paint activities and English language skills through Chaudakhadi revision.",
     description: `The fourth NSS School Teaching Activity was conducted with the objective of strengthening computer knowledge and English language skills among students. Volunteers taught basic computer concepts to fourth standard students along with simple practical activities using the Paint application to help them understand computer usage in an interactive manner.
@@ -370,8 +375,11 @@ export const teachingSessions = [
       { standard: "2nd - 7th Std", activity: "Chaudakhadi Revision & English Word Spelling Formation" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186110/Screenshot_2026-03-22_185451_vumjl8.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186107/Screenshot_2026-03-22_185459_q6jurw.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186102/Screenshot_2026-03-22_185506_d759nl.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186104/Screenshot_2026-03-22_185516_p7aqvq.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186099/Screenshot_2026-03-22_185529_nu0jvo.png"
     ]
   },
   {
@@ -383,7 +391,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "All Standards",
     subject: "Value Education & Patriotism",
-    thumbnail: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186325/Screenshot_2026-03-22_190009_oajpw5.png",
     volunteers: 5,
     shortDescription: "Independence Day celebration with flag hoisting, physical exercises, and felicitation of NSS volunteers by the school principal.",
     description: `The fifth NSS School Teaching Activity was conducted on the occasion of Independence Day at the school premises. The flag hoisting ceremony was carried out by the chief guest in the presence of the principal, school teachers, students, and NSS volunteers.
@@ -396,8 +404,12 @@ export const teachingSessions = [
       { standard: "NSS Volunteers", activity: "Felicitation by School Principal" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186325/Screenshot_2026-03-22_190009_oajpw5.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186322/Screenshot_2026-03-22_190015_nlvbxw.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186320/Screenshot_2026-03-22_190026_cbwmct.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186317/Screenshot_2026-03-22_190047_xp0hgl.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186315/Screenshot_2026-03-22_190059_ib2rkh.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186297/Screenshot_2026-03-22_190116_rztcee.png"
     ]
   },
   {
@@ -409,7 +421,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "1st - 7th Standard",
     subject: "Mental Ability, Technology & Language",
-    thumbnail: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186429/Screenshot_2026-03-22_190229_qyp3c4.png",
     volunteers: 4,
     shortDescription: "Scholarship Mental Ability prep for 4th-5th std, computer practicals with Paint & MS Word for seniors, and English basics for juniors.",
     description: `The sixth NSS School Teaching Activity was conducted with the objective of providing academic support based on syllabus requirements. Volunteers taught Mental Ability syllabus to fourth and fifth standard students preparing for scholarship examinations, with concepts explained in a simple manner to improve logical thinking and problem-solving skills.
@@ -423,8 +435,14 @@ export const teachingSessions = [
       { standard: "2nd - 3rd Std", activity: "English Order Words & Action Words" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop"
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186429/Screenshot_2026-03-22_190229_qyp3c4.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186454/Screenshot_2026-03-22_190236_rde2i0.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186443/Screenshot_2026-03-22_190242_wz7ujw.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186446/Screenshot_2026-03-22_190247_abfq7e.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186453/Screenshot_2026-03-22_190251_njvrjh.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186457/Screenshot_2026-03-22_190301_jc7i8p.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186460/Screenshot_2026-03-22_190318_ucxdvf.png",
+  "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774186449/Screenshot_2026-03-22_190330_o4o4op.png"
     ]
   },
   {
@@ -436,7 +454,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "2nd - 7th Standard",
     subject: "English Communication",
-    thumbnail: "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184890/IMG-20250913-WA0045_vq9rdb.jpg",
     volunteers: 3,
     shortDescription: "Building confidence in English speaking through self-introduction practice for all students from 2nd to 7th standard.",
     description: `The seventh NSS School Teaching Activity was conducted with the objective of improving English speaking skills and building confidence among students. Volunteers taught students from second to seventh standard how to introduce themselves in English. Simple sentence structures and commonly used expressions were explained to help students understand the basics of self-introduction.
@@ -448,8 +466,11 @@ export const teachingSessions = [
       { standard: "2nd - 7th Std", activity: "Individual Speaking Practice with Volunteer Guidance" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1544367563-12123d8d5e64?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184890/IMG-20250913-WA0045_vq9rdb.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184887/IMG-20250913-WA0056_e2eose.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184888/IMG-20250913-WA0059_rginy1.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184889/IMG-20250913-WA0060_tpeld4.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184888/IMG-20250913-WA0065_wfofiw.jpg"
     ]
   },
   {
@@ -461,7 +482,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "4th - 5th Standard",
     subject: "Competitive Exam Preparation",
-    thumbnail: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184615/WhatsApp_Image_2026-03-22_at_6.32.42_PM_aow4i3.jpg",
     volunteers: 5,
     shortDescription: "Dedicated scholarship batch started for 4th-5th std with exam pattern orientation and Mental Ability Test syllabus teaching.",
     description: `The eighth NSS School Teaching Activity focused on academic guidance for scholarship aspirants. A dedicated scholarship batch was started for fourth and fifth standard students to provide focused preparation for competitive examinations. Volunteers explained the structure of the scholarship examination, including the paper pattern and marking scheme, to help students understand the examination format clearly.
@@ -473,8 +494,8 @@ export const teachingSessions = [
       { standard: "4th - 5th Std", activity: "Mental Ability Test (MAT) Syllabus Teaching" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184615/WhatsApp_Image_2026-03-22_at_6.32.42_PM_aow4i3.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184615/WhatsApp_Image_2026-03-22_at_6.32.44_PM_zoh8pz.jpg" 
     ]
   },
   {
@@ -486,7 +507,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "1st - 7th Standard",
     subject: "Maths, Science & Language",
-    thumbnail: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184799/20250927_114547AMByGPSMapCamera_rgxeax.jpg",
     volunteers: 6,
     shortDescription: "Activity-based learning with Mental Ability for scholarship students, solar system for 3rd std, and interactive games for juniors.",
     description: `The ninth NSS School Teaching Activity was conducted with a focus on subject-wise teaching and activity-based learning. Volunteers taught Mental Ability concepts to fourth and fifth standard students to support their scholarship preparation. Multiplication and division were taught to sixth and seventh standard students using simple explanations and practice examples.
@@ -501,8 +522,11 @@ export const teachingSessions = [
       { standard: "1st Std", activity: "Interactive Games: English Letters & Shapes" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184797/20250927_113404amByGPSMapCamera_pgzmkb.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184799/20250927_114547AMByGPSMapCamera_rgxeax.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184798/IMG20250927104437_llj9xe.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184797/IMG20250927112624_s57juh.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184796/IMG20250927113448_krscc8.jpg"
     ]
   },
   {
@@ -514,7 +538,7 @@ export const teachingSessions = [
     schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
     targetClass: "1st - 7th Standard",
     subject: "English, Maths, History & Technology",
-    thumbnail: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183004/WhatsApp_Image_2026-03-22_at_6.04.34_PM_jmkcc4.jpg",
     volunteers: 6,
     shortDescription: "Comprehensive academic support with English storytelling for 4th std, phonics for juniors, and scholarship English prep for 5th std.",
     description: `The tenth NSS School Teaching Activity focused on subject-wise academic support for students of different classes. First standard students were taught English alphabets and basic word formation. Sixth and seventh standard students were taught Mathematics and basic computer concepts.
@@ -529,8 +553,176 @@ export const teachingSessions = [
       { standard: "5th Std", activity: "Scholarship Preparation: English Syllabus" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop"
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183004/WhatsApp_Image_2026-03-22_at_6.04.34_PM_jmkcc4.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183003/WhatsApp_Image_2026-03-22_at_6.04.36_PM_etsmtc.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183003/WhatsApp_Image_2026-03-22_at_6.04.37_PM_bzxuhl.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183003/WhatsApp_Image_2026-03-22_at_6.04.43_PM_cmia2z.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183003/WhatsApp_Image_2026-03-22_at_6.04.45_PM_vk7tec.jpg",   
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183002/WhatsApp_Image_2026-03-22_at_6.04.47_PM_q3gytw.jpg" 
+    ]
+  },
+  {
+    id: "2025_week_11",
+    year: 2025,
+    date: "November 08, 2025",
+    weekLabel: "Week 11",
+    title: "NSS School Teaching Activity",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "Computer, English & Specific Exams Prep",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183477/20251108_124656PMByGPSMapCamera_gwxmce.jpg",
+    volunteers: 5,
+    shortDescription: "Volunteers mentoring students in computer basics, English communication, and scholarship exams preparation.",
+    description: `The teaching session at Vimlabai Lunkad Vidyalaya, Gultekadi-Swargate, marked another successful day of academic mentoring. 💫\n\nOur volunteers continued guiding students from Classes 1–7 in computer basics, English communication, and scholarship preparation for Navodaya and Manthan exams. 🎯\n\nConsistent academic support strengthens our bond with the students and fuels our passion to make learning brighter! 🌱💻📚💫`,
+    learningOutcome: "Mentoring in computer basics, English communication, and guidance for scholarship exams.",
+    classActivities: [
+      { standard: "1st - 7th Std", activity: "Computer basics and English communication mentoring" },
+      { standard: "4th - 5th Std", activity: "Guidance for Scholarship, Navodaya, and Manthan exams" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183447/20251108_104931AMByGPSMapCamera_pqde01.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183469/20251108_105047AMByGPSMapCamera_yunpfo.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183472/20251108_120035PMByGPSMapCamera_abtzwg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183473/20251108_120248PMByGPSMapCamera_chebyr.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183473/20251108_120338PMByGPSMapCamera_x7q80w.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183475/20251108_120451PMByGPSMapCamera_iizagd.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183477/20251108_124656PMByGPSMapCamera_gwxmce.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183477/IMG-20251108-WA0013_k8j0jg.jpg"
+    ]
+  },
+  {
+    id: "2025_week_12",
+    year: 2025,
+    date: "November 22, 2025",
+    weekLabel: "Week 12",
+    title: "Math Mastery Week!",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "All Standards",
+    subject: "Mathematics & Mental Ability",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183835/20251122_124122PMByGPSMapCamera_oelhcb.jpg",
+    volunteers: 5,
+    shortDescription: "Volunteers taught Math across all classes, while Scholarship students practiced logical thinking puzzles.",
+    description: `The teaching activity was filled with the joy of numbers as volunteers taught Mathematics across the classes. Students explored foundational concepts through clear explanations and interactive activities, ensuring an engaging classroom environment.\n\nSimultaneously, the 4th and 5th graders worked on directional problems and puzzles from their Scholarship Mental Ability syllabus, effectively sharpening their logical reasoning skills.\n\nA highly productive session promoting curiosity, structured learning, and academic growth. 🌱📚💡`,
+    learningOutcome: "Enhanced math skills through interactive activities and deepened logical thinking through puzzles.",
+    classActivities: [
+      { standard: "All Classes", activity: "Exploration of Math concepts through interactive activities" },
+      { standard: "4th - 5th Std", activity: "Directions and puzzles from Scholarship Mental Ability syllabus" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183824/20251122_114120AMByGPSMapCamera_dkpjpg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183940/20251122_114211AMByGPSMapCamera_z5zzar.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183846/20251122_114354AMByGPSMapCamera_tqb6au.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183827/20251122_115139AMByGPSMapCamera_fhucu5.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183835/20251122_124122PMByGPSMapCamera_oelhcb.jpg"
+    ]
+  },
+  {
+    id: "2025_week_13",
+    year: 2025,
+    date: "November 29, 2025",
+    weekLabel: "Week 13",
+    title: "Multi-Subject Teaching Activity",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "2nd - 7th Standard",
+    subject: "Mental Ability, Computer, Math & English",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183970/20251129_92137AMByGPSMapCamera_udupxc.jpg",
+    volunteers: 5,
+    shortDescription: "Mental Ability for 4th, 5th, and 7th std, Computer session for 6th std, and interactive Math and English for 2nd and 3rd std.",
+    description: `The teaching session was characterized by high energy and interactive learning.\n\nStudents of 4th, 5th, and 7th practiced Mental Ability, solving patterns and complex logic questions with great interest.\nThe 6th Standard had a productive practical Computer session, exploring fundamental concepts and improving their digital literacy.\nMeanwhile, 2nd and 3rd Standard engaged in a mix of Mathematics and English, making the learning process interactive and enjoyable.\n\nAn impactful activity focused on guiding and empowering young minds. 🌱📚💡`,
+    learningOutcome: "Improved logical problem-solving, digital skills, and foundational literacy and numeracy.",
+    classActivities: [
+      { standard: "4th, 5th, 7th Std", activity: "Mental Ability: solving patterns and logic questions" },
+      { standard: "6th Std", activity: "Computer session exploring basics" },
+      { standard: "2nd - 3rd Std", activity: "Interactive mix of Math and English" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183974/20251129_110700_ucjo3a.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183971/20251129_114239AMByGPSMapCamera_yyroci.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183974/20251129_114540_y1kcom.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183978/20251129_123318_klywc8.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774183970/20251129_92137AMByGPSMapCamera_udupxc.jpg"
+    ]
+  },
+  {
+    id: "2025_week_14",
+    year: 2025,
+    date: "December 06, 2025",
+    weekLabel: "Week 14",
+    title: "Mahaparinirvan Diwas Special",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "Value Education & Numeracy",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184102/20251206_124740PMByGPSMapCamera_yhh055.jpg",
+    volunteers: 5,
+    shortDescription: "A tribute to Dr. Babasaheb Ambedkar, followed by specific subject learning ranging from Math to NMMS preparation.",
+    description: `The NSS teaching activity began with a heartfelt tribute to Dr. Babasaheb Ambedkar on Mahaparinirvan Diwas. Students were educated about his pivotal role in shaping the Constitution 📜 and his enduring message of equality and education.\n\nFollowing the tribute, academic sessions resumed with active participation. Mathematics sessions were conducted across Classes 1 to 7 ➗, while Class 6 attended a practical computer lab session 💻. Class 7 commenced their NMMS preparation batch 🎯 with a structured introduction to the examination and fundamental MAT questions.\nScholarship students from Classes 4 and 5 studied the Calendar chapter in Mental Ability 📅, practicing day–date concepts comprehensively.\n\nA deeply engaging session integrating constitutional awareness with continuous learning. 🌱📚`,
+    learningOutcome: "Received knowledge about the Constitution and equality, and advanced in Math, computer handling, and MAT concepts.",
+    classActivities: [
+      { standard: "All Students", activity: "Tribute to Dr. Babasaheb Ambedkar and Constitution awareness" },
+      { standard: "1st - 7th Std", activity: "Math sessions across classes" },
+      { standard: "6th Std", activity: "Computer lab active learning" },
+      { standard: "7th Std", activity: "NMMS preparation batch: Exam introduction and MAT basics" },
+      { standard: "4th - 5th Std", activity: "Mental Ability: Calendar chapter (day-date concepts)" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184232/20251206_110714AMByGPSMapCamera_reyhgc.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184134/20251206_110916AMByGPSMapCamera_yxs0rp.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184105/20251206_112231AMByGPSMapCamera_g5wklu.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184102/20251206_124740PMByGPSMapCamera_yhh055.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184234/IMG_20251206_092528_evx2qb.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184236/IMG_20251206_095555_czbzka.jpg"
+    ]
+  },
+  {
+    id: "2025_week_15",
+    year: 2025,
+    date: "December 20, 2025",
+    weekLabel: "Week 15",
+    title: "Computer Awareness & AI Learning",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "2nd - 7th Standard",
+    subject: "Technology & AI",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184286/IMG_20251220_104256_bggpn9.jpg",
+    volunteers: 5,
+    shortDescription: "Introductory session on computer hardware and networking, along with guided exploration of AI tools like ChatGPT.",
+    description: `The NSS teaching activity focused on building digital literacy and awareness among students from Classes 2 to 7. Volunteers taught computer fundamentals, including hardware components and an introduction to networking, enabling students to understand the practical applications of computers in daily life.\n\nStudents were also introduced to modern AI applications such as ChatGPT 🤖. They were guided on using these advanced tools responsibly for studies, learning support, and future academic planning. The session successfully sparked intellectual curiosity regarding technology and its future implications.\n\nAn impactful session promoting constructive learning, technological exploration, and digital empowerment. 🌱📘`,
+    learningOutcome: "Familiarity with hardware components, networking systems, and insight into responsible AI usage.",
+    classActivities: [
+      { standard: "2nd - 7th Std", activity: "Computer basics, hardware components, and networking" },
+      { standard: "2nd - 7th Std", activity: "Introduction to AI (ChatGPT) for studies and future planning" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184289/20251220_123346_b3xela.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184291/20251220_125952_jisc44.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184267/IMG-20251222-WA0011_1_hkadkt.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184286/IMG_20251220_104256_bggpn9.jpg"
+    ]
+  },
+  {
+    id: "2025_week_16",
+    year: 2025,
+    date: "December 24, 2025",
+    weekLabel: "Week 16",
+    title: "School Food Festival",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "All Standards",
+    subject: "Extracurricular & Life Skills",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184438/IMG_20251224_142819_euadms.jpg",
+    volunteers: 5,
+    shortDescription: "Volunteers and students enjoyed a fun-filled food festival with students preparing and selling food independently.",
+    description: `✨️Little hands with big smiles, selling, sharing, and learning made fun 😊✨️\n\nNSS volunteers actively participated in the school food festival, an event where students proudly prepared and sold their own culinary creations 👩🍳. Observing the students independently manage stalls, interact confidently with peers, and share their work was an inspiring experience 😊.\n\nVolunteers appreciated the efforts by tasting the food prepared by the students 🍽️ and offering strong encouragement 🤝. The activity successfully combined joy and practical life skills 🎉, making it a highly memorable and meaningful experiential learning opportunity for everyone involved.`,
+    learningOutcome: "Enhanced confidence, practical management, selling abilities, and interpersonal interaction skills.",
+    classActivities: [
+      { standard: "All Students", activity: "Preparing, selling, and sharing self-made foods" },
+      { standard: "Volunteers", activity: "Tasting food, engaging with student stalls, and showing support" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184438/20251224_141440_vpytbr.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184438/20251224_142746_ryqkzk.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184438/20251224_143653_r70coe.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184435/20251224_155051_mccdgs.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184436/IMG_20251224_135935_mvphse.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774184438/IMG_20251224_142819_euadms.jpg"
     ]
   }
 ];
