@@ -147,7 +147,7 @@ const SchoolTeaching = () => {
                     </h3>
                   </Link>
 
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-3 flex-grow">
+                  <p className="text-gray-600 text-sm mb-4 line-clamp-4 flex-grow">
                     {session.shortDescription}
                   </p>
 
