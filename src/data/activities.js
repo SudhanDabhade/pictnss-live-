@@ -162,7 +162,7 @@ Implementation:
     id: "2025_police_mitra",
     year: 2025,
     title: "Police Mitra Activity – Crowd Management During Ganesh Festival",
-    thumbnail: "https://images.unsplash.com/photo-1567593810070-7a3d471af022?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462247/WhatsApp_Image_2026-03-25_at_11.37.06_PM_1_d2zddb.jpg",
     shortDescription: "NSS volunteers assisted Pune Police in managing crowds during Ganesh Chaturthi.",
     description: `On 31st August 2025, 20 NSS volunteers from PICT participated in the Police Mitra Activity in collaboration with Faraskhana Police Station during Pune’s Ganesh Festival celebrations. Volunteers were deployed at major locations such as Shreemant Dagdusheth Halwai Ganpati Temple and the 5 Manache Ganpati to assist Pune City Police in managing large crowds and ensuring smooth movement of devotees. They were briefed on safety protocols, crowd-control techniques, and emergency procedures before being stationed at key entry, exit, and high-density points.
 
@@ -172,17 +172,18 @@ Volunteers directed queues, assisted elderly and differently-abled devotees, sup
     location: "Shreemant Dagdusheth Halwai Ganpati Temple & 5 Manache Ganpati, Pune",
     volunteers: 20,
     gallery: [
-      "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1519817650390-64a93db511aa?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462104/WhatsApp_Image_2026-03-25_at_11.37.06_PM_2_zsmqkg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462095/IMG-20250831-WA0007_qmwfjc.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462093/IMG20250831195839_vxv4g4.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462093/IMG-20250831-WA0019_kugvi2.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462107/WhatsApp_Image_2026-03-25_at_11.37.06_PM_r2r3sl.jpg",
     ]
   },
   {
     id: "2025_nss_day",
     year: 2025,
     title: "NSS Day Celebration",
-    thumbnail: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460455/IMG_20250924_180023_yjy1vg.jpg",
     shortDescription: "Celebrating the spirit of NSS with felicitation, leadership handover, and volunteer recognition.",
     description: `On 24th September 2025, the NSS Unit of Pune Institute of Computer Technology (PICT) celebrated NSS Day at the ENTC Seminar Hall with the participation of 26 volunteers, faculty members, senior volunteers, and alumni. The event began with a welcome address, followed by the Programme Officer’s speech emphasizing the NSS motto, “Not Me, But You,” and the importance of selfless service and leadership. Senior volunteers were felicitated with certificates, and super seniors were honored with tokens of appreciation for their continued support.
 
@@ -192,10 +193,22 @@ The celebration also featured the announcement of the new NSS Core Team Heads, w
     location: "PICT College, ENTC Seminar Hall",
     volunteers: 26,
     gallery: [
-      "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461390/IMG_20250924_164251_vqrkvx.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461408/IMG_20250924_180023_mbqiun.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461402/20250924_182917_sspzz1.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461229/IMG20250924181314_dde4vi.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461228/IMG20250924180313_w4jhoo.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460455/IMG_20250924_180023_yjy1vg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461227/IMG20250924181452_pixfyf.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461231/IMG20250924171051_qzo4kd.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461257/IMG20250924165822_ydykzt.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461258/IMG20250924165809_tqdfif.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461261/IMG20250924165754_tltdf2.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461267/IMG20250924165731_stl4wj.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461347/IMG_20250924_170910_xuftec.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774461356/IMG20250924170738_witnk9.jpg",
+
+
     ]
   },
 
@@ -223,7 +236,7 @@ The programme included a Prabhat Pheri with awareness slogans, a street play per
     id: "2025_cleanliness_drive",
     year: 2025,
     title: "Cleanliness Drive – Gandhi Jayanti Special",
-    thumbnail: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460042/20251002_85601AMByGPSMapCamera_gyhq5a.jpg",
     shortDescription: "Cleanliness drive at Bhide Bridge in collaboration with Pune Ploggers.",
     description: `On 2nd October 2025, on the occasion of Gandhi Jayanti, 27 NSS volunteers from PICT participated in a Cleanliness Drive near Bhide Bridge, Pulachiwadi, Deccan, Pune, in collaboration with Pune Ploggers. The activity honored Mahatma Gandhi’s vision of cleanliness and civic responsibility. Volunteers were briefed on safety and waste segregation practices before collecting plastic, glass, and other non-biodegradable waste, successfully gathering 34 bags during the three-hour drive.
 
@@ -232,10 +245,10 @@ The initiative addressed urban waste concerns while promoting teamwork, mentorsh
     location: "Bhide Bridge, Pulachiwadi, Deccan, Pune",
     volunteers: 27,
     gallery: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1571498664957-fde285d79857?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460042/IMG_20251002_085355_xwevxl.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460038/IMG_20251002_080630429_HDR_peew01.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460026/IMG_20251002_081211487_HDR_kxkbkj.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774460159/IMG_20251002_073519_dynewz.jpg",
     ]
   },
 
@@ -243,7 +256,7 @@ The initiative addressed urban waste concerns while promoting teamwork, mentorsh
     id: "2025_prism_competition",
     year: 2025,
     title: "Prism Competition – NSS Representation at VIT Pune",
-    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774462909/WhatsApp_Image_2026-03-25_at_11.50.10_PM_esqoai.jpg",
     shortDescription: "NSS teams secured 3rd prize in Group Discussion at VIT Pune.",
     description: `On 11th October 2025, two NSS teams from PICT participated in the Prism Competition held at Vishwakarma Institute of Technology. A total of 8 volunteers represented the institute in this inter-college event focused on communication, analytical thinking, and presentation skills. Each team had four members, with two participating in the Group Discussion and two presenting a Tenure Representation PPT highlighting their NSS achievements and impact.
 
