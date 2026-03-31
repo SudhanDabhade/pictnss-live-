@@ -9,7 +9,7 @@ export const activities = [
     id: "2025_vachan_sankalpa",
     year: 2025,
     title: "Vachan Sankalpa Maharashtracha",
-    thumbnail: "https://images.unsplash.com/photo-1529007486339-27d35227f6e1?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774954701/Gemini_Generated_Image_1498ab1498ab1498_pue2l2.png",
     shortDescription: "A three-day literacy initiative featuring group reading sessions and book exhibitions.",
     description: `From January 8th to 10th, 2025, PICT NSS partnered with the Library Department to host 'Vachan Sankalpa Maharashtracha'. This series of events was designed to reignite the joy of reading and intellectual curiosity among students and faculty.
 
@@ -18,12 +18,10 @@ The program included diverse interactive activities such as structured group rea
     location: "IT Seminar Hall & PICT Library",
     volunteers: 15,
     gallery: [
-      "https://images.unsplash.com/photo-1491843384429-30494622eb90?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774954701/Gemini_Generated_Image_1498ab1498ab1498_pue2l2.png",
     ]
   },
-  {
+  /*{
     id: "2025_marathi_vishwa_sammelan",
     year: 2025,
     title: "Shobhayatra – Marathi Vishwa Sammelan",
@@ -40,12 +38,12 @@ Starting from Balgandharv Natymandhir and ending at FC College Ground, our team 
       "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1566733971217-d11ef7c8b3ed?w=600&h=400&fit=crop",
     ]
-  },
+  },*/
   {
     id: "2025_taljai_shramadan",
     year: 2025,
     title: "Shramadan & Tree Plantation at Taljai Hills",
-    thumbnail: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774955084/Screenshot_2026-03-31_163339_rbjozy.png",
     shortDescription: "A Shivjayanti tribute through large-scale cleanliness and plantation drives at Taljai Hills.",
     description: `On February 19th, 2025, 40 PICT NSS volunteers commemorated Shivjayanti by dedicating their morning to environmental restoration at Taljai Hills. The 'Shramadan' initiative involved a rigorous cleanliness drive focused on removing plastic waste to restore the hill's natural ecosystem.
 
@@ -54,16 +52,15 @@ In addition to the cleanup, volunteers conducted a tree plantation drive, planti
     location: "Taljai Hills, Pune",
     volunteers: 40,
     gallery: [
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953913/Screenshot_2026-03-31_161450_anpxnw.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774955092/Screenshot_2026-03-31_163322_w8gtx5.png",
     ]
   },
   {
     id: "2025_blood_donation",
     year: 2025,
     title: "Blood Donation Camp & Street Play",
-    thumbnail: "https://images.unsplash.com/photo-1615461066841-6116ecaaba30?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774955930/WhatsApp_Image_2026-03-31_at_4.44.13_PM_2_parrly.jpg",
     shortDescription: "A major collection drive resulting in over 230 units of blood for local healthcare services.",
     description: `The Blood Donation Drive, organized by PICT NSS in collaboration with PICTOREAL, was a major success in supporting local healthcare. To maximize outreach, volunteers performed a street play across the campus to raise awareness about the critical need for blood donations and to debunk common myths.
 
@@ -72,16 +69,15 @@ The event saw an enthusiastic response with 230 donors coming forward from the s
     location: "PICT Campus, Pune",
     volunteers: 40,
     gallery: [
-      "https://images.unsplash.com/photo-1524721696987-b9527df9e512?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1536856424696-981882d92d41?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774955873/WhatsApp_Image_2026-03-31_at_4.44.13_PM_1_kog9az.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774955933/WhatsApp_Image_2026-03-31_at_4.44.13_PM_ghnajy.jpg",
     ]
   },
   {
     id: "2025_nirmal_wari",
     year: 2025,
     title: "Nirmal Wari (Bhaktiyog Activity)",
-    thumbnail: "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774954112/Screenshot_2026-03-31_161727_tz84oz.png",
     shortDescription: "Yoga sessions conducted for Warkaris on International Yoga Day during Wari.",
     description: `On 21st June 2025, on the occasion of International Yoga Day, the PICT NSS Unit organized the Nirmal Wari – Bhaktiyog Activity in collaboration with SPPU. A total of 21 NSS volunteers participated to support the Warkaris during their journey to Pandharpur.
 
@@ -90,10 +86,8 @@ Volunteers were assigned to four Dindi locations in Bhavani Peth and Ganj Peth, 
     location: "Bhavani Peth & Ganj Peth, Pune",
     volunteers: 21,
     gallery: [
-      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774954188/Screenshot_2026-03-31_161922_gnbuar.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774954183/Screenshot_2026-03-31_161929_ep0pt1.png",
     ]
   },
 
@@ -101,7 +95,7 @@ Volunteers were assigned to four Dindi locations in Bhavani Peth and Ganj Peth, 
     id: "2025_tree_plantation",
     year: 2025,
     title: "NSS Tree Plantation and Conservation Drive",
-    thumbnail: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953923/Screenshot_2026-03-31_161321_vz3gqf.png",
     shortDescription: "Tree plantation and conservation drive promoting environmental sustainability.",
     description: `On 19th July 2025, the PICT NSS Unit organized a Tree Plantation and Conservation Drive at Late Uttamrao Patil Biodiversity Park, Narhe, Pune, in collaboration with Zade Lava Zade Jagva NGO. A total of 69 NSS volunteers participated, planting native saplings and removing unwanted grass around existing trees to support healthy growth and ecological balance.
 
@@ -110,10 +104,7 @@ Volunteers were guided on proper plantation and conservation techniques, ensurin
     location: "Late Uttamrao Patil Biodiversity Park, Narhe, Pune",
     volunteers: 69,
     gallery: [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1473445361085-b9a07f55608b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953913/Screenshot_2026-03-31_161450_anpxnw.png",
     ]
   },
   {
@@ -216,7 +207,7 @@ The celebration also featured the announcement of the new NSS Core Team Heads, w
     id: "2025_amrut_mahotsav_constitution",
     year: 2025,
     title: "Amrut Mahotsav of the Indian Constitution Celebration",
-    thumbnail: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953686/Screenshot_2026-03-31_161048_z7jlcn.png",
     shortDescription: "Celebration promoting constitutional values, rights, and civic responsibility.",
     description: `On 27th September 2025, eight NSS volunteers participated in the Amrut Mahotsav of the Indian Constitution Celebration held at Bharati Vidyapeeth College of Engineering for Women, organized in association with Savitribai Phule Pune University. The event aimed to promote awareness about the fundamental rights, duties, and democratic values enshrined in the Constitution of India, encouraging students to reflect on principles such as justice, liberty, equality, and fraternity.
 
@@ -226,10 +217,7 @@ The programme included a Prabhat Pheri with awareness slogans, a street play per
     location: "Bharati Vidyapeeth College of Engineering for Women, Dhankawadi, Pune",
     volunteers: 8,
     gallery: [
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953686/Screenshot_2026-03-31_161048_z7jlcn.png",
     ]
   },
   {
@@ -265,17 +253,14 @@ The volunteers demonstrated confidence, teamwork, and strong presentation abilit
     location: "Vishwakarma Institute of Technology (VIT), Pune",
     volunteers: 8,
     gallery: [
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953178/Screenshot_2026-03-31_160229_ouymjm.png",
     ]
   },
   {
     id: "2025_upay_ngo",
     year: 2025,
     title: "UPay NGO Skill Development Activity",
-    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774952869/Screenshot_2026-03-31_155022_yuxlae.png",
     shortDescription: "Skill-development and personality-building session for underprivileged students.",
     description: `On 09th November 2025, the PICT NSS Unit conducted a Skill Development Activity at UPay NGO with 7 volunteers to support underprivileged students in improving communication skills, confidence, and personality development. The session included group discussions, public speaking practice, a GK quiz, and basic academic and career guidance. Students were divided into small groups to create a comfortable and interactive learning environment.
 
@@ -284,10 +269,8 @@ Creative activities such as drawing, storytelling, and team-based games were als
     location: "UPay NGO, Pune",
     volunteers: 7,
     gallery: [
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774952868/Screenshot_2026-03-31_155030_dd4hm1.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774952868/Screenshot_2026-03-31_155048_dd3nb4.png",
     ]
   },
 
@@ -295,7 +278,7 @@ Creative activities such as drawing, storytelling, and team-based games were als
     id: "2025_river_cleaning",
     year: 2025,
     title: "River Cleaning Activity – River Week Initiative",
-    thumbnail: "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953389/Screenshot_2026-03-31_160458_rnciu9.png",
     shortDescription: "Riverbank cleaning drive under PMC’s River Week environmental initiative.",
     description: `On 30th November 2025, 12 NSS volunteers from PICT participated in a River Cleaning Activity organized under the “River Week” initiative by the Environment Department of Pune Municipal Corporation. The drive was conducted along the Mula Riverbank from Baba Bhide Bridge to Gulmohar Housing Society up to the Deccan area, where volunteers removed plastic waste, debris, and discarded materials while following safety and waste-handling guidelines provided by officials.
 
@@ -304,10 +287,8 @@ The initiative significantly improved the riverbank’s cleanliness and highligh
     location: "Baba Bhide Bridge – Mula Riverbank, Pune",
     volunteers: 12,
     gallery: [
-      "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=400&fit=crop",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953384/Screenshot_2026-03-31_160507_v5fudl.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774953383/Screenshot_2026-03-31_160517_ooopf2.png",
     ]
   },
   // 2024 Activities
