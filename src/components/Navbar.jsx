@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Dropdown from "./Dropdown";
 
-const years = ["2025", "2024", "2023", "2022", "2021"];
+const years = ["2026", "2025"];
 
 const Navbar = () => {
   const [activitiesOpen, setActivitiesOpen] = useState(false);
@@ -200,6 +200,7 @@ const Navbar = () => {
               { to: "/", label: "Home" },
               { to: "/activities", label: "Activities" },
               { to: "/camps", label: "NSS Camp" },
+              { to: "/schoolteaching", label: "School Teaching" },
               { to: "/magazine", label: "Magazine" },
               { to: "/gallery", label: "Gallery" },
               { to: "/team", label: "Team" },
