@@ -12,6 +12,7 @@ export const galleryImages = [
     title: "Planting saplings during drive",
     year: 2025,
   },
+  /*
   {
     id: 2,
     src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
@@ -19,6 +20,8 @@ export const galleryImages = [
     title: "Volunteers in action",
     year: 2024,
   },
+  */
+  /*
   {
     id: 3,
     src: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&h=600&fit=crop",
@@ -26,6 +29,8 @@ export const galleryImages = [
     title: "Green campus initiative",
     year: 2024,
   },
+  */
+  /*
   {
     id: 4,
     src: "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=800&h=600&fit=crop",
@@ -33,6 +38,7 @@ export const galleryImages = [
     title: "Forest conservation work",
     year: 2023,
   },
+  */
 
   // Blood Donation Category
   {
@@ -42,6 +48,7 @@ export const galleryImages = [
     title: "Blood donation camp setup",
     year: 2025,
   },
+  /*
   {
     id: 6,
     src: "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=600&fit=crop",
@@ -49,6 +56,8 @@ export const galleryImages = [
     title: "Volunteers donating blood",
     year: 2024,
   },
+  */
+  /*
   {
     id: 7,
     src: "https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?w=800&h=600&fit=crop",
@@ -56,6 +65,7 @@ export const galleryImages = [
     title: "Medical team at work",
     year: 2023,
   },
+  */
 
   // NSS Camp Category
   {
@@ -65,6 +75,7 @@ export const galleryImages = [
     title: "Camp site panorama",
     year: 2025,
   },
+  /*
   {
     id: 9,
     src: "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=800&h=600&fit=crop",
@@ -72,6 +83,8 @@ export const galleryImages = [
     title: "Morning assembly at camp",
     year: 2024,
   },
+  */
+  /*
   {
     id: 10,
     src: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&h=600&fit=crop",
@@ -79,6 +92,8 @@ export const galleryImages = [
     title: "Team building activities",
     year: 2023,
   },
+  */
+  /*
   {
     id: 11,
     src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop",
@@ -86,6 +101,8 @@ export const galleryImages = [
     title: "Nature exploration",
     year: 2022,
   },
+  */
+  /*
   {
     id: 12,
     src: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
@@ -93,6 +110,7 @@ export const galleryImages = [
     title: "Cultural night celebration",
     year: 2024,
   },
+  */
 
   // Community Service Category
   {
@@ -102,6 +120,7 @@ export const galleryImages = [
     title: "Cleanliness drive",
     year: 2025,
   },
+  /*
   {
     id: 14,
     src: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop",
@@ -109,6 +128,8 @@ export const galleryImages = [
     title: "Serving the community",
     year: 2024,
   },
+  */
+  /*
   {
     id: 15,
     src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=600&fit=crop",
@@ -116,8 +137,10 @@ export const galleryImages = [
     title: "Teaching underprivileged children",
     year: 2023,
   },
+  */
 
   // Health Camps Category
+  /*
   {
     id: 16,
     src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=600&fit=crop",
@@ -125,6 +148,8 @@ export const galleryImages = [
     title: "Health checkup camp",
     year: 2024,
   },
+  */
+  /*
   {
     id: 17,
     src: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=600&fit=crop",
@@ -132,6 +157,8 @@ export const galleryImages = [
     title: "Medical consultation",
     year: 2023,
   },
+  */
+  /*
   {
     id: 18,
     src: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&h=600&fit=crop",
@@ -139,8 +166,10 @@ export const galleryImages = [
     title: "Eye checkup camp",
     year: 2022,
   },
+  */
 
   // Awareness Rallies Category
+  /*
   {
     id: 19,
     src: "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&h=600&fit=crop",
@@ -148,6 +177,8 @@ export const galleryImages = [
     title: "Anti-drug rally",
     year: 2023,
   },
+  */
+  /*
   {
     id: 20,
     src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
@@ -155,6 +186,7 @@ export const galleryImages = [
     title: "Youth awareness march",
     year: 2024,
   },
+  */
   {
     id: 21,
     src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&h=600&fit=crop",
@@ -164,6 +196,7 @@ export const galleryImages = [
   },
 
   // Cultural Events Category
+  /*
   {
     id: 22,
     src: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
@@ -171,6 +204,8 @@ export const galleryImages = [
     title: "Cultural performance",
     year: 2024,
   },
+  */
+  /*
   {
     id: 23,
     src: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
@@ -178,6 +213,7 @@ export const galleryImages = [
     title: "Traditional dance",
     year: 2023,
   },
+  */
   {
     id: 24,
     src: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop",
@@ -194,6 +230,7 @@ export const galleryImages = [
     title: "NSS volunteers 2025",
     year: 2025,
   },
+  /*
   {
     id: 26,
     src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
@@ -201,6 +238,8 @@ export const galleryImages = [
     title: "Group photo after camp",
     year: 2024,
   },
+  */
+  /*
   {
     id: 27,
     src: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800&h=600&fit=crop",
@@ -208,8 +247,10 @@ export const galleryImages = [
     title: "Team celebration",
     year: 2023,
   },
+  */
 
   // Additional Images
+  /*
   {
     id: 28,
     src: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&h=600&fit=crop",
@@ -217,6 +258,8 @@ export const galleryImages = [
     title: "Mental health awareness session",
     year: 2024,
   },
+  */
+  /*
   {
     id: 29,
     src: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=800&h=600&fit=crop",
@@ -224,6 +267,7 @@ export const galleryImages = [
     title: "River cleaning drive",
     year: 2022,
   },
+  */
   {
     id: 30,
     src: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=800&h=600&fit=crop",
