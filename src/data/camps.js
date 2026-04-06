@@ -910,7 +910,7 @@ Outcome of the Activity:
     ]
   },
 
-  // 2024 Camp
+  /*// 2024 Camp
   {
     id: 2,
     year: 2024,
@@ -1159,7 +1159,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
       "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
     ],
     activities: [
-      /* --- DAY 1 ACTIVITIES --- */
+      // --- DAY 1 ACTIVITIES --- 
       {
         id: 1,
         title: "Science with Fun",
@@ -1171,7 +1171,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?w=600&h=400&fit=crop"
         ]
       },
-      /* --- DAY 2 ACTIVITIES --- */
+      // --- DAY 2 ACTIVITIES --- 
       {
         id: 2,
         title: "Voter ID Registration and Corrections",
@@ -1216,7 +1216,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop"
         ]
       },
-      /* --- DAY 3 ACTIVITIES --- */
+      // --- DAY 3 ACTIVITIES --- 
       {
         id: 6,
         title: "Temple and surrounding cleaning",
@@ -1294,7 +1294,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop" // Placeholder image
         ]
       },
-      /* --- DAY 4 ACTIVITIES --- */
+      // --- DAY 4 ACTIVITIES --- 
       {
         id: 13,
         title: "Home Minister for village women",
@@ -1328,7 +1328,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop" // Placeholder image
         ]
       },
-      /* --- DAY 5 ACTIVITIES --- */
+      // --- DAY 5 ACTIVITIES --- 
       {
         id: 16,
         title: "Cultural Program for villagers by school kids",
@@ -1340,7 +1340,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop" // Placeholder image
         ]
       },
-      /* --- DAY 6 ACTIVITIES --- */
+      // --- DAY 6 ACTIVITIES --- 
       {
         id: 17,
         title: "Art and craft activity for school kids",
@@ -1396,7 +1396,7 @@ The best part of the camp happened at the local school. Volunteers taught scienc
           "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop" // Placeholder image
         ]
       },
-      /* --- DAY 7 ACTIVITIES --- */
+      // --- DAY 7 ACTIVITIES --- 
       {
         id: 23,
         title: "Trekking for volunteers",
@@ -1496,7 +1496,7 @@ These skills proved valuable for volunteers in their academic and professional p
         ]
       },
     ]
-  },
+  },*/
 ];
 
 // Helper function to get camps by year
