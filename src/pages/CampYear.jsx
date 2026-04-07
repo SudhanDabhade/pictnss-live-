@@ -128,6 +128,94 @@ const CampYear = () => {
             </div>
           </div>
 
+          {/* Camp Stats */}
+          {camp.stats && (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 animate-slide-up">
+              <div className="bg-white rounded-2xl p-6 shadow-card text-center hover:shadow-card-hover transition-all duration-300">
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
+                  <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                  </svg>
+                </div>
+                <p className="text-3xl font-bold text-secondary">{camp.stats.totalActivities}</p>
+                <p className="text-gray-500 text-sm mt-1">Activities</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-card text-center hover:shadow-card-hover transition-all duration-300">
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
+                  <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <p className="text-3xl font-bold text-secondary">{camp.stats.totalVolunteers}</p>
+                <p className="text-gray-500 text-sm mt-1">Volunteers</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-card text-center hover:shadow-card-hover transition-all duration-300">
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
+                  <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  </svg>
+                </div>
+                <p className="text-3xl font-bold text-secondary">{camp.stats.villagesCovered}</p>
+                <p className="text-gray-500 text-sm mt-1">Villages</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-card text-center hover:shadow-card-hover transition-all duration-300">
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
+                  <svg className="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <p className="text-3xl font-bold text-secondary">{camp.stats.durationDays}</p>
+                <p className="text-gray-500 text-sm mt-1">Days</p>
+              </div>
+            </div>
+          )}
+
+          {/* Objectives & Outcomes */}
+          {(camp.objectives || camp.outcomes) && (
+            <div className="grid md:grid-cols-2 gap-6 mb-8 animate-slide-up">
+              {camp.objectives && camp.objectives.length > 0 && (
+                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card">
+                  <h3 className="text-xl font-bold text-textDark mb-4 flex items-center">
+                    <svg className="w-6 h-6 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                    </svg>
+                    Objectives
+                  </h3>
+                  <ul className="space-y-3">
+                    {camp.objectives.map((obj, index) => (
+                      <li key={index} className="flex items-start text-gray-600">
+                        <svg className="w-5 h-5 text-secondary mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        {obj}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {camp.outcomes && camp.outcomes.length > 0 && (
+                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card">
+                  <h3 className="text-xl font-bold text-textDark mb-4 flex items-center">
+                    <svg className="w-6 h-6 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    Outcomes
+                  </h3>
+                  <ul className="space-y-3">
+                    {camp.outcomes.map((outcome, index) => (
+                      <li key={index} className="flex items-start text-gray-600">
+                        <svg className="w-5 h-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        {outcome}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
+
           {camp.schedule && camp.schedule.length > 0 && (
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card mb-8 animate-slide-up">
               <h3 className="text-xl font-bold text-textDark mb-6 flex items-center">

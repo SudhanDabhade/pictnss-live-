@@ -1,9 +1,273 @@
 /**
  * Camps Data - Dummy data for NSS camps
- * Contains camp information from 2021-2025 with schedules, testimonials, and activities
+ * Contains camp information from 2021-2026 with schedules, testimonials, and activities
  */
 
 export const camps = [
+  // 2026 Camp
+  {
+    id: 2026,
+    year: 2026,
+    title: "NSS Special Camp 2026",
+    thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    location: "Mangdari & Ketkavane, Tal. Velhe, Maharashtra",
+    dates: "23 January \u2013 29 January 2026",
+    volunteers: 50,
+    shortDescription: "A week-long rural development camp focused on social impact, education, healthcare, and community engagement.",
+    description: `The NSS Special Camp 2026 was organized by PICT NSS Unit at Mangdari and Ketkavane villages with the aim of promoting social responsibility and rural development.
+
+Over the span of seven days, volunteers actively engaged with the local community through a wide range of impactful activities focusing on cleanliness, healthcare, education, women empowerment, and awareness programs.
+
+Key initiatives included village cleanliness drives, health and eye checkup camps, menstrual hygiene awareness sessions, and scholarship guidance for students. Volunteers also contributed towards educational development by conducting computer literacy sessions, NMMS exam preparation, and setting up a science laboratory for practical learning.
+
+To promote social awareness and engagement, activities like street plays, speech competitions, and cultural events were organized, encouraging active participation from villagers and school children.
+
+The camp not only addressed critical social issues but also helped volunteers develop leadership, teamwork, and communication skills. It strengthened the bond between students and the rural community while instilling values of service, discipline, and collective responsibility.
+
+Overall, NSS Camp 2026 served as a platform for meaningful contribution, experiential learning, and holistic development of both volunteers and the local community.`,
+    objectives: [
+      "Promote social responsibility among students",
+      "Improve rural hygiene and environmental awareness",
+      "Provide basic healthcare access and awareness",
+      "Support education and skill development",
+      "Empower women and young students",
+      "Encourage community participation and engagement"
+    ],
+    outcomes: [
+      "Improved cleanliness and hygiene in the village",
+      "Increased awareness about health and education",
+      "Better access to scholarship and learning resources",
+      "Enhanced community participation",
+      "Development of leadership and teamwork among volunteers"
+    ],
+    stats: {
+      totalActivities: 12,
+      totalVolunteers: 50,
+      villagesCovered: 2,
+      durationDays: 7
+    },
+    schedule: [
+      { day: "Day 1", summary: "The camp kicked off with a grand Camp Inauguration, followed by Team Building Activities involving group games, problem-solving tasks, and coordination exercises to strengthen volunteer bonding. The day concluded with a creative Rangoli Competition at Mangdari School, promoting cultural heritage among students." },
+      { day: "Day 2", summary: "Day 2 focused on environmental action with a large-scale Cleanliness Drive across Mangdari village, involving waste collection and segregation. Volunteers also began the first phase of the Ram Mandir Cleaning initiative. The evening featured a powerful Street Play on Child Development, engaging villagers through creative storytelling and awareness." },
+      { day: "Day 3", summary: "The Ram Mandir Cleaning continued into its second phase with deeper cleaning of temple surroundings. Volunteers held a Group Discussion with students on social topics, followed by the first Computer Teaching Session introducing school children to basic digital literacy and hands-on technology usage." },
+      { day: "Day 4", summary: "Republic Day was celebrated with patriotic fervor, including flag hoisting and cultural performances. A Speech Competition was organized for school children to build confidence and communication skills. Volunteers also conducted an English Teaching Session for students, focusing on language proficiency and spoken English." },
+      { day: "Day 5", summary: "The final phase of Ram Mandir Beautification was completed with painting of entrance doors and tile cleaning. Volunteers conducted a Government Schemes Awareness drive and a dedicated Girls Scholarship Awareness Session at Mangdari High School. An E-Learning Awareness Session was also held to promote digital education tools." },
+      { day: "Day 6", summary: "A comprehensive Health & Eye Checkup Camp was organized, providing free medical consultations and eye screenings to villagers. Volunteers set up a functional Science Experiment Lab at Ketkavane School for hands-on learning. A Menstrual Hygiene Awareness session was conducted for school girls, addressing taboos and promoting healthy practices." },
+      { day: "Day 7", summary: "The final day featured a summary session for NMMS Exam Preparation, followed by a Feedback Session where volunteers and villagers shared their experiences. The camp concluded with a formal Camp Conclusion ceremony, celebrating the week's achievements and the strong bond formed between volunteers and the community." }
+    ],
+    testimonials: [],
+    gallery: [],
+    activities: [
+      {
+        id: 1,
+        title: "Cleanliness Drive",
+        coverImage: "https://your-image-link.com/cleanliness.jpg",
+        shortDescription: "A village-wide cleanliness drive was conducted to promote hygiene, environmental awareness, and responsible waste management.",
+        description: `During the NSS Special Camp 2026, volunteers organized a large-scale cleanliness drive across Mangdari village. The activity focused on cleaning public spaces, roads, and common gathering areas.
+
+Volunteers actively participated in collecting plastic waste, removing debris, and clearing dry leaves. Waste was segregated into biodegradable and non-biodegradable categories to promote proper disposal practices.
+
+The initiative aimed not only at cleaning the surroundings but also at spreading awareness among villagers about the importance of maintaining hygiene and adopting sustainable practices in daily life.
+
+Through this activity, NSS volunteers demonstrated leadership, teamwork, and a strong sense of social responsibility while contributing to environmental sustainability.`,
+        date: "January 2026",
+        location: "Mangdari Village, Tal. Velhe",
+        volunteers: 50,
+        highlights: ["Village-wide cleaning initiative", "Waste segregation and disposal", "Community awareness on hygiene", "Active volunteer participation"],
+        impact: ["Cleaner public spaces", "Improved environmental awareness", "Encouraged sustainable practices", "Strengthened community involvement"],
+        photos: []
+      },
+      {
+        id: 2,
+        title: "Ram Mandir Cleanliness & Beautification Drive",
+        coverImage: "https://your-image-link.com/ram-mandir.jpg",
+        shortDescription: "A multi-day initiative to clean and restore the Ram Mandir, improving hygiene and enhancing its overall appearance.",
+        description: `Volunteers carried out a three-day cleanliness and beautification drive at Ram Mandir in Mangdari village.
+
+On the first two days, cleaning activities included removal of waste, clearing of dry leaves, and cleaning of temple surroundings. The collected waste was properly managed to ensure a hygienic environment.
+
+On the final day, volunteers focused on maintenance and beautification. Temple entrance doors were painted, and interior tiles were cleaned to remove stains and dirt.
+
+This activity improved the physical condition of the temple while also spreading awareness about maintaining cleanliness in religious and public places.`,
+        date: "24\u201327 January 2026",
+        location: "Ram Mandir, Mangdari",
+        volunteers: 24,
+        highlights: ["3-day temple cleanliness drive", "Waste removal and area cleaning", "Painting and beautification work", "Community awareness initiative"],
+        impact: ["Improved temple environment", "Increased hygiene awareness", "Enhanced volunteer coordination", "Stronger community bonding"],
+        photos: []
+      },
+      {
+        id: 3,
+        title: "Health & Eye Checkup Camp",
+        coverImage: "https://your-image-link.com/health.jpg",
+        shortDescription: "Free medical and eye checkups were provided to villagers to promote health awareness and early diagnosis.",
+        description: `A health and eye checkup camp was organized to provide basic healthcare services to villagers.
+
+Medical professionals conducted general health examinations, while specialized eye checkups helped identify vision-related issues. Villagers received guidance on preventive healthcare and healthy lifestyle practices.
+
+The camp ensured accessibility to essential healthcare services in a rural area and created awareness about the importance of regular medical checkups.`,
+        date: "January 2026",
+        location: "Mangdari Village",
+        volunteers: 30,
+        highlights: ["Free health checkups", "Eye screening services", "Medical guidance for villagers", "Awareness on preventive healthcare"],
+        impact: ["Early detection of health issues", "Improved health awareness", "Access to medical services", "Better community well-being"],
+        photos: []
+      },
+      {
+        id: 4,
+        title: "Menstrual Hygiene Awareness Session",
+        coverImage: "https://your-image-link.com/menstrual.jpg",
+        shortDescription: "An awareness session aimed at educating girls about menstrual hygiene and breaking social taboos.",
+        description: `Volunteers conducted an awareness session focusing on menstrual hygiene among school girls.
+
+The session covered topics such as proper hygiene practices, use of sanitary products, and importance of health during menstruation. Volunteers also addressed myths and misconceptions, encouraging open discussion.
+
+The initiative aimed to empower young girls with knowledge and confidence while promoting a healthy and stigma-free environment.`,
+        date: "January 2026",
+        location: "Village School, Mangdari",
+        volunteers: 10,
+        highlights: ["Awareness on menstrual hygiene", "Interactive discussion with students", "Myth-busting session", "Focus on women empowerment"],
+        impact: ["Improved hygiene practices", "Increased awareness among girls", "Reduced stigma around menstruation", "Empowered young students"],
+        photos: []
+      },
+      {
+        id: 5,
+        title: "Girls Scholarship Awareness Session",
+        coverImage: "https://your-image-link.com/scholarship.jpg",
+        shortDescription: "Students were informed about government scholarship schemes to support their education.",
+        description: `An awareness session was conducted to educate girl students about various government scholarship schemes.
+
+Volunteers explained eligibility criteria, application procedures, and benefits of scholarships in simple language. Students actively interacted and clarified their doubts.
+
+The session aimed to ensure that financial constraints do not become a barrier to education for deserving students.`,
+        date: "27 January 2026",
+        location: "Mangdari High School",
+        volunteers: 2,
+        highlights: ["Information on scholarship schemes", "Guidance on application process", "Interactive Q&A session", "Focus on educational support"],
+        impact: ["Increased awareness about scholarships", "Encouraged higher education", "Empowered girl students", "Reduced financial barriers"],
+        photos: []
+      },
+      {
+        id: 6,
+        title: "Computer Teaching Program",
+        coverImage: "https://your-image-link.com/computer.jpg",
+        shortDescription: "Basic computer literacy sessions were conducted for school students.",
+        description: `NSS volunteers conducted computer teaching sessions to introduce students to basic digital skills.
+
+Students learned fundamental concepts such as computer usage, typing, and basic applications. Hands-on sessions helped them gain confidence in using technology.
+
+The program aimed to bridge the digital divide and equip students with essential digital knowledge.`,
+        date: "January 2026",
+        location: "Village School",
+        volunteers: 15,
+        highlights: ["Basic computer training", "Hands-on learning sessions", "Digital literacy awareness", "Student engagement"],
+        impact: ["Improved digital skills", "Increased confidence in technology", "Better academic support", "Reduced digital gap"],
+        photos: []
+      },
+      {
+        id: 7,
+        title: "NMMS Exam Preparation",
+        coverImage: "https://your-image-link.com/nmms.jpg",
+        shortDescription: "Students were trained and guided for the NMMS scholarship examination.",
+        description: `Volunteers conducted special sessions to prepare students for the NMMS (National Means-cum-Merit Scholarship) examination.
+
+The sessions focused on aptitude, reasoning, and academic concepts. Students were guided through practice questions and exam strategies.
+
+The initiative aimed to improve students' performance and help them secure scholarships for further education.`,
+        date: "January 2026",
+        location: "Village School",
+        volunteers: 12,
+        highlights: ["Exam-oriented training", "Aptitude and reasoning practice", "Guidance on exam strategies", "Focused learning sessions"],
+        impact: ["Improved student performance", "Higher chances of scholarship", "Better academic confidence", "Encouraged competitive learning"],
+        photos: []
+      },
+      {
+        id: 8,
+        title: "Science Experiment Lab Setup",
+        coverImage: "https://your-image-link.com/lab.jpg",
+        shortDescription: "A science laboratory was set up to promote practical learning among students.",
+        description: `Volunteers organized and set up a functional science laboratory in the village school.
+
+Activities included arranging equipment, labeling materials, and preparing experiment setups. Demonstrations were also conducted to help students understand scientific concepts.
+
+This initiative enhanced hands-on learning and encouraged curiosity among students.`,
+        date: "28 January 2026",
+        location: "Ketkavane School",
+        volunteers: 3,
+        highlights: ["Lab setup and organization", "Scientific demonstrations", "Hands-on learning approach", "Improved learning infrastructure"],
+        impact: ["Enhanced practical learning", "Increased scientific curiosity", "Better understanding of concepts", "Long-term academic benefit"],
+        photos: []
+      },
+      {
+        id: 9,
+        title: "Street Play on Child Development",
+        coverImage: "https://your-image-link.com/street-play.jpg",
+        shortDescription: "A street play was performed to spread awareness about child development and social responsibility.",
+        description: `Volunteers performed a street play highlighting issues related to child development, education, and social responsibility.
+
+The play used engaging storytelling and real-life scenarios to convey important messages. It attracted a large audience and encouraged community reflection.
+
+This activity effectively spread awareness while enhancing communication skills of volunteers.`,
+        date: "24 January 2026",
+        location: "Mangdari Village",
+        volunteers: 25,
+        highlights: ["Live performance for villagers", "Awareness on child development", "High audience engagement", "Creative communication approach"],
+        impact: ["Increased social awareness", "Encouraged responsible parenting", "Improved volunteer confidence", "Strong community interaction"],
+        photos: []
+      },
+      {
+        id: 10,
+        title: "Speech Competition for School Children",
+        coverImage: "https://your-image-link.com/speech.jpg",
+        shortDescription: "Students showcased their communication skills through a speech competition.",
+        description: `A speech competition was organized to help students express their ideas confidently.
+
+Students spoke on various topics, improving their public speaking and communication skills. Volunteers guided and encouraged participants throughout the event.
+
+The competition helped build confidence and stage presence among students.`,
+        date: "26 January 2026",
+        location: "Village School",
+        volunteers: 4,
+        highlights: ["Public speaking platform", "Student participation", "Confidence building", "Skill development activity"],
+        impact: ["Improved communication skills", "Boosted confidence", "Encouraged self-expression", "Enhanced personality development"],
+        photos: []
+      },
+      {
+        id: 11,
+        title: "Rangoli Competition",
+        coverImage: "https://your-image-link.com/rangoli.jpg",
+        shortDescription: "A cultural competition promoting creativity and traditional Indian art.",
+        description: `A Rangoli competition was organized to promote creativity and cultural heritage among students.
+
+Participants created vibrant designs using eco-friendly materials. The activity encouraged artistic expression and strengthened community bonding.
+
+It provided a joyful and engaging environment for both students and volunteers.`,
+        date: "23 January 2026",
+        location: "Mangdari School",
+        volunteers: 5,
+        highlights: ["Creative art competition", "Use of eco-friendly materials", "Cultural awareness", "Student engagement"],
+        impact: ["Encouraged creativity", "Promoted cultural values", "Strengthened community bonding", "Enhanced student participation"],
+        photos: []
+      },
+      {
+        id: 12,
+        title: "Team Building Activity",
+        coverImage: "https://your-image-link.com/team.jpg",
+        shortDescription: "Interactive group activities were conducted to strengthen teamwork among volunteers.",
+        description: `A team-building activity was organized for NSS volunteers to enhance coordination and leadership skills.
+
+Participants engaged in group games and problem-solving tasks that required communication and collaboration. The activity created a positive and energetic environment.
+
+It helped volunteers develop teamwork and leadership qualities essential for effective community work.`,
+        date: "23 January 2026",
+        location: "Mangdari Village",
+        volunteers: 44,
+        highlights: ["Group games and activities", "Leadership development", "Team coordination", "Interactive sessions"],
+        impact: ["Improved teamwork", "Enhanced communication skills", "Stronger volunteer bonding", "Better coordination in activities"],
+        photos: []
+      }
+    ]
+  },
   // 2025 Camp
   {
     id: 1,
@@ -61,6 +325,7 @@ Outcome of the Activity:
           "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=400&h=300&fit=crop"
         ]
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 2,
         title: "Team Building for Volunteers",
@@ -82,6 +347,8 @@ Outcome of the Activity:
         date: "January 20, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 3,
         title: "Role of Youth in Nation Building",
@@ -99,6 +366,7 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
       {
         id: 4,
         title: "Library Setup & Inauguration for School Kids",
@@ -118,6 +386,7 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 5,
         title: "Solar System - Introduction Guide for School Kids",
@@ -140,6 +409,8 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 6,
         title: "Meditation Session for Volunteers",
@@ -156,6 +427,7 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
       {
         id: 7,
         title: "Cleanliness Drive - Plastic Garbage Collection and Recycling",
@@ -173,6 +445,7 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 8,
         title: "Exploring Magic of Science for School Kids",
@@ -193,6 +466,8 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 9,
         title: "Treasure Hunt for School Kids",
@@ -211,6 +486,8 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 10,
         title: "Swachhta Awareness Rally",
@@ -228,6 +505,8 @@ Outcome of the Activity:
         date: "January 21, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 11,
         title: "Home Minister & Haldi Kunku for Villagers",
@@ -244,6 +523,8 @@ Outcome of the Activity:
         date: "January 22, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 12,
         title: "Compost Fertilizer Awareness for Villagers",
@@ -262,6 +543,7 @@ Outcome of the Activity:
         date: "January 22, 2025",
         photos: []
       },
+      */
       {
         id: 13,
         title: "Street Play - Women Empowerment",
@@ -337,6 +619,7 @@ Outcome of the Activity:
         date: "January 22, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 17,
         title: "Bhajan Sandhya",
@@ -354,6 +637,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 18,
         title: "Wet & Dry Garbage Management Awareness",
@@ -370,6 +655,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 19,
         title: "Art of Investment - Session by Lalit Patil",
@@ -387,6 +674,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 20,
         title: "Science & Spirituality - Session by Prof. Nitin Patil",
@@ -405,6 +694,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 21,
         title: "Good Touch & Bad Touch Awareness Session",
@@ -421,6 +712,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 22,
         title: "Special Treat by PICT E&TC Staff",
@@ -441,6 +734,8 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 23,
         title: "Creative Upcycling Workshop - Bird Feeder Making",
@@ -461,6 +756,8 @@ Outcome of the Activity:
         date: "January 23-24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 24,
         title: "Paper Bag Making Workshop",
@@ -481,6 +778,7 @@ Outcome of the Activity:
         date: "January 23, 2025",
         photos: []
       },
+      */
       {
         id: 25,
         title: "Government Schemes Awareness for Villagers",
@@ -497,6 +795,7 @@ Outcome of the Activity:
         date: "January 23-25, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 26,
         title: "Online Banking Awareness for Villagers",
@@ -513,6 +812,8 @@ Outcome of the Activity:
         date: "January 23 & 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 27,
         title: "Vedic Maths for School Kids",
@@ -530,6 +831,7 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
       {
         id: 28,
         title: "Tree Plantation",
@@ -547,6 +849,7 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 29,
         title: "Origami for School Kids",
@@ -566,6 +869,8 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 30,
         title: "Scholarship & Career Guidance for 8th to 10th Students",
@@ -583,6 +888,8 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 31,
         title: "Street Play - Digital Literacy",
@@ -600,6 +907,7 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
       {
         id: 32,
         title: "Cultural Event by School Kids and NSS Volunteers",
@@ -618,6 +926,7 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 33,
         title: "Chari Khodane - Soil Erosion Prevention",
@@ -637,6 +946,8 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 34,
         title: "Sports Competition for School Kids",
@@ -655,6 +966,8 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 35,
         title: "Camp Fire - Night of Talent and Growth",
@@ -672,6 +985,8 @@ Outcome of the Activity:
         date: "January 24-25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 36,
         title: "Quiz on General Knowledge for School Kids",
@@ -690,6 +1005,8 @@ Outcome of the Activity:
         date: "January 24, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 37,
         title: "Rasta Sushobhikaran",
@@ -705,6 +1022,7 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
       {
         id: 38,
         title: "Ghat Road Safety Measure - Radium Stickers",
@@ -742,6 +1060,7 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 40,
         title: "Handwriting Competition for School Kids",
@@ -760,6 +1079,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 41,
         title: "Tree Painting & Conservation",
@@ -780,6 +1101,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 42,
         title: "Trekking",
@@ -797,6 +1120,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 43,
         title: "Self Defence for School Kids",
@@ -815,6 +1140,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 44,
         title: "Aerobics for School Kids",
@@ -834,6 +1161,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 45,
         title: "Daily Hygiene Session for School Kids",
@@ -852,6 +1181,8 @@ Outcome of the Activity:
         date: "January 25, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 46,
         title: "Prabhat Feri - Republic Day",
@@ -870,6 +1201,8 @@ Outcome of the Activity:
         date: "January 26, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 47,
         title: "Republic Day Celebration with School & Grampanchayat",
@@ -887,6 +1220,8 @@ Outcome of the Activity:
         date: "January 26, 2025",
         photos: []
       },
+      */
+      /* COMMENTED OUT — not in final 12 selection
       {
         id: 48,
         title: "Camp Closing Ceremony & Satkar",
@@ -907,6 +1242,7 @@ Outcome of the Activity:
         date: "January 26, 2025",
         photos: []
       },
+      */
     ]
   },
 

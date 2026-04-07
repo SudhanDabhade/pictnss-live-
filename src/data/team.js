@@ -1,6 +1,6 @@
 /**
- * Team Data - Dummy data for NSS team members
- * Contains Program Officers, Student Leaders, and Volunteers
+ * Team Data - NSS team members
+ * Contains Program Officers, Technical Team, Student Leaders, and Volunteers
  */
 
 export const teamMembers = {
@@ -8,27 +8,47 @@ export const teamMembers = {
   programOfficers: [
     {
       id: 1,
-      name: "Dr. Rajesh Kumar",
+      name: "Mr. Amol Ingole",
       role: "NSS Program Officer",
-      department: "Computer Engineering",
-      profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      department: "Electronics & Telecommunication",
+      profilePic: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=400",
       quote: "Service to humanity is service to God. NSS provides the platform for students to become responsible citizens.",
-      email: "rajesh.kumar@pict.edu",
-      experience: "15+ years in NSS",
+      email: "nss@pict.edu",
+      experience: "",
+    },
+  ],
+
+  // Tech & Development Team
+  technicalTeam: [
+    {
+      id: 20,
+      name: "Rushikesh Bhabad",
+      role: "Tech Lead",
+      year: "",
+      profilePic: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=400",
+      quote: "",
     },
     {
-      id: 2,
-      name: "Prof. Meera Sharma",
-      role: "Assistant Program Officer",
-      department: "Electronics & Telecommunication",
-      profilePic: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
-      quote: "Empowering youth through social service creates leaders who can transform society.",
-      email: "meera.sharma@pict.edu",
-      experience: "8 years in NSS",
+      id: 21,
+      name: "Mayuresh Sarode",
+      role: "Developer",
+      year: "",
+      profilePic: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=400",
+      quote: "",
+    },
+    {
+      id: 22,
+      name: "Sudhan Dabhade",
+      role: "Developer",
+      year: "",
+      profilePic: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=400",
+      quote: "",
     },
   ],
 
   // Student Leaders (Current Year 2025)
+  // NOTE: Commented out - format preserved for future use
+  /*
   studentLeaders: [
     {
       id: 3,
@@ -79,8 +99,12 @@ export const teamMembers = {
       quote: "Spreading awareness through social media amplifies our impact exponentially.",
     },
   ],
+  */
+  studentLeaders: [],
 
   // Active Volunteers
+  // NOTE: Commented out - format preserved for future use
+  /*
   volunteers: [
     {
       id: 9,
@@ -147,12 +171,15 @@ export const teamMembers = {
       quote: "NSS is more than volunteering, it's a family.",
     },
   ],
+  */
+  volunteers: [],
 };
 
 // Helper function to get all team members as flat array
 export const getAllMembers = () => {
   return [
     ...teamMembers.programOfficers,
+    ...teamMembers.technicalTeam,
     ...teamMembers.studentLeaders,
     ...teamMembers.volunteers,
   ];

@@ -75,8 +75,41 @@ const Gallery = () => {
         </div>
       </div>
 
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
+        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100 text-center animate-fade-in">
+          {/* Icon */}
+          <div className="w-20 h-20 bg-gradient-to-br from-secondary to-[#3d40a8] 
+            rounded-2xl flex items-center justify-center shadow-lg shadow-secondary/30 mx-auto mb-6">
+            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          
+          <h2 className="text-3xl md:text-4xl font-bold text-textDark mb-4">
+            Coming Soon
+          </h2>
+          <p className="text-gray-600 text-lg max-w-xl mx-auto mb-6">
+            Our photo gallery is being curated with the best moments from NSS activities, camps, and events. 
+            We're putting together an amazing collection for you.
+          </p>
+          
+          {/* Decorative dots */}
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="w-2 h-2 bg-secondary rounded-full animate-pulse"></div>
+            <div className="w-2 h-2 bg-secondary/60 rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></div>
+            <div className="w-2 h-2 bg-secondary/30 rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></div>
+          </div>
+
+          <p className="text-gray-400 text-sm">
+            📷 Check back soon for our complete photo gallery
+          </p>
+        </div>
+      </div>
+
+      {/* ===== ORIGINAL CONTENT — COMMENTED OUT FOR FUTURE USE ===== */}
+      {/*
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Category Filters */}
         <div className="mb-8 animate-fade-in">
           <div className="flex flex-wrap justify-center gap-2">
             {categories.map((category) => (
@@ -103,7 +136,6 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Results Count */}
         <div className="mb-6 text-center">
           <p className="text-gray-600">
             Showing <span className="font-semibold text-secondary">{filteredImages.length}</span> photos
@@ -113,7 +145,6 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Gallery Grid */}
         {filteredImages.length > 0 ? (
           <MasonryGallery 
             images={filteredImages} 
@@ -141,7 +172,6 @@ const Gallery = () => {
           </div>
         )}
 
-        {/* Load More Placeholder */}
         <div className="mt-12 text-center">
           <p className="text-gray-500 text-sm">
             📷 More photos coming soon!
@@ -149,7 +179,6 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Lightbox */}
       {lightboxOpen && (
         <Lightbox
           images={filteredImages}
@@ -159,6 +188,7 @@ const Gallery = () => {
           onNext={nextImage}
         />
       )}
+      */}
     </div>
   );
 };
