@@ -89,13 +89,6 @@ const Home = () => {
       {/* Hero Carousel Section */}
       <section className="relative">
         <Carousel />
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce-gentle">
-          <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-3 bg-white/70 rounded-full animate-bounce"></div>
-          </div>
-        </div>
       </section>
 
       {/* Welcome Section */}
@@ -180,7 +173,7 @@ const Home = () => {
                     className="w-full h-40 object-cover rounded-2xl shadow-card"
                   />
                   <img
-                    src="/corosal/tree_plantation.png"
+                    src="/corosal/tree_conservation.jpg"
                     alt="Nature Camp"
                     className="w-full h-48 object-cover rounded-2xl shadow-card"
                   />

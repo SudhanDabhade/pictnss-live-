@@ -12,8 +12,9 @@ const carouselSlides = [
     id: 1,
     src: "/corosal/pict nss (main image).jpg",
     alt: "NSS Main",
-    title: "Not Me, But You",
-    subtitle: "Empowering communities through selfless service",
+    title: "PICT NSS",
+    subtitle: "Not Me, But You",
+    description: "Empowering communities through selfless service",
     tag: "Our Motto",
     accent: "from-blue-700 to-blue-900",
   },
@@ -46,10 +47,37 @@ const carouselSlides = [
   },
   {
     id: 5,
+    src: "/corosal/fire brigade.jpg",
+    alt: "Fire Brigade Training",
+    title: "Safety First",
+    subtitle: "Training and awareness programs for community safety",
+    tag: "Safety",
+    accent: "from-orange-600 to-red-800",
+  },
+  {
+    id: 6,
+    src: "/corosal/rakhi celebration.jpg",
+    alt: "Rakhi Celebration",
+    title: "Cultural Connect",
+    subtitle: "Celebrating traditions and building bonds with communities",
+    tag: "Culture",
+    accent: "from-purple-600 to-pink-800",
+  },
+  {
+    id: 7,
+    src: "/corosal/tree_conservation.jpg",
+    alt: "Tree Conservation",
+    title: "Preserve Nature",
+    subtitle: "Conserving our natural resources for future generations",
+    tag: "Conservation",
+    accent: "from-green-700 to-blue-900",
+  },
+  {
+    id: 8,
     src: "/corosal/wtih nakshatra.jpeg",
     alt: "Community Work",
     title: "Stronger Together",
-    subtitle: "500+ volunteers dedicated to social change",
+    subtitle: "1000+ volunteers dedicated to social change",
     tag: "Community",
     accent: "from-indigo-600 to-blue-800",
   },
@@ -173,13 +201,13 @@ const Carousel = () => {
           </div>
           
           {/* Multi-layer gradient overlay for depth */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/70"></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/15"></div>
           
           {/* Radial gradient for vignette effect */}
           <div className="absolute inset-0" 
             style={{
-              background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)'
+              background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.2) 100%)'
             }}>
           </div>
           
@@ -222,7 +250,7 @@ const Carousel = () => {
 
             {/* Main Title */}
             <h1
-              className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 
+              className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-3
                 leading-tight tracking-tight transform transition-all duration-700 ease-out
                 ${isTransitioning 
                   ? 'opacity-0 translate-y-8' 
@@ -236,7 +264,23 @@ const Carousel = () => {
               {currentSlide.title}
             </h1>
 
-            {/* Subtitle */}
+            {/* Subtitle - Smaller text below title */}
+            <p
+              className={`text-xl sm:text-2xl md:text-3xl text-blue-400 font-bold mb-6
+                leading-tight transform transition-all duration-700 ease-out
+                ${isTransitioning 
+                  ? 'opacity-0 translate-y-8' 
+                  : 'opacity-100 translate-y-0'
+                }`}
+              style={{ 
+                transitionDelay: '250ms',
+                textShadow: '0 2px 20px rgba(0,0,0,0.5)'
+              }}
+            >
+              {currentSlide.subtitle}
+            </p>
+
+            {/* Description */}
             <p
               className={`text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 max-w-xl 
                 font-light leading-relaxed transform transition-all duration-700 ease-out
@@ -249,7 +293,7 @@ const Carousel = () => {
                 textShadow: '0 2px 20px rgba(0,0,0,0.5)'
               }}
             >
-              {currentSlide.subtitle}
+              {currentSlide.description}
             </p>
 
             {/* CTA Buttons */}
@@ -274,15 +318,6 @@ const Carousel = () => {
                   fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </a>
-              <a
-                href="/team"
-                className="group inline-flex items-center gap-2 px-6 py-3 
-                  bg-white/10 backdrop-blur-sm text-white font-semibold rounded-xl
-                  border border-white/30 hover:bg-white/20 hover:border-white/50
-                  transform hover:scale-105 transition-all duration-300"
-              >
-                <span>Meet Our Team</span>
               </a>
             </div>
           </div>
