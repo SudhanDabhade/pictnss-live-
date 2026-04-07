@@ -13,7 +13,7 @@ import { latestBlogs } from '../data/blogs';
 const highlights = [
   {
     id: 1,
-    title: "1000+",
+    title: "500+",
     subtitle: "Volunteers",
     description: "Active student volunteers making a difference",
     icon: (
@@ -25,7 +25,7 @@ const highlights = [
   },
   {
     id: 2,
-    title: "50+",
+    title: "100+",
     subtitle: "Social Impact Activities",
     description: "Impactful events organized every year",
     icon: (
@@ -67,7 +67,7 @@ const recentActivities = [
     id: "2025_taljai_shramadan",
     title: "Tree Plantation Drive",
     date: "February 2025",
-    image: "/corosal/tree_plantation.png",
+    image: "/corosal/treeplantation.jpg",
   },
   {
     id: "2025_blood_donation",
@@ -104,9 +104,11 @@ const Home = () => {
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-textDark leading-tight">
-                PICT NSS —{' '}
-                <span className="text-secondary">Not Me, But You</span>
+                PICT NSS
               </h1>
+              <p className="text-2xl md:text-3xl font-semibold text-secondary mb-4">
+                Not Me, But You
+              </p>
 
               <p className="text-gray-600 text-lg leading-relaxed">
                 The National Service Scheme (NSS) at Pune Institute of Computer Technology

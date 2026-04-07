@@ -29,7 +29,7 @@ const carouselSlides = [
   },
   {
     id: 3,
-    src: "/corosal/tree_plantation.png",
+    src: "/corosal/treeplantation.jpg",
     alt: "Tree Plantation",
     title: "Green Tomorrow",
     subtitle: "Planting seeds of hope for a sustainable future",
@@ -47,39 +47,31 @@ const carouselSlides = [
   },
   {
     id: 5,
-    src: "/corosal/fire brigade.jpg",
-    alt: "Fire Brigade Training",
-    title: "Safety First",
-    subtitle: "Training and awareness programs for community safety",
-    tag: "Safety",
-    accent: "from-orange-600 to-red-800",
+    src: "/corosal/wtih nakshatra.jpeg",
+    alt: "Community Work",
+    title: "Stronger Together",
+    subtitle: "100+ volunteers dedicated to social change",
+    tag: "Community",
+    accent: "from-indigo-600 to-blue-800",
   },
+ 
   {
-    id: 6,
+    id: 7,
     src: "/corosal/rakhi celebration.jpg",
     alt: "Rakhi Celebration",
-    title: "Cultural Connect",
-    subtitle: "Celebrating traditions and building bonds with communities",
+    title: "Rakhi Celebration",
+    subtitle: "Celebrating traditions and bonds",
     tag: "Culture",
     accent: "from-purple-600 to-pink-800",
   },
   {
-    id: 7,
+    id: 8,
     src: "/corosal/tree_conservation.jpg",
     alt: "Tree Conservation",
-    title: "Preserve Nature",
-    subtitle: "Conserving our natural resources for future generations",
+    title: "Tree Conservation",
+    subtitle: "Preserving nature for future generations",
     tag: "Conservation",
     accent: "from-green-700 to-blue-900",
-  },
-  {
-    id: 8,
-    src: "/corosal/wtih nakshatra.jpeg",
-    alt: "Community Work",
-    title: "Stronger Together",
-    subtitle: "1000+ volunteers dedicated to social change",
-    tag: "Community",
-    accent: "from-indigo-600 to-blue-800",
   },
 ];
 
@@ -200,14 +192,14 @@ const Carousel = () => {
             />
           </div>
           
-          {/* Multi-layer gradient overlay for depth */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/40"></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/15"></div>
+          {/* Multi-layer gradient overlay for depth - minimal overlay */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/5 via-transparent to-black/5"></div>
           
-          {/* Radial gradient for vignette effect */}
+          {/* Radial gradient for vignette effect - very subtle */}
           <div className="absolute inset-0" 
             style={{
-              background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.2) 100%)'
+              background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.05) 100%)'
             }}>
           </div>
           
@@ -248,9 +240,9 @@ const Carousel = () => {
               </div>
             </div>
 
-            {/* Main Title */}
+            {/* Main Title - PICT NSS */}
             <h1
-              className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-3
+              className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-2
                 leading-tight tracking-tight transform transition-all duration-700 ease-out
                 ${isTransitioning 
                   ? 'opacity-0 translate-y-8' 
@@ -261,24 +253,26 @@ const Carousel = () => {
                 textShadow: '0 4px 30px rgba(0,0,0,0.5), 0 2px 10px rgba(0,0,0,0.3)'
               }}
             >
-              {currentSlide.title}
+              {currentSlide.title === "Not Me, But You" ? "PICT NSS" : currentSlide.title}
             </h1>
 
-            {/* Subtitle - Smaller text below title */}
-            <p
-              className={`text-xl sm:text-2xl md:text-3xl text-blue-400 font-bold mb-6
-                leading-tight transform transition-all duration-700 ease-out
-                ${isTransitioning 
-                  ? 'opacity-0 translate-y-8' 
-                  : 'opacity-100 translate-y-0'
-                }`}
-              style={{ 
-                transitionDelay: '250ms',
-                textShadow: '0 2px 20px rgba(0,0,0,0.5)'
-              }}
-            >
-              {currentSlide.subtitle}
-            </p>
+            {/* Subtitle - Not Me, But You (smaller) */}
+            {currentSlide.title === "PICT NSS" && (
+              <p
+                className={`text-2xl sm:text-3xl md:text-4xl text-blue-900 font-bold mb-6
+                  leading-tight transform transition-all duration-700 ease-out
+                  ${isTransitioning 
+                    ? 'opacity-0 translate-y-8' 
+                    : 'opacity-100 translate-y-0'
+                  }`}
+                style={{ 
+                  transitionDelay: '250ms',
+                  textShadow: '0 2px 20px rgba(0,0,0,0.5)'
+                }}
+              >
+                {currentSlide.subtitle}
+              </p>
+            )}
 
             {/* Description */}
             <p
@@ -293,7 +287,7 @@ const Carousel = () => {
                 textShadow: '0 2px 20px rgba(0,0,0,0.5)'
               }}
             >
-              {currentSlide.description}
+              {currentSlide.description || currentSlide.subtitle}
             </p>
 
             {/* CTA Buttons */}

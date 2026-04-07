@@ -1,0 +1,6 @@
+Run these commands to push to GitHub:
+
+cd "/home/bumblebee/PICT NSS/pictnss-live-"
+git add -A
+git commit -m "fix: reorganize home page title layout, make carousel subtitle dark blue, increase carousel image opacity to 100%"
+git push origin main
