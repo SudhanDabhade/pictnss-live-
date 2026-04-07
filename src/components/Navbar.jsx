@@ -146,6 +146,18 @@ const Navbar = () => {
               {isActive("/schoolteaching") && underline}
             </Link>
 
+            {/* Blogs */}
+            <Link
+              to="/blogs"
+              className={baseLink}
+              style={{
+                color: isActive("/blogs") ? "#0f2a55" : "#1a1a1a",
+              }}
+            >
+              Blogs
+              {isActive("/blogs") && underline}
+            </Link>
+
             {/* Magazine */}
             <Link
               to="/magazine"
@@ -201,6 +213,7 @@ const Navbar = () => {
               { to: "/activities", label: "Activities" },
               { to: "/camps", label: "NSS Camp" },
               { to: "/schoolteaching", label: "School Teaching" },
+              { to: "/blogs", label: "Blogs" },
               { to: "/magazine", label: "Magazine" },
               { to: "/gallery", label: "Gallery" },
               { to: "/team", label: "Team" },

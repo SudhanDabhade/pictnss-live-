@@ -7,6 +7,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel';
+import { latestBlogs } from '../data/blogs';
 
 // Highlight data
 const highlights = [
@@ -309,6 +310,84 @@ const Home = () => {
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="py-16 md:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-textDark mb-2">
+                Latest Blogs & Insights
+              </h2>
+              <p className="text-gray-600">
+                Stories, updates, and insights from our community
+              </p>
+            </div>
+            <Link
+              to="/blogs"
+              className="mt-4 sm:mt-0 inline-flex items-center text-secondary font-semibold 
+                hover:text-secondary/80 group"
+            >
+              Read All
+              <svg
+                className="w-5 h-5 ml-1 transform group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+
+          {/* Blog Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {latestBlogs.slice(0, 3).map((blog) => (
+              <Link
+                key={blog.id}
+                to={`/blogs/${blog.id}`}
+                className="group bg-white rounded-2xl overflow-hidden shadow-card 
+                  hover:shadow-card-hover transform hover:-translate-y-2 transition-all duration-300"
+              >
+                {/* Blog Image */}
+                <div className="aspect-video overflow-hidden bg-gray-200">
+                  <img
+                    src={blog.image}
+                    alt={blog.title}
+                    className="w-full h-full object-cover transform group-hover:scale-110 
+                      transition-transform duration-500"
+                  />
+                </div>
+
+                {/* Blog Content */}
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs font-semibold text-secondary uppercase tracking-wider">
+                      {blog.category}
+                    </span>
+                    <span className="text-xs text-gray-500">{blog.date}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-textDark mb-2 group-hover:text-secondary 
+                    transition-colors line-clamp-2">
+                    {blog.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm line-clamp-2 mb-4">
+                    {blog.excerpt}
+                  </p>
+                  <div className="flex items-center text-secondary font-semibold text-sm 
+                    group-hover:translate-x-1 transition-transform">
+                    Read More
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </div>
               </Link>
             ))}

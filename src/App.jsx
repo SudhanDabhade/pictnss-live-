@@ -22,10 +22,13 @@ import CampYear from './pages/CampYear';
 import CampDetails from './pages/CampDetails';
 import CampActivityDetails from './pages/CampActivityDetails';
 import SchoolTeaching from './pages/SchoolTeaching';
+import SchoolTeachingDetails from './pages/SchoolTeachingDetails';
+import BlogList from './pages/BlogList';
+import BlogDetail from './pages/BlogDetail';
+import BlogForm from './pages/BlogForm';
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
-import SchoolTeachingDetails from './pages/SchoolTeachingDetails';
 
 const ScrollToTop = () => {
   const location = useLocation();
@@ -90,6 +93,11 @@ function App() {
             {/*School Teaching*/}
             <Route path="/schoolteaching" element={<SchoolTeaching />} />
             <Route path="/schoolteaching/:id" element={<SchoolTeachingDetails />} />
+
+            {/* Blogs Routes */}
+            <Route path="/blogs" element={<BlogList />} />
+            <Route path="/blogs/write" element={<BlogForm />} />
+            <Route path="/blogs/:id" element={<BlogDetail />} />
 
             {/* Magazine Page */}
             <Route path="/magazine" element={<Magazine />} />
