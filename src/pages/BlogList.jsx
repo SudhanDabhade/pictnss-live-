@@ -40,8 +40,10 @@ const BlogList = () => {
             </p>
 
             {/* Write a Blog CTA */}
-            <Link
-              to="/blogs/write"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScDxPnLyO084oox9bHhUa1ZT59mDx99m9OnkKWWOJyOgHxgzQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-3.5 bg-white text-secondary 
                 font-bold rounded-xl shadow-lg hover:shadow-xl
                 transform hover:scale-105 active:scale-95
@@ -52,7 +54,7 @@ const BlogList = () => {
                   d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
               </svg>
               Write a Blog
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -127,12 +129,12 @@ const BlogList = () => {
                 : 'Be the first to share your NSS experience!'}
             </p>
             <Link
-              to="/blogs/write"
+              to="/blogs"
               className="inline-flex items-center px-6 py-3 bg-secondary text-white 
                 font-semibold rounded-xl hover:bg-secondary/90 
                 transform hover:scale-105 transition-all duration-200"
             >
-              Write the First Blog
+              View All Blogs
             </Link>
           </div>
         )}
@@ -142,9 +144,14 @@ const BlogList = () => {
           <div className="mt-12 text-center">
             <p className="text-gray-600">
               Have a story to share?{' '}
-              <Link to="/blogs/write" className="text-secondary font-semibold hover:underline">
+              <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLScDxPnLyO084oox9bHhUa1ZT59mDx99m9OnkKWWOJyOgHxgzQ/viewform" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary font-semibold hover:underline"
+              >
                 Write your blog
-              </Link>{' '}
+              </a>{' '}
               and inspire fellow volunteers!
             </p>
           </div>
