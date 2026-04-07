@@ -1,6 +1,6 @@
 /**
  * Team Page Component
- * Displays team members in sections: Program Officers, Student Leaders, Volunteers
+ * Displays team members in sections: Program Officers, Technical Team, Student Leaders, Volunteers
  * Features team cards with hover animations
  */
 
@@ -9,6 +9,14 @@ import TeamCard from '../components/TeamCard';
 import { teamMembers } from '../data/team';
 
 const Team = () => {
+  // Count active members for stats
+  const activeCounts = {
+    officers: teamMembers.programOfficers.length,
+    techTeam: teamMembers.technicalTeam?.length || 0,
+    leaders: teamMembers.studentLeaders.length,
+    volunteers: teamMembers.volunteers.length,
+  };
+
   return (
     <div className="min-h-screen bg-softGrey pt-24 pb-16">
       {/* Page Header */}
@@ -25,24 +33,38 @@ const Team = () => {
 
             {/* Team Stats */}
             <div className="mt-8 flex flex-wrap justify-center gap-8">
-              <div className="text-center">
-                <p className="text-3xl font-bold text-primary">
-                  {teamMembers.programOfficers.length}
-                </p>
-                <p className="text-white/70 text-sm">Program Officers</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-primary">
-                  {teamMembers.studentLeaders.length}
-                </p>
-                <p className="text-white/70 text-sm">Student Leaders</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-primary">
-                  {teamMembers.volunteers.length}+
-                </p>
-                <p className="text-white/70 text-sm">Active Volunteers</p>
-              </div>
+              {activeCounts.officers > 0 && (
+                <div className="text-center">
+                  <p className="text-3xl font-bold text-primary">
+                    {activeCounts.officers}
+                  </p>
+                  <p className="text-white/70 text-sm">Program Officers</p>
+                </div>
+              )}
+              {activeCounts.techTeam > 0 && (
+                <div className="text-center">
+                  <p className="text-3xl font-bold text-primary">
+                    {activeCounts.techTeam}
+                  </p>
+                  <p className="text-white/70 text-sm">Tech Team</p>
+                </div>
+              )}
+              {activeCounts.leaders > 0 && (
+                <div className="text-center">
+                  <p className="text-3xl font-bold text-primary">
+                    {activeCounts.leaders}
+                  </p>
+                  <p className="text-white/70 text-sm">Student Leaders</p>
+                </div>
+              )}
+              {activeCounts.volunteers > 0 && (
+                <div className="text-center">
+                  <p className="text-3xl font-bold text-primary">
+                    {activeCounts.volunteers}+
+                  </p>
+                  <p className="text-white/70 text-sm">Active Volunteers</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -51,89 +73,123 @@ const Team = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Program Officers Section */}
-        <section className="mb-16">
-          <div className="text-center mb-20">
-            <span className="inline-block bg-primary text-secondary text-sm font-semibold 
-              px-4 py-1.5 rounded-full mb-3">
-              Leadership
-            </span>
-            <h2 className="text-3xl font-bold text-textDark">Program Officers</h2>
-            <p className="text-gray-600 mt-2">
-              Guiding and mentoring the NSS unit with their experience and wisdom
-            </p>
-          </div>
+        {teamMembers.programOfficers.length > 0 && (
+          <section className="mb-16">
+            <div className="text-center mb-20">
+              <span className="inline-block bg-primary text-secondary text-sm font-semibold 
+                px-4 py-1.5 rounded-full mb-3">
+                Leadership
+              </span>
+              <h2 className="text-3xl font-bold text-textDark">Program Officers</h2>
+              <p className="text-gray-600 mt-2">
+                Guiding and mentoring the NSS unit with their experience and wisdom
+              </p>
+            </div>
 
-          <div className="flex flex-wrap justify-center gap-8">
-            {teamMembers.programOfficers.map((member, index) => (
-              <div
-                key={member.id}
-                className="w-full sm:w-auto animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <TeamCard member={member} variant="large" />
-              </div>
-            ))}
-          </div>
-        </section>
+            <div className="flex flex-wrap justify-center gap-8">
+              {teamMembers.programOfficers.map((member, index) => (
+                <div
+                  key={member.id}
+                  className="w-full sm:w-auto animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <TeamCard member={member} variant="large" />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Tech & Development Team Section */}
+        {teamMembers.technicalTeam && teamMembers.technicalTeam.length > 0 && (
+          <section className="mb-16">
+            <div className="text-center mb-20">
+              <span className="inline-block bg-primary text-secondary text-sm font-semibold 
+                px-4 py-1.5 rounded-full mb-3">
+                Behind the Scenes
+              </span>
+              <h2 className="text-3xl font-bold text-textDark">Tech & Development Team</h2>
+              <p className="text-gray-600 mt-2">
+                Building and maintaining the digital presence of PICT NSS Unit
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {teamMembers.technicalTeam.map((member, index) => (
+                <div
+                  key={member.id}
+                  className="animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <TeamCard member={member} variant="default" />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Student Leaders Section */}
-        <section className="mb-16">
-          <div className="text-center mb-20">
-            <span className="inline-block bg-primary text-secondary text-sm font-semibold 
-              px-4 py-1.5 rounded-full mb-3">
-              Core Team
-            </span>
-            <h2 className="text-3xl font-bold text-textDark">Student Leaders</h2>
-            <p className="text-gray-600 mt-2">
-              The passionate students leading NSS initiatives and organizing events
-            </p>
-          </div>
+        {teamMembers.studentLeaders.length > 0 && (
+          <section className="mb-16">
+            <div className="text-center mb-20">
+              <span className="inline-block bg-primary text-secondary text-sm font-semibold 
+                px-4 py-1.5 rounded-full mb-3">
+                Core Team
+              </span>
+              <h2 className="text-3xl font-bold text-textDark">Student Leaders</h2>
+              <p className="text-gray-600 mt-2">
+                The passionate students leading NSS initiatives and organizing events
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {teamMembers.studentLeaders.map((member, index) => (
-              <div
-                key={member.id}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <TeamCard member={member} variant="default" />
-              </div>
-            ))}
-          </div>
-        </section>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {teamMembers.studentLeaders.map((member, index) => (
+                <div
+                  key={member.id}
+                  className="animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <TeamCard member={member} variant="default" />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Volunteers Section */}
-        <section className="mb-16">
-          <div className="text-center mb-20">
-            <span className="inline-block bg-primary text-secondary text-sm font-semibold 
-              px-4 py-1.5 rounded-full mb-3">
-              Heart of NSS
-            </span>
-            <h2 className="text-3xl font-bold text-textDark">Active Volunteers</h2>
-            <p className="text-gray-600 mt-2">
-              The backbone of our organization - dedicated students making a difference
-            </p>
-          </div>
+        {teamMembers.volunteers.length > 0 && (
+          <section className="mb-16">
+            <div className="text-center mb-20">
+              <span className="inline-block bg-primary text-secondary text-sm font-semibold 
+                px-4 py-1.5 rounded-full mb-3">
+                Heart of NSS
+              </span>
+              <h2 className="text-3xl font-bold text-textDark">Active Volunteers</h2>
+              <p className="text-gray-600 mt-2">
+                The backbone of our organization - dedicated students making a difference
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {teamMembers.volunteers.map((member, index) => (
-              <div
-                key={member.id}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                <TeamCard member={member} variant="small" />
-              </div>
-            ))}
-          </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {teamMembers.volunteers.map((member, index) => (
+                <div
+                  key={member.id}
+                  className="animate-fade-in"
+                  style={{ animationDelay: `${index * 50}ms` }}
+                >
+                  <TeamCard member={member} variant="small" />
+                </div>
+              ))}
+            </div>
 
-          {/* More Volunteers Note */}
-          <div className="mt-8 text-center">
-            <p className="text-gray-500">
-              And many more dedicated volunteers...
-            </p>
-          </div>
-        </section>
+            {/* More Volunteers Note */}
+            <div className="mt-8 text-center">
+              <p className="text-gray-500">
+                And many more dedicated volunteers...
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Join Us CTA */}
         <section className="bg-secondary rounded-2xl p-8 md:p-12 text-center">

@@ -1,9 +1,97 @@
 /**
  * Activities Data - Dummy data for NSS activities
- * Contains activities from 2021-2025 with full details
+ * Contains activities from 2021-2026 with full details
  */
 
 export const activities = [
+  // 2026 Activities
+  {
+    id: "2026_blood_donation",
+    year: 2026,
+    title: "Blood Donation Drive 2026",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775502038/20260205_102133AMByGPSMapCamera_xunt0s.jpg",
+    shortDescription: "A large-scale blood donation camp organized to promote voluntary blood donation and support hospitals with essential blood supply.",
+    description: `The Blood Donation Drive was organized on 5th February 2026 at PICT in collaboration with Poona Serological Institute Blood Bank. The initiative aimed to spread awareness about the importance of blood donation and encourage students and faculty to contribute to this life-saving cause. The event witnessed overwhelming participation, with more than 230 successful donations.
+
+NSS volunteers played a crucial role in organizing and managing the entire event. They handled registration, guided donors, ensured proper medical protocols, and provided post-donation care. The event showcased excellent teamwork, discipline, and commitment.
+
+This activity not only helped save lives by contributing to blood banks but also instilled a strong sense of social responsibility and humanitarian values among participants.`,
+    date: "February 05, 2026",
+    location: "PICT Campus, Pune",
+    volunteers: 38,
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775502038/20260205_102133AMByGPSMapCamera_xunt0s.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775502563/20260205_142552_ghgqu0.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775502580/20260205_150059_h65ufz.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775502255/20260205_65639PMByGPSMapCamera_rvk30d.jpg"
+    ]
+  },
+  {
+    id: "2026_my_river_valentine",
+    year: 2026,
+    title: "My River, My Valentine",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505653/Screenshot_2026-04-07_012607_a6ah4o.png",
+    shortDescription: "A river cleaning and awareness drive conducted to promote environmental responsibility on Valentine’s Day.",
+    description: `“My River, My Valentine” was a unique river cleaning drive conducted on 14th February 2026 at Bhide Bridge in collaboration with Pune Municipal Corporation. The activity aimed to spread awareness about river cleanliness and environmental sustainability.
+
+NSS volunteers actively participated in waste collection, segregation, and awareness outreach. The event emphasized teamwork, discipline, and dedication towards environmental conservation. Volunteers ensured proper safety measures and effective waste disposal throughout the drive.
+
+The initiative resulted in the removal of a significant amount of waste from the riverbank and promoted responsible environmental behavior among participants.`,
+    date: "February 14, 2026",
+    location: "Bhide Bridge, Pune",
+    volunteers: 8,
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505653/Screenshot_2026-04-07_012544_bodhr0.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505653/Screenshot_2026-04-07_012607_a6ah4o.png",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505654/Screenshot_2026-04-07_012626_odsuud.png"
+    ]
+  },
+  {
+    id: "2026_orphanage_visit",
+    year: 2026,
+    title: "Orphanage Visit",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775504469/IMG_0151_jgr38x.jpg",
+    shortDescription: "A social outreach activity aimed at spreading joy and celebrating Shiv Jayanti with children at an orphanage.",
+    description: `The Orphanage Visit was organized on 19th February 2026 at Katraj to celebrate Chhatrapati Shivaji Maharaj Jayanti. The visit aimed to bring happiness to children and foster a sense of social responsibility among volunteers.
+
+The event began with a garlanding ceremony followed by an inspirational speech about Shivaji Maharaj. Volunteers conducted various activities such as drawing competitions, interactive sessions, musical chair games, and group dancing. Refreshments were distributed to all children.
+
+The visit created a joyful and inclusive environment, strengthening emotional connections between volunteers and children. It was a meaningful initiative combining celebration, compassion, and community service.`,
+    date: "February 19, 2026",
+    location: "Katraj, Pune",
+    volunteers: 15,
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775504474/IMG_0063_abe4f4.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775504471/IMG_0086_mu6typ.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775504469/IMG_0151_jgr38x.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775504466/IMG_0193_csbqmi.jpg"
+    ]
+  },
+  {
+    id: "2026_tree_conservation",
+    year: 2026,
+    title: "Tree Conservation Activity",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505216/IMG_20260315_103850_pls0hf.jpg",
+    shortDescription: "An environmental conservation activity focused on maintaining and nurturing existing trees for sustainable greenery.",
+    description: `The Tree Conservation Activity was organized on 15th March 2026 at Uttamrao Patil Biodiversity Park, Narhe. The objective was to promote environmental awareness and ensure the proper care of existing trees.
+
+Volunteers engaged in multiple conservation tasks such as watering plants, trimming branches, cleaning surroundings, and collecting fallen leaves for use as natural fertilizer. The activity was carried out in a well-organized manner, with volunteers divided into teams for efficient execution.
+
+This initiative highlighted that conservation is as important as plantation. It strengthened environmental responsibility among students and encouraged sustainable practices for maintaining green spaces.`,
+    date: "March 15, 2026",
+    location: "Narhegaon, Pune",
+    volunteers: 40,
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505137/20260315_82632AMByGPSMapCamera_aju4sm.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505175/20260315_85555AMByGPSMapCamera_zym1rz.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505221/20260315_92605AMByGPSMapCamera_uwvbiv.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505202/20260315_93511AMByGPSMapCamera_inpcyk.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505222/20260315_94202AMByGPSMapCamera_a2th71.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505178/20260315_94454AMByGPSMapCamera_tc4la2.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505223/IMG_20260315_094342_myp4ol.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/f_auto,q_auto/v1775505216/IMG_20260315_103850_pls0hf.jpg"
+    ]
+  },
   // 2025 Activities
   /*{
     id: "2025_vachan_sankalpa",
