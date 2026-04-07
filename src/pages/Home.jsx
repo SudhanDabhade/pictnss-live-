@@ -67,19 +67,19 @@ const recentActivities = [
     id: "2025_taljai_shramadan",
     title: "Tree Plantation Drive",
     date: "February 2025",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
+    image: "/corosal/tree_plantation.png",
   },
   {
     id: "2025_blood_donation",
     title: "Blood Donation Camp",
     date: "March 2025",
-    image: "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=400&h=300&fit=crop",
+    image: "/corosal/blood donation.jpg",
   },
   {
     id: "2025_cleanliness_drive",
     title: "Swachh Bharat Abhiyan",
     date: "October 2025",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop",
+    image: "/corosal/cleanliness drive.jpg",
   },
 ];
 
@@ -163,24 +163,24 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <img
-                    src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop"
+                    src="/corosal/pict nss.jpeg"
                     alt="NSS Volunteers"
                     className="w-full h-48 object-cover rounded-2xl shadow-card"
                   />
                   <img
-                    src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=250&fit=crop"
+                    src="/corosal/blood donation.jpg"
                     alt="Community Service"
                     className="w-full h-40 object-cover rounded-2xl shadow-card"
                   />
                 </div>
                 <div className="space-y-4 pt-8">
                   <img
-                    src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=250&fit=crop"
+                    src="/corosal/wtih nakshatra.jpeg"
                     alt="Teaching"
                     className="w-full h-40 object-cover rounded-2xl shadow-card"
                   />
                   <img
-                    src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop"
+                    src="/corosal/tree_plantation.png"
                     alt="Nature Camp"
                     className="w-full h-48 object-cover rounded-2xl shadow-card"
                   />
