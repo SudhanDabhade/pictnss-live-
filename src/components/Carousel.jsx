@@ -73,6 +73,15 @@ const carouselSlides = [
     tag: "Conservation",
     accent: "from-green-700 to-blue-900",
   },
+  {
+    id: 9,
+    src: "/corosal/school_teaching.jpeg",
+    alt: "School Teaching",
+    title: "Education for All",
+    subtitle: "Empowering students through quality education",
+    tag: "Teaching",
+    accent: "from-yellow-600 to-orange-800",
+  },
 ];
 
 const Carousel = () => {
