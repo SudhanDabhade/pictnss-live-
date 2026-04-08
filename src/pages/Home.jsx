@@ -13,7 +13,7 @@ import { latestBlogs } from '../data/blogs';
 const highlights = [
   {
     id: 1,
-    title: "500+",
+    title: "100+",
     subtitle: "Volunteers",
     description: "Active student volunteers making a difference",
     icon: (
@@ -41,9 +41,8 @@ const highlights = [
     subtitle: "NSS Camp",
     description: "Week-long residential camp for holistic development",
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-          d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tent-icon lucide-tent">
+        <path d="M3.5 21 14 3" /><path d="M20.5 21 10 3" /><path d="M15.5 21 12 15l-3.5 6" /><path d="M2 21h20" />
       </svg>
     ),
   },

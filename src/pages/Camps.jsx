@@ -19,7 +19,7 @@ const Camps = () => {
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
           <img
-            src="https://res.cloudinary.com/dbntmh7wx/image/upload/v1772175525/Gemini_Generated_Image_1pwew11pwew11pwe_ct8c9n.png"
+            src="https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557176/IMG_20260128_072537_c4zgsd.jpg"
             alt=""
             className="w-full h-full object-cover"
           />

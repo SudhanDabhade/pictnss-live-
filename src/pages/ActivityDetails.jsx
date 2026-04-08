@@ -144,17 +144,36 @@ const ActivityDetails = () => {
           
           {/* Description */}
           <div className="lg:col-span-2">
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-fade-in">
-              <h2 className="text-2xl font-bold text-textDark mb-6">About This Activity</h2>
-              
-              <div className="prose prose-lg max-w-none text-gray-600">
-                {activity.description.split('\n\n').map((paragraph, index) => (
-                  <p key={index} className="mb-4 leading-relaxed">
-                    {paragraph}
+            <div className="space-y-6">
+              {activity.objective && (
+                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-fade-in border-l-4 border-secondary">
+                  <h2 className="text-2xl font-bold text-textDark mb-4">Objective</h2>
+                  <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                    {activity.objective}
                   </p>
-                ))}
+                </div>
+              )}
+
+              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-fade-in border-l-4 border-secondary">
+                <h2 className="text-2xl font-bold text-textDark mb-6">About This Activity</h2>
+
+                <div className="prose prose-lg max-w-none text-gray-600">
+                  <p className="leading-relaxed whitespace-pre-line">
+                    {activity.description}
+                  </p>
+                </div>
               </div>
+
+              {activity.outcome && (
+                <div className="bg-white rounded-2xl p-6 md:p-8 shadow-card animate-fade-in border-l-4 border-secondary">
+                  <h2 className="text-2xl font-bold text-textDark mb-4">Outcome</h2>
+                  <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                    {activity.outcome}
+                  </p>
+                </div>
+              )}
             </div>
+            
 
             {/* Gallery Section */}
             {activity.gallery && activity.gallery.length > 0 && (

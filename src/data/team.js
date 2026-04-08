@@ -41,9 +41,17 @@ export const teamMembers = {
       name: "Sudhan Dabhade",
       role: "NSS Volunteer & Developer",
       year: "",
-      profilePic: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=400",
+      profilePic: "/about/sudhan.jpeg",
       quote: "",
     },
+    {
+      id: 23,
+      name: "Snehal Vijay Phatale",
+      role: "NSS Volunteer & Developer",
+      year: "",
+      profilePic: "/about/snehal.jpeg",
+      quote: "",
+    }
   ],
 
   // Student Leaders (Current Year 2025)
