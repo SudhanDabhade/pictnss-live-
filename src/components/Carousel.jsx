@@ -13,7 +13,7 @@ const carouselSlides = [
     src: "/corosal/pict nss (main image).jpg",
     alt: "NSS Main",
     title: "PICT NSS",
-    subtitle: "Not Me, But You",
+    subtitle: "",
     description: "Empowering communities through selfless service",
     tag: "Our Motto",
     accent: "from-blue-700 to-blue-900",
@@ -54,7 +54,7 @@ const carouselSlides = [
     tag: "Community",
     accent: "from-indigo-600 to-blue-800",
   },
- 
+
   {
     id: 7,
     src: "/corosal/rakhi celebration.jpg",
@@ -99,7 +99,7 @@ const Carousel = () => {
     setIsTransitioning(true);
     setDirection('next');
     setProgress(0);
-    
+
     setTimeout(() => {
       setCurrentIndex((prev) => (prev === carouselSlides.length - 1 ? 0 : prev + 1));
       setIsTransitioning(false);
@@ -112,7 +112,7 @@ const Carousel = () => {
     setIsTransitioning(true);
     setDirection('prev');
     setProgress(0);
-    
+
     setTimeout(() => {
       setCurrentIndex((prev) => (prev === 0 ? carouselSlides.length - 1 : prev - 1));
       setIsTransitioning(false);
@@ -125,7 +125,7 @@ const Carousel = () => {
     setIsTransitioning(true);
     setDirection(index > currentIndex ? 'next' : 'prev');
     setProgress(0);
-    
+
     setTimeout(() => {
       setCurrentIndex(index);
       setIsTransitioning(false);
@@ -184,13 +184,13 @@ const Carousel = () => {
         <div
           key={slide.id}
           className={`absolute inset-0 transition-all duration-1000 ease-out
-            ${index === currentIndex 
-              ? 'opacity-100 scale-100 z-10' 
+            ${index === currentIndex
+              ? 'opacity-100 scale-100 z-10'
               : 'opacity-0 scale-105 z-0'
             }`}
         >
           {/* Image with Ken Burns animation */}
-          <div 
+          <div
             className={`absolute inset-0 ${index === currentIndex ? 'animate-kenburns' : ''}`}
           >
             <img
@@ -200,18 +200,18 @@ const Carousel = () => {
               loading={index === 0 ? "eager" : "lazy"}
             />
           </div>
-          
+
           {/* Multi-layer gradient overlay for depth - minimal overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/10"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/5 via-transparent to-black/5"></div>
-          
+
           {/* Radial gradient for vignette effect - very subtle */}
-          <div className="absolute inset-0" 
+          <div className="absolute inset-0"
             style={{
               background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.05) 100%)'
             }}>
           </div>
-          
+
           {/* Top gradient for header blending */}
           <div className="absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-black/80 via-black/40 to-transparent"></div>
         </div>
@@ -230,12 +230,12 @@ const Carousel = () => {
       <div className="absolute inset-0 z-20 flex items-center">
         <div className="w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="max-w-3xl">
-            
+
             {/* Tag Badge */}
             <div
               className={`inline-flex items-center gap-2 mb-6 transform transition-all duration-700 ease-out
-                ${isTransitioning 
-                  ? 'opacity-0 -translate-y-4' 
+                ${isTransitioning
+                  ? 'opacity-0 -translate-y-4'
                   : 'opacity-100 translate-y-0'
                 }`}
               style={{ transitionDelay: '100ms' }}
@@ -253,11 +253,11 @@ const Carousel = () => {
             <h1
               className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-2
                 leading-tight tracking-tight transform transition-all duration-700 ease-out
-                ${isTransitioning 
-                  ? 'opacity-0 translate-y-8' 
+                ${isTransitioning
+                  ? 'opacity-0 translate-y-8'
                   : 'opacity-100 translate-y-0'
                 }`}
-              style={{ 
+              style={{
                 transitionDelay: '200ms',
                 textShadow: '0 4px 30px rgba(0,0,0,0.5), 0 2px 10px rgba(0,0,0,0.3)'
               }}
@@ -270,11 +270,11 @@ const Carousel = () => {
               <p
                 className={`text-2xl sm:text-3xl md:text-4xl text-blue-900 font-bold mb-6
                   leading-tight transform transition-all duration-700 ease-out
-                  ${isTransitioning 
-                    ? 'opacity-0 translate-y-8' 
+                  ${isTransitioning
+                    ? 'opacity-0 translate-y-8'
                     : 'opacity-100 translate-y-0'
                   }`}
-                style={{ 
+                style={{
                   transitionDelay: '250ms',
                   textShadow: '0 2px 20px rgba(0,0,0,0.5)'
                 }}
@@ -287,11 +287,11 @@ const Carousel = () => {
             <p
               className={`text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 max-w-xl 
                 font-light leading-relaxed transform transition-all duration-700 ease-out
-                ${isTransitioning 
-                  ? 'opacity-0 translate-y-8' 
+                ${isTransitioning
+                  ? 'opacity-0 translate-y-8'
                   : 'opacity-100 translate-y-0'
                 }`}
-              style={{ 
+              style={{
                 transitionDelay: '300ms',
                 textShadow: '0 2px 20px rgba(0,0,0,0.5)'
               }}
@@ -302,8 +302,8 @@ const Carousel = () => {
             {/* CTA Buttons */}
             <div
               className={`flex flex-wrap gap-4 transform transition-all duration-700 ease-out
-                ${isTransitioning 
-                  ? 'opacity-0 translate-y-8' 
+                ${isTransitioning
+                  ? 'opacity-0 translate-y-8'
                   : 'opacity-100 translate-y-0'
                 }`}
               style={{ transitionDelay: '400ms' }}
@@ -317,7 +317,7 @@ const Carousel = () => {
                   transition-all duration-300"
               >
                 <span>Explore Activities</span>
-                <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" 
+                <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform"
                   fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -386,15 +386,15 @@ const Carousel = () => {
                 key={index}
                 onClick={() => goToSlide(index)}
                 className={`relative h-2 rounded-full transition-all duration-500 ease-out overflow-hidden
-                  ${index === currentIndex 
-                    ? 'w-8 bg-white' 
+                  ${index === currentIndex
+                    ? 'w-8 bg-white'
                     : 'w-2 bg-white/40 hover:bg-white/60'
                   }`}
                 aria-label={`Go to slide ${index + 1}`}
               >
                 {/* Progress fill for active indicator */}
                 {index === currentIndex && isAutoPlaying && (
-                  <div 
+                  <div
                     className="absolute left-0 top-0 h-full bg-accent rounded-full transition-all duration-75"
                     style={{ width: `${progress}%` }}
                   ></div>
@@ -430,7 +430,7 @@ const Carousel = () => {
 
       {/* Decorative Elements */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-softGrey to-transparent z-20 pointer-events-none"></div>
-      
+
       {/* Side accent lines */}
       <div className="absolute left-0 top-1/4 bottom-1/4 w-1 bg-gradient-to-b from-transparent via-accent/50 to-transparent z-20"></div>
       <div className="absolute right-0 top-1/3 bottom-1/3 w-1 bg-gradient-to-b from-transparent via-secondary/30 to-transparent z-20"></div>

@@ -9,7 +9,7 @@ export const camps = [
     id: 2026,
     year: 2026,
     title: "NSS Special Camp 2026",
-    thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557176/IMG_20260128_072537_c4zgsd.jpg",
     location: "Mangdari & Ketkavane, Tal. Velhe, Maharashtra",
     dates: "23 January \u2013 29 January 2026",
     volunteers: 50,
@@ -270,19 +270,40 @@ It helped volunteers develop teamwork and leadership qualities essential for eff
   },
   // 2025 Camp
   {
-    id: 1,
+    id: 2025,
     year: 2025,
     title: "NSS special camp at Panvadi",
-    thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557176/IMG_20260128_072537_c4zgsd.jpg",
     location: "Panvadi, Tal: Purandar, Dist: Pune",
     dates: "January 20-26, 2025",
-    volunteers: 120,
+    volunteers: 50,
     shortDescription: "A 7-day special camp featuring 48 activities focused on community development, education, health, and environmental sustainability.",
     description: `The NSS Special Camp 2024-25 was successfully conducted at Panvadi Village, Purandar, from January 20th to 26th, 2025. A dedicated team of 120 volunteers spent a transformative week executing 48 diverse activities aimed at holistic community development and rural empowerment.
 
 The camp's initiatives spanned several crucial areas of village life. Volunteers focused heavily on educational outreach by inaugurating a new school library, teaching Vedic mathematics, and conducting interactive science workshops for the local children. Environmental conservation was another major priority, driven by extensive tree plantation efforts, plastic waste recycling campaigns, and soil erosion prevention projects like 'Chari Khodane'. Furthermore, the team championed health and social welfare by organizing free medical and eye check-up camps, facilitating over 100 registrations for government schemes including Ayushman and E-shram cards, and raising awareness about digital literacy and women's empowerment through street plays.
 
 Beyond infrastructure and education, the camp fostered deep cultural bonds through community events, such as a traditional Haldi Kunku, a Bhajan Sandhya, and interactive sports competitions. This impactful week culminated in a vibrant Republic Day Prabhat Feri and flag-hoisting ceremony alongside the local school and Grampanchayat, leaving a lasting legacy of unity, awareness, and development in Panvadi.`,
+    objectives: [
+      "Promote social responsibility through structured rural service",
+      "Advance village education through school-focused learning initiatives",
+      "Improve health awareness and preventive healthcare access",
+      "Strengthen environmental sustainability and conservation practices",
+      "Increase awareness and enrollment in key government welfare schemes",
+      "Encourage women empowerment, digital literacy, and community participation"
+    ],
+    outcomes: [
+      "Enhanced educational support through library setup, exam guidance, and student engagement",
+      "Improved village awareness on health, hygiene, menstrual care, and social security benefits",
+      "Greater participation in sustainability efforts like plantation, waste management, and road safety actions",
+      "Successful facilitation of government card registrations, improving access to healthcare and welfare services",
+      "Stronger collaboration between volunteers and villagers, fostering unity, leadership, and civic responsibility"
+    ],
+    stats: {
+      totalActivities: 12,
+      totalVolunteers: 50,
+      villagesCovered: 1,
+      durationDays: 7
+    },
     schedule: [
       { day: "Day 1", summary: "The camp commenced with a grand Inauguration Ceremony attended by college dignitaries and village officials, where volunteers presented their 7-day action plan to the community. Later in the afternoon, the 50 volunteers participated in a comprehensive Team-Building session featuring ice-breaking exercises, Tug of War, Kho Kho, and strategic planning activities to foster unity and leadership for the week ahead." },
       { day: "Day 2", summary: "Day 2 was action-packed, starting with a motivational session on the 'Role of Youth in Nation Building' and a calming meditation session for the volunteers. The team then focused on education by setting up and inaugurating a new library for the local Z.P. School , which was followed by interactive activities including a Solar System guide , a 'Magic of Science' workshop , and an educational Treasure Hunt for the children. The day concluded with a strong emphasis on environmental responsibility, featuring a Swachhta Awareness Rally and a hands-on cleanliness drive to collect and recycle plastic garbage." },
