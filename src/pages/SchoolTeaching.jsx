@@ -62,7 +62,7 @@ const SchoolTeaching = () => {
               <div className="h-px bg-white/20 my-4"></div>
               <div className="flex justify-between text-sm text-white/80">
                 <span>Impact</span>
-                <span className="font-semibold text-white">500+ Students</span>
+                <span className="font-semibold text-white">100+ Students</span>
               </div>
             </div>
           </div>

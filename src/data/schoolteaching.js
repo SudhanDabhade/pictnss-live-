@@ -7,6 +7,84 @@
 export const teachingSessions = [
   // --- 2026 Sessions ---
   {
+    id: "2026_week_26",
+    year: 2026,
+    date: "April 04, 2026",
+    weekLabel: "Week 26",
+    title: "Final Week School Teaching Activity",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "Semester Closing Activities & Farewell",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678709/WhatsApp_Image_2026-04-08_at_12.10.56_AM_xdrsiu.jpg",
+    volunteers: 17,
+    shortDescription: "A special and emotional final semester visit filled with games, creative workshops, a heartfelt closing ceremony, and a warm farewell to 7th standard students.",
+    description: `The last school teaching session of this year was truly special and emotional.
+
+    We began with fun games that filled the day with joy and laughter. An Origami workshop beautifully showed how a simple paper can turn into imagination, followed by a collage making activity that reflected the idea of "Trust the Process".
+
+    The closing ceremony was heartfelt, with teachers, volunteers, and students sharing their thoughts and memories.
+
+    Lastly, we gave a warm goodbye to our 7th standard students, wishing them the very best as they move to a new school for 8th standard. They will always remain a memorable part of our journey.
+
+    It was a beautiful ending to a semester full of learning, smiles, and unforgettable moments.`,
+    learningOutcome: "Students expressed creativity through hands-on activities, strengthened confidence through group engagement, and experienced a meaningful closure with gratitude, reflection, and encouragement for future academic journeys.",
+    classActivities: [
+      { standard: "All Students", activity: "Fun games and interactive group activities" },
+      { standard: "All Students", activity: "Origami workshop: creativity through paper art" },
+      { standard: "All Students", activity: "Collage making on the theme 'Trust the Process'" },
+      { standard: "Teachers, Volunteers & Students", activity: "Closing ceremony with reflections and shared memories" },
+      { standard: "7th Std", activity: "Farewell session and best wishes for transition to 8th standard" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678709/WhatsApp_Image_2026-04-08_at_12.10.56_AM_xdrsiu.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678709/WhatsApp_Image_2026-04-08_at_12.10.55_AM_qr2tf5.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678710/WhatsApp_Image_2026-04-08_at_12.10.48_AM_twoz6b.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678710/WhatsApp_Image_2026-04-08_at_12.10.44_AM_gxnap5.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678710/WhatsApp_Image_2026-04-08_at_12.10.49_AM_jenv2w.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678714/20260404_095901_dqbemw.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775678716/IMG_20260404_111808826_HDR_gucyin.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/video/upload/q_auto/f_auto/v1775678737/IMG_4282_wxp0gh.mp4",
+    ]
+  },
+  {
+    id: "2026_week_25",
+    year: 2026,
+    date: "March 28, 2026",
+    weekLabel: "Week 25",
+    title: "School Teaching Activity",
+    schoolName: "Vimlabai Lunkad Vidyalaya, Gultekadi",
+    targetClass: "1st - 7th Standard",
+    subject: "English, Mathematics & Computer Skills",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677376/WhatsApp_Image_2026-03-28_at_5.16.03_PM_pljatg.jpg",
+    volunteers: 7,
+    shortDescription: "An engaging session covering English basics, scholarship Maths practice, computer fundamentals, and past tense activities from 1st to 7th standard.",
+    description: `This week's session focused on improving English, Mathematics, and computer skills.
+
+    First standard students learned English alphabets, simple speaking activities, counting numbers, and basic addition. Second standard students were introduced to Nouns.
+
+    Third standard covered computer basics, including components, working, file operations, and basic Paint usage. Fourth standard practiced scholarship Math questions with explanation and guided solving.
+
+    Fifth, sixth, and seventh standards learned Past Tense, including verb forms (V1, V2, V3) and all four types with examples, along with activities like sentence making and fill in the blanks.
+
+    Overall, it was an engaging and productive learning session.`,
+    learningOutcome: "Students strengthened foundational English and numeracy, improved practical computer awareness, and developed strong understanding of Past Tense usage through activity-based learning.",
+    classActivities: [
+      { standard: "1st Std", activity: "English alphabets, simple speaking, counting numbers, and basic addition" },
+      { standard: "2nd Std", activity: "Introduction to Nouns" },
+      { standard: "3rd Std", activity: "Computer basics: components, working, file operations, and basic Paint" },
+      { standard: "4th Std", activity: "Scholarship Math question solving with explanation" },
+      { standard: "5th - 7th Std", activity: "Past Tense (V1, V2, V3), four types, sentence making, and fill in the blanks" }
+    ],
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677376/WhatsApp_Image_2026-03-28_at_5.16.03_PM_pljatg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677377/WhatsApp_Image_2026-03-28_at_5.16.00_PM_kxbvdp.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677358/20260328_101603AMByGPSMapCamera_t1ja1w.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677357/20260328_102529_v0uqsn.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677355/WhatsApp_Image_2026-03-28_at_5.16.52_PM_1_f5rpxg.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775677355/WhatsApp_Image_2026-03-28_at_5.16.58_PM_2_cs7med.jpg",
+    ]
+  },
+  {
     id: "2026_week_24",
     year: 2026,
     date: "March 20, 2026",
@@ -33,6 +111,7 @@ export const teachingSessions = [
     gallery: [
       "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774120970/IMG-20260320-WA0036_mnd4yg.jpg",
       "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774120963/WhatsApp_Image_2026-03-20_at_8.09.08_PM_1_srgck8.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775676109/WhatsApp_Image_2026-03-20_at_10.28.40_PM_ffhygp.jpg",
       "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774120957/IMG-20260320-WA0011_lfpidp.jpg",
       "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774120959/IMG-20260320-WA0031_j3rhmw.jpg",
       "https://res.cloudinary.com/dvyqclu7y/image/upload/v1774120965/IMG-20260320-WA0016_s14slf.jpg",
