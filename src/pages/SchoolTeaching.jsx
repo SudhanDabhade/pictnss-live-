@@ -20,7 +20,7 @@ const SchoolTeaching = () => {
   }, [activeYear]);
 
   return (
-    <div className="min-h-screen bg-softGrey pt-24 pb-16">
+    <div className="min-h-screen bg-softGrey pt-20 pb-16">
 
       {/* --- Page Header --- */}
       <div className="relative bg-secondary py-16 md:py-20 mb-12 overflow-hidden">
@@ -62,7 +62,7 @@ const SchoolTeaching = () => {
               <div className="h-px bg-white/20 my-4"></div>
               <div className="flex justify-between text-sm text-white/80">
                 <span>Impact</span>
-                <span className="font-semibold text-white">500+ Students</span>
+                <span className="font-semibold text-white">100+ Students</span>
               </div>
             </div>
           </div>

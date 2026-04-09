@@ -9,7 +9,7 @@ export const camps = [
     id: 2026,
     year: 2026,
     title: "NSS Special Camp 2026",
-    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557176/IMG_20260128_072537_c4zgsd.jpg",
+    thumbnail: "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741331/IMG_8120_nybmpl.jpg",
     location: "Mangdari & Ketkavane, Tal. Velhe, Maharashtra",
     dates: "23 January \u2013 29 January 2026",
     volunteers: 50,
@@ -56,8 +56,23 @@ Overall, NSS Camp 2026 served as a platform for meaningful contribution, experie
       { day: "Day 7", summary: "The final day featured a summary session for NMMS Exam Preparation, followed by a Feedback Session where volunteers and villagers shared their experiences. The camp concluded with a formal Camp Conclusion ceremony, celebrating the week's achievements and the strong bond formed between volunteers and the community." }
     ],
     testimonials: [],
-    gallery: [],
-    activities: [
+    gallery: [
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741331/IMG_8120_nybmpl.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741327/IMG_8366_k75tzf.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557179/IMG_20260128_104512_svgwo0.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741326/20260126_75818AMByGPSMapCamera_tdomca.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741328/20260126_90914AMByGPSMapCamera_hp3us6.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741328/IMG_8587_qys1ns.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741330/IMG_8293_f25zyt.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741332/IMG20260122115832_brokbw.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741326/20260127_52423PMByGPSMapCamera_nx5qmc.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741326/IMG_8859_eckqny.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741322/20260127_123822PMByGPSMapCamera_ugkpth.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741321/IMG_8964_wo0bjr.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775741317/IMG_20260127_110950_ik35dr.jpg",
+      "https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775740954/20260127_115743AMByGPSMapCamera_zdkekt.jpg",
+    ],
+    /*activities: [
       {
         id: 1,
         title: "Cleanliness Drive",
@@ -266,10 +281,10 @@ It helped volunteers develop teamwork and leadership qualities essential for eff
         impact: ["Improved teamwork", "Enhanced communication skills", "Stronger volunteer bonding", "Better coordination in activities"],
         photos: []
       }
-    ]
+    ]*/
   },
   // 2025 Camp
-  {
+  /*{
     id: 2025,
     year: 2025,
     title: "NSS special camp at Panvadi",
@@ -369,13 +384,13 @@ Outcome of the Activity:
         photos: []
       },
       */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 3,
-        title: "Role of Youth in Nation Building",
-        coverImage: " ",
-        shortDescription: "An insightful session by Mr. Vikrant Singh on the crucial role young individuals play in shaping the nation's future.",
-        description: `NSS unit of Pune Institute of Computer Technology organized an insightful session on "Role of Youth in Nation Building" on 21st January 2025 at Panvadi, Tal: Purandar. The session was conducted by Mr. Vikrant Singh, a dedicated social worker committed to make India plastic-free and promoting environmental sustainability through initiatives like tree plantation.
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 3,
+    title: "Role of Youth in Nation Building",
+    coverImage: " ",
+    shortDescription: "An insightful session by Mr. Vikrant Singh on the crucial role young individuals play in shaping the nation's future.",
+    description: `NSS unit of Pune Institute of Computer Technology organized an insightful session on "Role of Youth in Nation Building" on 21st January 2025 at Panvadi, Tal: Purandar. The session was conducted by Mr. Vikrant Singh, a dedicated social worker committed to make India plastic-free and promoting environmental sustainability through initiatives like tree plantation.
 
 Mr. Singh emphasized the crucial role that young individuals play in shaping the future of the nation. He shared real-life examples of how youth-led initiatives can bring about significant social and environmental changes. He encouraged students and volunteers to actively participate in activities like waste management, plastic-free campaigns, and afforestation drives. The session was interactive, with participants engaging in discussions and brainstorming ideas to contribute to national development.
 
@@ -384,16 +399,16 @@ Outcome of the Activity:
 - To spread awareness on environmental issues like plastic pollution and deforestation.
 - To encourage active participation in social and environmental initiatives.
 - To instill a sense of responsibility among students towards a sustainable future.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 4,
-        title: "Library Setup & Inauguration for School Kids",
-        coverImage: " ",
-        shortDescription: "Setting up and inaugurating a new library at Z.P. School, Panvadi to promote reading culture among students.",
-        description: `On 21st January, 2025, the NSS team successfully conducted a Library Setup and Inauguration program at Z.P. School, Panvadi, from 2:00 PM to 3:00 PM. This initiative aimed to provide students with access to a variety of books and encourage a reading culture.
+    date: "January 21, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 4,
+    title: "Library Setup & Inauguration for School Kids",
+    coverImage: " ",
+    shortDescription: "Setting up and inaugurating a new library at Z.P. School, Panvadi to promote reading culture among students.",
+    description: `On 21st January, 2025, the NSS team successfully conducted a Library Setup and Inauguration program at Z.P. School, Panvadi, from 2:00 PM to 3:00 PM. This initiative aimed to provide students with access to a variety of books and encourage a reading culture.
 
 The library was inaugurated with a ribbon-cutting ceremony by Mr. Vikrant Singh and Mrs. Shital Girme, symbolizing the beginning of a new learning journey for the students. The NSS volunteers played a crucial role in organizing a book donation drive at their college, collecting and arranging books to create this library.
 
@@ -404,16 +419,16 @@ Outcome of the Activity:
 - Students now have access to donated books, enriching their learning experience.
 - Promoted reading habits and knowledge-sharing among students.
 - Encouraged community participation in supporting education.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 5,
-        title: "Solar System - Introduction Guide for School Kids",
-        coverImage: " ",
-        shortDescription: "An interactive session introducing students to the Solar System, covering planets, eclipses, and celestial phenomena.",
-        description: `On 21 January 2025, we conducted an interactive session on the Solar System at Z.P. School, Panvadi, for students from 1st to 7th standard. The session aimed to introduce young students to the fundamental concepts of the Solar System in an engaging and hands-on manner.
+    date: "January 21, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 5,
+    title: "Solar System - Introduction Guide for School Kids",
+    coverImage: " ",
+    shortDescription: "An interactive session introducing students to the Solar System, covering planets, eclipses, and celestial phenomena.",
+    description: `On 21 January 2025, we conducted an interactive session on the Solar System at Z.P. School, Panvadi, for students from 1st to 7th standard. The session aimed to introduce young students to the fundamental concepts of the Solar System in an engaging and hands-on manner.
 
 The session was attended by 18 enthusiastic students who actively participated in various learning activities. The primary objective was to help them understand the arrangement and order of planets, key celestial phenomena, and the basic concepts of astronomy in an interactive way.
 
@@ -427,17 +442,17 @@ Outcome of the Activity:
 - Improved students' understanding of the Solar System and celestial phenomena.
 - Fostered curiosity and enthusiasm for science and space exploration.
 - Enhanced learning through hands-on and participatory activities.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 6,
-        title: "Meditation Session for Volunteers",
-        coverImage: " ",
-        shortDescription: "A calming meditation session by Ms. Sakshi Kalampure to help volunteers manage stress and develop mindfulness.",
-        description: `The Meditation Session for Volunteers was conducted by Ms. Sakshi Kalampure during the NSS Special Camp 2025, providing a much-needed opportunity for relaxation and self-awareness. The session aimed to help volunteers manage stress, enhance focus, and develop mindfulness in their daily lives.
+    date: "January 21, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 6,
+    title: "Meditation Session for Volunteers",
+    coverImage: " ",
+    shortDescription: "A calming meditation session by Ms. Sakshi Kalampure to help volunteers manage stress and develop mindfulness.",
+    description: `The Meditation Session for Volunteers was conducted by Ms. Sakshi Kalampure during the NSS Special Camp 2025, providing a much-needed opportunity for relaxation and self-awareness. The session aimed to help volunteers manage stress, enhance focus, and develop mindfulness in their daily lives.
 
 Ms. Kalampure guided the participants through various meditation techniques, including deep breathing, guided visualization, and mindfulness exercises. The volunteers actively engaged in the session, experiencing a sense of calm and rejuvenation. She emphasized the importance of mental well-being and how meditation can improve concentration, emotional resilience, and overall productivity.
 
@@ -445,16 +460,16 @@ Outcome of the Activity:
 - Improved Mental Well-being: Volunteers learned effective stress management techniques through meditation.
 - Enhanced Focus and Clarity: The session helped in improving concentration and mindfulness.
 - Emotional Resilience: Volunteers gained tools to handle challenges with a calm and positive mindset.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 7,
-        title: "Cleanliness Drive - Plastic Garbage Collection and Recycling",
-        coverImage: " ",
-        shortDescription: "A cleanliness drive involving systematic plastic waste collection, segregation, and recycling to promote environmental awareness.",
-        description: `On January 21st, 2025, a Cleanliness Drive focusing on plastic garbage collection and recycling was conducted. The drive involved PICT NSS volunteers, aiming to promote environmental awareness and contribute to a cleaner and healthier village.
+    date: "January 21, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 7,
+    title: "Cleanliness Drive - Plastic Garbage Collection and Recycling",
+    coverImage: " ",
+    shortDescription: "A cleanliness drive involving systematic plastic waste collection, segregation, and recycling to promote environmental awareness.",
+    description: `On January 21st, 2025, a Cleanliness Drive focusing on plastic garbage collection and recycling was conducted. The drive involved PICT NSS volunteers, aiming to promote environmental awareness and contribute to a cleaner and healthier village.
 
 The drive involved systematic plastic waste collection, segregation, and proper disposal to ensure effective recycling. Volunteers engaged with the local community, emphasizing the harmful effects of plastic pollution and encouraging sustainable waste management practices. They educated villagers on the importance of reducing plastic usage and adopting eco-friendly alternatives. The collected waste was sorted, and reusable plastics were sent for recycling, reducing environmental hazards.
 
@@ -463,16 +478,16 @@ Outcome of the Activity:
 - Community Empowerment: The drive encouraged active participation in cleanliness efforts.
 - Improved Waste Management: Increased waste segregation, recycling, and proper disposal.
 - Long-term Impact: Villagers adopted cleaner habits, promoting a sustainable environment.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 8,
-        title: "Exploring Magic of Science for School Kids",
-        coverImage: " ",
-        shortDescription: "Interactive science experiments including Volcano Eruption, static electricity, and light refraction to make science fun for students.",
-        description: `On January 21, 2025, the PICT NSS team organized an interactive science activity day for Z.P. Primary School, Panvadi, following the inauguration of the school's new library.
+    date: "January 21, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 8,
+    title: "Exploring Magic of Science for School Kids",
+    coverImage: " ",
+    shortDescription: "Interactive science experiments including Volcano Eruption, static electricity, and light refraction to make science fun for students.",
+    description: `On January 21, 2025, the PICT NSS team organized an interactive science activity day for Z.P. Primary School, Panvadi, following the inauguration of the school's new library.
 
 The event featured many exciting science experiments for different age groups, including simple activities for younger students and advanced ones for older students. Highlights included the Volcano Eruption experiment, which amazed the students.
 
@@ -484,17 +499,17 @@ Outcome of the Activity:
 - Comb Paper Experiment: Demonstrated static electricity by using a comb to attract small pieces of paper.
 - Balloon & Static Electricity: Rubbing a balloon on hair or wool makes it stick to walls or attract small paper pieces.
 - Floating & Sinking Objects: Dropping different items (coin, rubber band, leaf) in water to see which float and sink. Students learned about density and buoyancy.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 9,
-        title: "Treasure Hunt for School Kids",
-        coverImage: " ",
-        shortDescription: "An exciting educational treasure hunt designed to make learning fun through teamwork, problem-solving, and curiosity.",
-        description: `As part of our NSS initiative, we organized an exciting and educational Treasure Hunt for children, designed to make learning fun and engaging. The game was structured in a way that encouraged teamwork, problem-solving, and curiosity. Each team was given a unique and meaningful name, symbolizing values such as knowledge, courage, unity, and wisdom. The objective of the treasure hunt was for teams to find hidden chits that contained words related to their team name. However, retrieving each chit wasn't just about searching—it came with an additional challenge! Every chit contained a question that the team had to answer correctly in order to proceed.
+    date: "January 21, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 9,
+    title: "Treasure Hunt for School Kids",
+    coverImage: " ",
+    shortDescription: "An exciting educational treasure hunt designed to make learning fun through teamwork, problem-solving, and curiosity.",
+    description: `As part of our NSS initiative, we organized an exciting and educational Treasure Hunt for children, designed to make learning fun and engaging. The game was structured in a way that encouraged teamwork, problem-solving, and curiosity. Each team was given a unique and meaningful name, symbolizing values such as knowledge, courage, unity, and wisdom. The objective of the treasure hunt was for teams to find hidden chits that contained words related to their team name. However, retrieving each chit wasn't just about searching—it came with an additional challenge! Every chit contained a question that the team had to answer correctly in order to proceed.
 
 This interactive format allowed children to learn new facts while developing their critical thinking skills. The questions covered a range of topics, including general knowledge, moral values, science, and history, making the game both fun and informative. Throughout the activity, we witnessed an incredible display of enthusiasm as the children collaborated, discussed answers, and cheered each other on.
 
@@ -504,17 +519,17 @@ Outcome of the Activity:
 - Stronger Teamwork & Collaboration: The activity encouraged children to work together, discuss answers, and support their teammates.
 - Increased Enthusiasm for Learning.
 - Boosted Confidence & Communication.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 10,
-        title: "Swachhta Awareness Rally",
-        coverImage: " ",
-        shortDescription: "A rally through Panvadi Village to promote awareness about cleanliness, hygiene, and plastic waste management.",
-        description: `The NSS volunteers organized a Swachhta Rally in Panvadi Village to promote awareness about cleanliness, hygiene, and plastic waste management. The rally aimed to educate villagers on reducing plastic usage, proper waste disposal, and maintaining a pollution-free environment.
+    date: "January 21, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 10,
+    title: "Swachhta Awareness Rally",
+    coverImage: " ",
+    shortDescription: "A rally through Panvadi Village to promote awareness about cleanliness, hygiene, and plastic waste management.",
+    description: `The NSS volunteers organized a Swachhta Rally in Panvadi Village to promote awareness about cleanliness, hygiene, and plastic waste management. The rally aimed to educate villagers on reducing plastic usage, proper waste disposal, and maintaining a pollution-free environment.
 
 The rally focused on raising awareness about the hazards of plastic waste and promoting eco-friendly alternatives. Volunteers and students participated in a slogan march, carrying banners and placards to spread the message. A plastic collection campaign was organized, encouraging villagers to dispose of plastic waste responsibly. The event concluded with a collective pledge for Swachh Bharat, reinforcing the commitment to cleanliness and plastic-free surroundings.
 
@@ -523,17 +538,17 @@ Outcome of the Activity:
 - The event encouraged active involvement from locals in maintaining cleanliness.
 - The campaign motivated participants to minimize plastic use and adopt eco-friendly alternatives.
 - The initiative led to better waste management practices in the village and inspired long-term commitment toward a cleaner and greener environment.`,
-        date: "January 21, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 11,
-        title: "Home Minister & Haldi Kunku for Villagers",
-        coverImage: " ",
-        shortDescription: "A traditional Haldi Kunku ceremony and fun Home Minister game organized for the women of Panvadi village.",
-        description: `The Home Minister & Haldi Kunku Activity was organized to provide an enjoyable and engaging experience for the women of the village. The event aimed to offer a refreshing change from their daily routines, allowing them to participate in interactive games and social bonding.
+    date: "January 21, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 11,
+    title: "Home Minister & Haldi Kunku for Villagers",
+    coverImage: " ",
+    shortDescription: "A traditional Haldi Kunku ceremony and fun Home Minister game organized for the women of Panvadi village.",
+    description: `The Home Minister & Haldi Kunku Activity was organized to provide an enjoyable and engaging experience for the women of the village. The event aimed to offer a refreshing change from their daily routines, allowing them to participate in interactive games and social bonding.
 
 The activity began with the Haldi Kunku ceremony, a traditional gathering where married women apply turmeric (haldi) and vermillion (kunku) to each other as a symbol of respect, prosperity, and togetherness. This was followed by the Home Minister game, inspired by the popular Zee Marathi show, in which participants played a series of fun and exciting games. The competition concluded with three winners, and an additional prize was awarded through a lucky draw.
 
@@ -541,17 +556,17 @@ Outcome of the Activity:
 - Encouraged social gathering and strengthened bonds within the community.
 - Provided people with a break from their daily routines and offered an opportunity for enjoyment and recreation.
 - Promoted a sense of unity and togetherness through a shared experience.`,
-        date: "January 22, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 12,
-        title: "Compost Fertilizer Awareness for Villagers",
-        coverImage: " ",
-        shortDescription: "Educating villagers on the benefits and practical methods of composting for sustainable agriculture.",
-        description: `As part of our community outreach program, a compost fertilizer awareness activity was conducted in Panvadi to educate villagers on the significant benefits and practical methods of composting for a healthier environment and improved agricultural practices.
+    date: "January 22, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 12,
+    title: "Compost Fertilizer Awareness for Villagers",
+    coverImage: " ",
+    shortDescription: "Educating villagers on the benefits and practical methods of composting for sustainable agriculture.",
+    description: `As part of our community outreach program, a compost fertilizer awareness activity was conducted in Panvadi to educate villagers on the significant benefits and practical methods of composting for a healthier environment and improved agricultural practices.
 
 The activity commenced with an engaging presentation that detailed the importance of composting. Topics covered included how composting enhances soil fertility, reduces waste accumulation, and contributes to environmental sustainability. Practical demonstrations showcased how to prepare compost by efficiently utilizing kitchen waste, dried leaves, and other biodegradable materials.
 
@@ -561,16 +576,16 @@ Outcome of the Activity:
 - Villagers gained understanding and awareness of composting benefits and methods.
 - Increased interest among villagers to adopt composting practices and reduce chemical fertilizer use.
 - Enhanced knowledge of sustainable agriculture practices and environmental conservation.`,
-        date: "January 22, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 13,
-        title: "Street Play - Women Empowerment",
-        coverImage: " ",
-        shortDescription: "A powerful street play to create awareness about women's rights, education, entrepreneurship, and safety.",
-        description: `A street play was organized on January 22, 2025, at 8:00 PM in the village square, Panvadi, to create awareness about women's rights, education, entrepreneurship, and safety through engaging performances.
+    date: "January 22, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 13,
+    title: "Street Play - Women Empowerment",
+    coverImage: " ",
+    shortDescription: "A powerful street play to create awareness about women's rights, education, entrepreneurship, and safety.",
+    description: `A street play was organized on January 22, 2025, at 8:00 PM in the village square, Panvadi, to create awareness about women's rights, education, entrepreneurship, and safety through engaging performances.
 
 The street play received an overwhelming response, with active audience participation. It effectively conveyed the message of women empowerment, inspiring many to utilize government schemes and social media for self-growth. The initiative successfully created awareness and encouraged positive societal change.
 
@@ -581,15 +596,15 @@ Outcome of the Activity:
 - Spread information on scholarships to support education.
 - Empowered women against harassment through awareness of rights and safety measures.
 - Fostered a positive mindset in society towards gender equality.`,
-        date: "January 22, 2025",
-        photos: []
-      },
-      {
-        id: 14,
-        title: "Navodaya Scholarship Examination Teaching",
-        coverImage: " ",
-        shortDescription: "Teaching sessions for 3rd-5th grade students to prepare them for Navodaya, Manthan, and Scholarship exams.",
-        description: `As part of the NSS Special Camp at Village Panvadi, Tal. Purandar, from 22nd to 25th January 2025, we conducted teaching sessions for 3rd, 4th, and 5th-grade students to prepare them for Navodaya, Manthan, and Scholarship Exams. The sessions focused on logical reasoning, mathematical aptitude, language skills, comprehension, and problem-solving techniques. Structured lessons, interactive discussions, and practice tests were conducted to enhance their understanding and boost confidence.
+    date: "January 22, 2025",
+    photos: []
+  },
+  {
+    id: 14,
+    title: "Navodaya Scholarship Examination Teaching",
+    coverImage: " ",
+    shortDescription: "Teaching sessions for 3rd-5th grade students to prepare them for Navodaya, Manthan, and Scholarship exams.",
+    description: `As part of the NSS Special Camp at Village Panvadi, Tal. Purandar, from 22nd to 25th January 2025, we conducted teaching sessions for 3rd, 4th, and 5th-grade students to prepare them for Navodaya, Manthan, and Scholarship Exams. The sessions focused on logical reasoning, mathematical aptitude, language skills, comprehension, and problem-solving techniques. Structured lessons, interactive discussions, and practice tests were conducted to enhance their understanding and boost confidence.
 
 The students showed great enthusiasm and actively participated in learning activities. Their grasp of concepts improved significantly over the four days. Teachers and parents appreciated the initiative, acknowledging its positive impact on the students' academic growth. The program provided a platform to engage with the community and strengthen the educational foundation of young learners.
 
@@ -598,15 +613,15 @@ Outcome of the Activity:
 - Boosted confidence among students for competitive exams like Navodaya, Manthan, and Scholarship Exams.
 - Encouraged interactive learning through discussions and practice tests.
 - Strengthened the bond between the NSS volunteers and the local community.`,
-        date: "January 22-25, 2025",
-        photos: []
-      },
-      {
-        id: 15,
-        title: "Ayushman Card, E-shram Card & ABHA Card Registration",
-        coverImage: " ",
-        shortDescription: "A door-to-door campaign helping villagers register for Ayushman, ABHA, and E-shram cards for healthcare and social security.",
-        description: `From January 22nd to 26th, a door-to-door campaign for government card registration was conducted to help villagers in card registrations. The primary goal of this activity was to facilitate the registration of villagers for Ayushman card, ABHA Cards and e-Shram Cards, ensuring access to healthcare benefits and social security schemes for unorganized workers.
+    date: "January 22-25, 2025",
+    photos: []
+  },
+  {
+    id: 15,
+    title: "Ayushman Card, E-shram Card & ABHA Card Registration",
+    coverImage: " ",
+    shortDescription: "A door-to-door campaign helping villagers register for Ayushman, ABHA, and E-shram cards for healthcare and social security.",
+    description: `From January 22nd to 26th, a door-to-door campaign for government card registration was conducted to help villagers in card registrations. The primary goal of this activity was to facilitate the registration of villagers for Ayushman card, ABHA Cards and e-Shram Cards, ensuring access to healthcare benefits and social security schemes for unorganized workers.
 
 This activity successfully contributed to the digital and financial empowerment of the Panvadi village community. The initiative ensured that eligible beneficiaries could avail themselves of healthcare and social security benefits, strengthening their financial and social well-being.
 
@@ -618,15 +633,15 @@ Outcome of the Activity:
 - Increased Awareness: Educated villagers about the benefits of Ayushman, Ayushman Bharat Health Account (ABHA) and e-Shram Card.
 - Facilitated registrations and ensured maximum coverage: Identified and enrolled as many eligible villagers as possible within the given time frame.
 - Improved Healthcare Access, Financial & Social Security: More people became eligible for Ayushman Bharat health benefits and villagers got registered for government support and insurance schemes.`,
-        date: "January 22-26, 2025",
-        photos: []
-      },
-      {
-        id: 16,
-        title: "Health and Eye Check-up Camp for Villagers",
-        coverImage: " ",
-        shortDescription: "A free health and eye check-up camp conducted with doctors from Bharti Ayurvedic Hospital Pune.",
-        description: `On January 23rd, a Health and Eye Check-up Camp was conducted in Panvadi to promote health awareness and provide essential medical support to the villagers. The initiative aimed to offer free medical check-ups and medicines, raise awareness about basic hygiene and health care, and involve the local community in preventive healthcare practices.
+    date: "January 22-26, 2025",
+    photos: []
+  },
+  {
+    id: 16,
+    title: "Health and Eye Check-up Camp for Villagers",
+    coverImage: " ",
+    shortDescription: "A free health and eye check-up camp conducted with doctors from Bharti Ayurvedic Hospital Pune.",
+    description: `On January 23rd, a Health and Eye Check-up Camp was conducted in Panvadi to promote health awareness and provide essential medical support to the villagers. The initiative aimed to offer free medical check-ups and medicines, raise awareness about basic hygiene and health care, and involve the local community in preventive healthcare practices.
 
 NSS volunteers actively participated in assisting medical professionals in conducting health examinations. A team of experienced doctors and medical staff from Bharti Ayurvedic Hospital Pune provided check-ups and consultations. The camp was set up at the Panvadi Gram Panchayat Panvadi, ensuring accessibility for all villagers.
 
@@ -637,16 +652,16 @@ Outcome of the Activity:
 - Raising Health Awareness: Educating villagers on hygiene, nutrition, and preventive healthcare practices.
 - Conducting Eye Examinations: Identifying and addressing vision-related issues to improve eye health.
 - Enhancing Medical Outreach: Providing healthcare services to those with limited access to hospitals.`,
-        date: "January 22, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 17,
-        title: "Bhajan Sandhya",
-        coverImage: " ",
-        shortDescription: "A soulful devotional evening with bhajans accompanied by mridang and taals, fostering unity between volunteers and villagers.",
-        description: `On 25th January 2025, during the NSS Winter Special Camp in Panvadi village, a soulful Bhajan Sandhya was organized, filling the evening with devotional melodies. The event saw active participation from the villagers and 50 NSS volunteers, who came together to sing bhajans accompanied by the rhythmic beats of the mridang and taals. The serene village setting, illuminated by oil lamps and the warmth of the gathering, added to the spiritual essence of the evening.
+    date: "January 22, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 17,
+    title: "Bhajan Sandhya",
+    coverImage: " ",
+    shortDescription: "A soulful devotional evening with bhajans accompanied by mridang and taals, fostering unity between volunteers and villagers.",
+    description: `On 25th January 2025, during the NSS Winter Special Camp in Panvadi village, a soulful Bhajan Sandhya was organized, filling the evening with devotional melodies. The event saw active participation from the villagers and 50 NSS volunteers, who came together to sing bhajans accompanied by the rhythmic beats of the mridang and taals. The serene village setting, illuminated by oil lamps and the warmth of the gathering, added to the spiritual essence of the evening.
 
 The event not only fostered a sense of unity and devotion but also served as a beautiful cultural exchange between the volunteers and the local community. As the bhajans resonated through the night, the collective voices created an ambiance of peace and harmony, strengthening the bond between all participants. The villagers shared their traditions and stories, enriching the volunteers with new cultural insights.
 
@@ -655,17 +670,17 @@ Outcome of the Activity:
 - Strengthening Community Bonding: The event provided an opportunity for interaction between villagers and NSS volunteers, promoting unity and mutual respect.
 - Cultural Awareness: Volunteers gained insight into traditional musical practices, enhancing their appreciation for cultural heritage.
 - Enhancing Team Spirit: Collaborative participation in bhajan singing strengthened teamwork and collective enthusiasm among volunteers.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 18,
-        title: "Wet & Dry Garbage Management Awareness",
-        coverImage: " ",
-        shortDescription: "A door-to-door campaign educating villagers on the importance of segregating wet and dry waste.",
-        description: `As part of the NSS camp, a waste management awareness activity was conducted in Panvadi village to educate villagers on the importance of segregating wet and dry waste. The activity began at 8:45 AM, with NSS volunteers conducting a door-to-door campaign, explaining what constitutes wet and dry waste, how to segregate them, and the benefits of proper waste disposal.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 18,
+    title: "Wet & Dry Garbage Management Awareness",
+    coverImage: " ",
+    shortDescription: "A door-to-door campaign educating villagers on the importance of segregating wet and dry waste.",
+    description: `As part of the NSS camp, a waste management awareness activity was conducted in Panvadi village to educate villagers on the importance of segregating wet and dry waste. The activity began at 8:45 AM, with NSS volunteers conducting a door-to-door campaign, explaining what constitutes wet and dry waste, how to segregate them, and the benefits of proper waste disposal.
 
 During the interactions, volunteers explained that wet waste includes biodegradable materials like food scraps, vegetable peels, and garden waste, whereas dry waste consists of non-biodegradable items such as plastic, paper, and glass. They highlighted that proper segregation helps in effective recycling, reduces landfill waste, and promotes environmental sustainability. Villagers were also made aware of the consequences of improper waste disposal, such as health hazards, soil and water pollution, and increased environmental degradation.
 
@@ -673,17 +688,17 @@ Outcome of the Activity:
 - Villagers gained awareness of proper waste segregation methods.
 - Increased willingness among villagers to adopt systematic waste disposal.
 - Positive impact on environmental cleanliness and hygiene in the village.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 19,
-        title: "Art of Investment - Session by Lalit Patil",
-        coverImage: " ",
-        shortDescription: "A session on financial literacy covering investment fundamentals, stocks, mutual funds, bonds, and real estate strategies.",
-        description: `A session on "The Art of Investment" was conducted at Hanuman Temple, Panvadi village, with enthusiastic participation from volunteers. The session was led by experienced faculty members who shared their extensive knowledge of financial planning and investment strategies. The objective was to introduce participants to the fundamentals of investment and the importance of financial discipline in wealth creation.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 19,
+    title: "Art of Investment - Session by Lalit Patil",
+    coverImage: " ",
+    shortDescription: "A session on financial literacy covering investment fundamentals, stocks, mutual funds, bonds, and real estate strategies.",
+    description: `A session on "The Art of Investment" was conducted at Hanuman Temple, Panvadi village, with enthusiastic participation from volunteers. The session was led by experienced faculty members who shared their extensive knowledge of financial planning and investment strategies. The objective was to introduce participants to the fundamentals of investment and the importance of financial discipline in wealth creation.
 
 The session covered key topics, starting with an introduction to investment, explaining risk and return principles, and emphasizing the importance of early investment. It then moved on to various investment strategies, including stocks, mutual funds, bonds, and real estate. Faculty members discussed fundamental and technical analysis for making informed decisions, along with interactive activities, case studies, and Q&A sessions to enhance understanding.
 
@@ -692,17 +707,17 @@ Outcome of the Activity:
 - Explain Investment Options: Provide knowledge about different investment avenues such as stocks, mutual funds, bonds, and real estate.
 - Encourage Smart Financial Decisions: Teach participants how to analyse risks and returns, make informed investment choices, and develop financial discipline.
 - Promote Early Investment Habits: Emphasize the importance of starting investments early to maximize long-term financial growth.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 20,
-        title: "Science & Spirituality - Session by Prof. Nitin Patil",
-        coverImage: " ",
-        shortDescription: "A thought-provoking session exploring the harmony between scientific principles and spiritual wisdom.",
-        description: `On 23rd January, as part of the NSS camp, a thought-provoking session on Science and Spirituality by Nitin Patil Sir was held at Gram Panchayat, Panavdi.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 20,
+    title: "Science & Spirituality - Session by Prof. Nitin Patil",
+    coverImage: " ",
+    shortDescription: "A thought-provoking session exploring the harmony between scientific principles and spiritual wisdom.",
+    description: `On 23rd January, as part of the NSS camp, a thought-provoking session on Science and Spirituality by Nitin Patil Sir was held at Gram Panchayat, Panavdi.
 
 The session explored the harmony between scientific principles and spiritual wisdom, emphasizing how both can coexist for a balanced life. Nitin Patil Sir explained complex scientific concepts with spiritual insights, making the discussion engaging and enlightening.
 
@@ -712,17 +727,17 @@ Outcome of the Activity:
 - Enhanced Awareness: Participants gained insights into the link between science and spirituality.
 - Promoted Critical Thinking: Encouraged logical reasoning and open discussions.
 - Encouraged Volunteers: Fostered thought-provoking conversations and idea exchange. The appreciation shown through this event boosted the morale of the NSS volunteers, motivating them to continue their efforts with enthusiasm.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 21,
-        title: "Good Touch & Bad Touch Awareness Session",
-        coverImage: " ",
-        shortDescription: "A personal safety awareness session for school children teaching them about good touch, bad touch, and how to seek help.",
-        description: `On January 23, 2025, a "Good Touch Bad Touch" awareness session was conducted at ZP school for 28 students from classes 1 to 7. The session aimed to teach children about personal safety, boundaries, and appropriate touch.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 21,
+    title: "Good Touch & Bad Touch Awareness Session",
+    coverImage: " ",
+    shortDescription: "A personal safety awareness session for school children teaching them about good touch, bad touch, and how to seek help.",
+    description: `On January 23, 2025, a "Good Touch Bad Touch" awareness session was conducted at ZP school for 28 students from classes 1 to 7. The session aimed to teach children about personal safety, boundaries, and appropriate touch.
 
 The session began with simple explanations of good and bad touch. Good touch was described as gentle and safe, while bad touch was rough and uncomfortable. Using role-plays, discussions, and visual aids, children learned to recognize the difference and were encouraged to say "no" to unwanted touch and seek help from trusted adults.
 
@@ -730,17 +745,17 @@ Outcome of the Activity:
 - Children gained understanding and awareness of good and bad touch.
 - Increased confidence among children to say "no" to unwanted touch and seek help from trusted adults.
 - Enhanced sense of safety and well-being among children, promoting a healthier and more supportive environment.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 22,
-        title: "Special Treat by PICT E&TC Staff",
-        coverImage: " ",
-        shortDescription: "A special dinner treat organized by PICT E&TC faculties to appreciate the dedication and hard work of NSS volunteers.",
-        description: `On 23rd January, as part of the NSS camp, a Special Dinner Treat was organized by the esteemed E&TC faculties to appreciate the dedication and hard work of the NSS volunteers. The event was filled with warmth, gratitude, and a sense of togetherness, making it a memorable evening for everyone.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 22,
+    title: "Special Treat by PICT E&TC Staff",
+    coverImage: " ",
+    shortDescription: "A special dinner treat organized by PICT E&TC faculties to appreciate the dedication and hard work of NSS volunteers.",
+    description: `On 23rd January, as part of the NSS camp, a Special Dinner Treat was organized by the esteemed E&TC faculties to appreciate the dedication and hard work of the NSS volunteers. The event was filled with warmth, gratitude, and a sense of togetherness, making it a memorable evening for everyone.
 
 The dinner featured a traditional and wholesome menu, including mirchichi bhaji, chapati, rice, kadhi, salad and sweets. The meal was served with great hospitality, and everyone enjoyed the delicious food in a lively and cheerful atmosphere.
 
@@ -752,17 +767,17 @@ Outcome of the Activity:
 - Appreciation and Motivation: The special dinner was organized to recognize and appreciate the hard work of NSS volunteers, encouraging them to stay committed to social service.
 - Strengthening Bond: By bringing together students, faculty, and staff in an informal setting, the event helped in fostering better relationships and teamwork.
 - Encouraged Volunteers: The appreciation shown through this event boosted the morale of the NSS volunteers, motivating them to continue their efforts with enthusiasm.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 23,
-        title: "Creative Upcycling Workshop - Bird Feeder Making",
-        coverImage: " ",
-        shortDescription: "A creative workshop where children transformed discarded plastic bottles into beautiful bottle planters and bird feeders.",
-        description: `On 24/01/2025, a Creative Upcycling Workshop was organized at Panvadi ZP School to promote sustainability and creativity among children. The activity focused on transforming discarded plastic bottles into beautiful and functional bottle planters, encouraging environmental awareness and innovative thinking.
+    date: "January 23, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 23,
+    title: "Creative Upcycling Workshop - Bird Feeder Making",
+    coverImage: " ",
+    shortDescription: "A creative workshop where children transformed discarded plastic bottles into beautiful bottle planters and bird feeders.",
+    description: `On 24/01/2025, a Creative Upcycling Workshop was organized at Panvadi ZP School to promote sustainability and creativity among children. The activity focused on transforming discarded plastic bottles into beautiful and functional bottle planters, encouraging environmental awareness and innovative thinking.
 
 Step-by-step instructions were provided on cutting, designing, and decorating the plastic bottles into planters. The young participants enthusiastically painted and personalized their creations, making each planter unique. They also learned about the importance of plants and were encouraged to use their planters for growing small herbs or flowers.
 
@@ -774,17 +789,17 @@ Outcome of the Activity:
 - Sense of Achievement: Kids felt proud of their personalized upcycled planters.
 - Encouraged Sustainable Thinking: Inspired children to reuse materials creatively.
 - Positive Engagement: The session fostered teamwork, enthusiasm, and environmental responsibility.`,
-        date: "January 23-24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 24,
-        title: "Paper Bag Making Workshop",
-        coverImage: " ",
-        shortDescription: "An eco-friendly workshop teaching children to make reusable paper bags from old newspapers to reduce plastic waste.",
-        description: `On 23/01/2025, a Paper Bag Making Workshop was organized at Panvadi ZP School to promote eco-friendly practices and creativity among children. The session aimed to raise awareness about reducing plastic waste by making reusable paper bags from old newspapers, encouraging sustainability through upcycling.
+    date: "January 23-24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 24,
+    title: "Paper Bag Making Workshop",
+    coverImage: " ",
+    shortDescription: "An eco-friendly workshop teaching children to make reusable paper bags from old newspapers to reduce plastic waste.",
+    description: `On 23/01/2025, a Paper Bag Making Workshop was organized at Panvadi ZP School to promote eco-friendly practices and creativity among children. The session aimed to raise awareness about reducing plastic waste by making reusable paper bags from old newspapers, encouraging sustainability through upcycling.
 
 The workshop began with a discussion on the harmful effects of plastic bags and the benefits of using biodegradable alternatives like paper bags. Instructors guided children step by step on folding, cutting, and assembling bags using newspapers, demonstrating how waste materials can be repurposed into something useful.
 
@@ -796,16 +811,16 @@ Outcome of the Activity:
 - Enhance Creativity: Provided a hands-on opportunity for children to design and personalize their paper bags.
 - Develop Practical Skills: Improved fine motor skills, patience, and craftsmanship through paper folding and assembly.
 - Foster a Sustainable Mindset: Instilled eco-friendly habits and encouraged children to choose reusable materials in daily life.`,
-        date: "January 23, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 25,
-        title: "Government Schemes Awareness for Villagers",
-        coverImage: " ",
-        shortDescription: "A door-to-door campaign informing villagers about government schemes for health, education, employment, and social welfare.",
-        description: `From January 23rd to 25th, a door-to-door campaign was conducted in Panvadi to raise awareness about government schemes aimed at improving the socio-economic conditions of villagers. NSS volunteers visited households, sharing information about various schemes related to health, education, employment, and social welfare. Key schemes included the Sanjay Gandhi Niradhar Anudan Yojana, Sukanya Samruddhi Yojana, Beti Bachao Beti Padhao Yojana, Ayushman Card, and the Pradhanmantri Krushi Sinchan Yojana.
+    date: "January 23, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 25,
+    title: "Government Schemes Awareness for Villagers",
+    coverImage: " ",
+    shortDescription: "A door-to-door campaign informing villagers about government schemes for health, education, employment, and social welfare.",
+    description: `From January 23rd to 25th, a door-to-door campaign was conducted in Panvadi to raise awareness about government schemes aimed at improving the socio-economic conditions of villagers. NSS volunteers visited households, sharing information about various schemes related to health, education, employment, and social welfare. Key schemes included the Sanjay Gandhi Niradhar Anudan Yojana, Sukanya Samruddhi Yojana, Beti Bachao Beti Padhao Yojana, Ayushman Card, and the Pradhanmantri Krushi Sinchan Yojana.
 
 Volunteers provided clarifications, helped identify eligible beneficiaries, and guided villagers on how to apply for the schemes. A survey was conducted to assess villagers' awareness before and after the campaign, and feedback was gathered to address their concerns.
 
@@ -813,16 +828,16 @@ Outcome of the Activity:
 - Increased Awareness: Educated villagers about the benefits of government schemes and helped them understand the process of application and required documents.
 - Ensured maximum coverage: Assisted eligible beneficiaries in registering for these schemes, ensuring they receive government benefits.
 - Empowerment of Girls, Farmers and Senior Citizens: Empowered girls, farmers and senior citizens by making them aware about government schemes for farming, education and support for senior citizens.`,
-        date: "January 23-25, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 26,
-        title: "Online Banking Awareness for Villagers",
-        coverImage: " ",
-        shortDescription: "A door-to-door campaign educating villagers on safe digital banking practices and fraud prevention.",
-        description: `On January 23rd and 25th, an NSS door-to-door campaign on Online Banking Awareness & Fraud Prevention aimed to educate villagers on safe digital banking practices and fraud prevention. Volunteers visited households, providing guidance on secure transactions, recognizing spam calls, and protecting personal banking information.
+    date: "January 23-25, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 26,
+    title: "Online Banking Awareness for Villagers",
+    coverImage: " ",
+    shortDescription: "A door-to-door campaign educating villagers on safe digital banking practices and fraud prevention.",
+    description: `On January 23rd and 25th, an NSS door-to-door campaign on Online Banking Awareness & Fraud Prevention aimed to educate villagers on safe digital banking practices and fraud prevention. Volunteers visited households, providing guidance on secure transactions, recognizing spam calls, and protecting personal banking information.
 
 A detailed survey assessed the villagers' awareness of online transactions, cyber fraud, and banking security. Based on the findings, key topics covered included identifying fraudulent calls, ensuring safe transactions, protecting against phishing, and strengthening security through two-factor authentication.
 
@@ -830,17 +845,17 @@ Outcome of the Activity:
 - Increased Awareness: Villagers gained a better understanding of online banking security, leading to increased awareness about digital fraud prevention and safe financial transactions.
 - Empowered Community: The campaign empowered the community by providing knowledge and tools to confidently use online banking while avoiding scams and fraud attempts.
 - Enhanced Digital Security Compliance: While complete adoption may take time, there was a noticeable improvement in villagers activating security features such as OTP authentication, SMS alerts, and updating personal banking details.`,
-        date: "January 23 & 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 27,
-        title: "Vedic Maths for School Kids",
-        coverImage: " ",
-        shortDescription: "A workshop introducing students to fast calculation techniques using Vedic Math principles for speed and accuracy.",
-        description: `On 24 January, we conducted a Vedic Mathematics workshop at Raje Shivray Vidyalay, Panvadi (Bhisewadi) for students of 8th to 10th standard. The session aimed to introduce students to fast and efficient calculation techniques using Vedic Math principles. A total of 30 students attended the workshop, showing great enthusiasm and curiosity in learning mathematical shortcuts.
+    date: "January 23 & 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 27,
+    title: "Vedic Maths for School Kids",
+    coverImage: " ",
+    shortDescription: "A workshop introducing students to fast calculation techniques using Vedic Math principles for speed and accuracy.",
+    description: `On 24 January, we conducted a Vedic Mathematics workshop at Raje Shivray Vidyalay, Panvadi (Bhisewadi) for students of 8th to 10th standard. The session aimed to introduce students to fast and efficient calculation techniques using Vedic Math principles. A total of 30 students attended the workshop, showing great enthusiasm and curiosity in learning mathematical shortcuts.
 
 During the session, various topics were covered, including finding squares of numbers, divisibility tests, and cross multiplication for quick calculations. Students learned Vedic techniques for quickly squaring numbers ending in 5 and applying divisibility rules for numbers like 2, 3, 4, 5, 6, 8, 10, and 11. The cross-multiplication method was introduced to solve multiplication problems faster, and students practiced applying these techniques to different problems.
 
@@ -849,16 +864,16 @@ Outcome of the Activity:
 - Simplify Mathematical Concepts: Made mathematical operations easier to understand and apply through simple and efficient methods.
 - Boost Confidence in Problem-Solving: Encouraged students to develop a positive attitude towards mathematics by reducing their dependency on lengthy traditional methods.
 - Prepare for Competitive Exams: Equipped students with shortcut techniques beneficial for academic exams and competitive tests.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 28,
-        title: "Tree Plantation",
-        coverImage: " ",
-        shortDescription: "A tree plantation drive to promote environmental conservation and increase green cover in Panvadi.",
-        description: `On January 24th, a Tree Plantation Drive was conducted in Panvadi to promote environmental conservation and encourage sustainable practices among the villagers. The initiative aimed to increase green cover, raise awareness about the importance of afforestation, and involve the local community in eco-friendly activities.
+    date: "January 24, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 28,
+    title: "Tree Plantation",
+    coverImage: " ",
+    shortDescription: "A tree plantation drive to promote environmental conservation and increase green cover in Panvadi.",
+    description: `On January 24th, a Tree Plantation Drive was conducted in Panvadi to promote environmental conservation and encourage sustainable practices among the villagers. The initiative aimed to increase green cover, raise awareness about the importance of afforestation, and involve the local community in eco-friendly activities.
 
 NSS volunteers actively participated in planting saplings across various locations, ensuring that the selected species were well-suited to the local climate and soil conditions. Villagers, especially school children, were also encouraged to take responsibility for nurturing the plants, fostering a sense of environmental stewardship.
 
@@ -867,16 +882,16 @@ Outcome of the Activity:
 - Environmental Awareness: The drive educated participants and locals about the importance of afforestation.
 - Community Engagement: The event fostered a sense of environmental responsibility among volunteers and residents.
 - Improved Air Quality: Over time, the planted trees will help in reducing pollution and improving air quality.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 29,
-        title: "Origami for School Kids",
-        coverImage: " ",
-        shortDescription: "An origami workshop teaching children the art of paper folding, making butterflies and birds to enhance creativity.",
-        description: `On 24/1/2025, an Origami Workshop for Kids was organized at Panvadi Zila Parishad school to introduce children to the art of paper folding and enhance their creativity. The session focused on making butterflies and birds, allowing young participants to explore their artistic side while learning a new skill.
+    date: "January 24, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 29,
+    title: "Origami for School Kids",
+    coverImage: " ",
+    shortDescription: "An origami workshop teaching children the art of paper folding, making butterflies and birds to enhance creativity.",
+    description: `On 24/1/2025, an Origami Workshop for Kids was organized at Panvadi Zila Parishad school to introduce children to the art of paper folding and enhance their creativity. The session focused on making butterflies and birds, allowing young participants to explore their artistic side while learning a new skill.
 
 The workshop began with a brief introduction to origami, explaining its origins and benefits, such as improving fine motor skills, patience, and concentration. Instructors provided step-by-step guidance, ensuring that every child could follow along and successfully complete their models.
 
@@ -887,17 +902,17 @@ Outcome of the Activity:
 - Developing Fine Motor Skills: The intricate folds helped improve hand-eye coordination.
 - Enhancing Patience & Focus: The activity required careful attention to detail, promoting mindfulness.
 - Boosting Confidence: Successfully creating their models gave children a sense of accomplishment.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 30,
-        title: "Scholarship & Career Guidance for 8th to 10th Students",
-        coverImage: " ",
-        shortDescription: "A career guidance session for high school students covering career paths, scholarship opportunities, and higher education.",
-        description: `A Scholarship and Career Guidance Session was conducted at Panvadi Village High School for students of 8th to 10th grade on 24th January 2025. The session aimed to guide students in choosing the right career path and inform them about scholarships that could support their education.
+    date: "January 24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 30,
+    title: "Scholarship & Career Guidance for 8th to 10th Students",
+    coverImage: " ",
+    shortDescription: "A career guidance session for high school students covering career paths, scholarship opportunities, and higher education.",
+    description: `A Scholarship and Career Guidance Session was conducted at Panvadi Village High School for students of 8th to 10th grade on 24th January 2025. The session aimed to guide students in choosing the right career path and inform them about scholarships that could support their education.
 
 Students were introduced to various career opportunities in science, commerce, arts, and vocational fields. The importance of identifying personal interests and strengths was emphasized, along with insights into emerging career options. The session also provided valuable information on government and private scholarships, explaining the eligibility criteria and application process.
 
@@ -906,17 +921,17 @@ Outcome of the Activity:
 - Understood the importance of higher education.
 - Became aware of financial support options available through scholarships.
 - Felt motivated to explore their potential and strive for a brighter future.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 31,
-        title: "Street Play - Digital Literacy",
-        coverImage: " ",
-        shortDescription: "A street play spreading awareness about the importance of digital literacy, online safety, and responsible internet usage.",
-        description: `A street play was organized on January 24, 2025, at 8:00 PM in the village square, Panvadi, to spread awareness about the importance of digital literacy and how it can empower individuals in various aspects of life. The play attracted a large and diverse audience, ensuring the message reached many villagers. It highlighted the role of digital skills in improving education, employment, and day-to-day life.
+    date: "January 24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 31,
+    title: "Street Play - Digital Literacy",
+    coverImage: " ",
+    shortDescription: "A street play spreading awareness about the importance of digital literacy, online safety, and responsible internet usage.",
+    description: `A street play was organized on January 24, 2025, at 8:00 PM in the village square, Panvadi, to spread awareness about the importance of digital literacy and how it can empower individuals in various aspects of life. The play attracted a large and diverse audience, ensuring the message reached many villagers. It highlighted the role of digital skills in improving education, employment, and day-to-day life.
 
 The performers used engaging dialogues, humour, and real-life scenarios to connect with the audience and effectively convey the message. The street play created an interactive environment that made complex concepts easy to understand.
 
@@ -925,16 +940,16 @@ Outcome of the Activity:
 - Addressed challenges caused by a lack of digital knowledge, such as online fraud, misinformation, and limited access to opportunities.
 - Successfully spread awareness about digital literacy, with a focus on online safety, financial transactions, and the importance of digital tools.
 - Engaged the audience through relatable scenarios and interactive dialogues, making the message impactful and easy to understand.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 32,
-        title: "Cultural Event by School Kids and NSS Volunteers",
-        coverImage: " ",
-        shortDescription: "A vibrant cultural event showcasing dance, music, poetry, and theatrical performances by students and volunteers.",
-        description: `The NSS volunteers organized a vibrant Cultural Event in collaboration with school students. The event served as a platform for both volunteers and children to showcase their talents through dance, music, poetry, and theatrical performances.
+    date: "January 24, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 32,
+    title: "Cultural Event by School Kids and NSS Volunteers",
+    coverImage: " ",
+    shortDescription: "A vibrant cultural event showcasing dance, music, poetry, and theatrical performances by students and volunteers.",
+    description: `The NSS volunteers organized a vibrant Cultural Event in collaboration with school students. The event served as a platform for both volunteers and children to showcase their talents through dance, music, poetry, and theatrical performances.
 
 The primary goal of this event was to encourage creativity, boost confidence, and foster a sense of unity and joy among the students. The performances reflected a rich blend of tradition and modernity, highlighting the diverse artistic abilities of the participants. The event was filled with energy and enthusiasm, with NSS volunteers actively participating alongside school children to make it a memorable occasion.
 
@@ -944,16 +959,16 @@ Outcome of the Activity:
 - Promoted confidence, teamwork, and creativity through performances.
 - Fostered a sense of unity and joy among students, volunteers, and faculty.
 - Engaged young students in extracurricular activities, ensuring holistic development.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 33,
-        title: "Chari Khodane - Soil Erosion Prevention",
-        coverImage: " ",
-        shortDescription: "Maintaining chari structures to support water conservation and soil erosion prevention under the Water Cup Competition.",
-        description: `The National Service Scheme (NSS) team conducted a Chari Khodane - Soil Erosion Prevention activity on 24th January 2025 at Panvadi under the Water Cup Competition initiative. The activity aimed to support the village's ongoing efforts in water conservation and soil erosion prevention by maintaining existing chari structures at a respectable distance.
+    date: "January 24, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 33,
+    title: "Chari Khodane - Soil Erosion Prevention",
+    coverImage: " ",
+    shortDescription: "Maintaining chari structures to support water conservation and soil erosion prevention under the Water Cup Competition.",
+    description: `The National Service Scheme (NSS) team conducted a Chari Khodane - Soil Erosion Prevention activity on 24th January 2025 at Panvadi under the Water Cup Competition initiative. The activity aimed to support the village's ongoing efforts in water conservation and soil erosion prevention by maintaining existing chari structures at a respectable distance.
 
 Activity Highlights:
 - Survey and Planning: Volunteers first assessed the existing chari structures to determine areas needing maintenance.
@@ -964,17 +979,17 @@ Outcome of the Activity:
 - Improved soil stability, reducing erosion and protecting agricultural land.
 - Enhanced water conservation, helping in groundwater recharge and better irrigation.
 - Strengthened community awareness, encouraging long-term environmental responsibility.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 34,
-        title: "Sports Competition for School Kids",
-        coverImage: " ",
-        shortDescription: "A fun sports competition featuring Lemon Spoon, Three-Legged Race, Musical Chair, and Bucket Ball games.",
-        description: `A sports competition was organized at Z.P. School, Panvadi on 24/01/2025 to encourage physical activity, teamwork, and sportsmanship among students. The event included various games such as the Lemon Spoon Competition, Three-Legged Race, Musical Chair, and Bucket Ball Game. Students participated with great enthusiasm, showcasing their coordination, agility, and determination.
+    date: "January 24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 34,
+    title: "Sports Competition for School Kids",
+    coverImage: " ",
+    shortDescription: "A fun sports competition featuring Lemon Spoon, Three-Legged Race, Musical Chair, and Bucket Ball games.",
+    description: `A sports competition was organized at Z.P. School, Panvadi on 24/01/2025 to encourage physical activity, teamwork, and sportsmanship among students. The event included various games such as the Lemon Spoon Competition, Three-Legged Race, Musical Chair, and Bucket Ball Game. Students participated with great enthusiasm, showcasing their coordination, agility, and determination.
 
 Outcome of the Activity:
 - Encouraged students to participate in physical activities and adopt a healthy lifestyle.
@@ -984,17 +999,17 @@ Outcome of the Activity:
 - Strengthened friendships and fostered a positive school atmosphere.
 - Taught valuable life lessons through recreational activities.
 - Emphasized the importance of staying active for overall well-being.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 35,
-        title: "Camp Fire - Night of Talent and Growth",
-        coverImage: " ",
-        shortDescription: "A campfire night providing a platform for NSS volunteers to showcase talents, foster team spirit, and promote personal growth.",
-        description: `A Camp Fire Night of Talent and Growth was organized on 24th and 25th January 2025. This event was designed to provide a platform for NSS volunteers to showcase their talents, foster team spirit, and promote personal growth through interactive activities.
+    date: "January 24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 35,
+    title: "Camp Fire - Night of Talent and Growth",
+    coverImage: " ",
+    shortDescription: "A campfire night providing a platform for NSS volunteers to showcase talents, foster team spirit, and promote personal growth.",
+    description: `A Camp Fire Night of Talent and Growth was organized on 24th and 25th January 2025. This event was designed to provide a platform for NSS volunteers to showcase their talents, foster team spirit, and promote personal growth through interactive activities.
 
 The primary objective of the Camp Fire Night was to create a vibrant and engaging environment where volunteers could express their creativity, build confidence, and strengthen their bonds. The event aimed to enhance teamwork, leadership, and communication skills through various performances and activities.
 
@@ -1003,17 +1018,17 @@ Outcome of the Activity:
 - Stronger Team Bonding: The interactive sessions and group activities helped in building a sense of unity and teamwork among participants.
 - Personal Growth: The event encouraged self-expression, creativity, and leadership skills.
 - Memorable Experience: The bonfire and talent showcase created a joyful and lasting impact on the volunteers.`,
-        date: "January 24-25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 36,
-        title: "Quiz on General Knowledge for School Kids",
-        coverImage: " ",
-        shortDescription: "An interactive GK and mathematics quiz for 8th-10th standard students to enhance knowledge and critical thinking.",
-        description: `On January 24, 2025, a General Knowledge Quiz was organized at Raje Shivray Vidyalay, Panvadi (Bhisewadi), for students of 8th to 10th standard. The objective of the quiz was to test and enhance students' knowledge of general awareness and mathematics in a fun, interactive, and engaging manner. The event aimed to foster critical thinking, problem-solving skills, and teamwork among the participants while making learning enjoyable.
+    date: "January 24-25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 36,
+    title: "Quiz on General Knowledge for School Kids",
+    coverImage: " ",
+    shortDescription: "An interactive GK and mathematics quiz for 8th-10th standard students to enhance knowledge and critical thinking.",
+    description: `On January 24, 2025, a General Knowledge Quiz was organized at Raje Shivray Vidyalay, Panvadi (Bhisewadi), for students of 8th to 10th standard. The objective of the quiz was to test and enhance students' knowledge of general awareness and mathematics in a fun, interactive, and engaging manner. The event aimed to foster critical thinking, problem-solving skills, and teamwork among the participants while making learning enjoyable.
 
 The quiz included a General Knowledge Round and a Mathematics Round.
 
@@ -1023,33 +1038,33 @@ Outcome of the Activity:
 - Improved students' confidence in answering questions under time pressure.
 - Provided a platform for students to showcase their knowledge and learn new facts.
 - The Quiz on General Knowledge was a successful and engaging event, leaving a lasting impact on the students and motivating them to explore and learn more.`,
-        date: "January 24, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 37,
-        title: "Rasta Sushobhikaran",
-        coverImage: " ",
-        shortDescription: "A road beautification drive involving waste removal, vegetation clearing, stone painting, and sapling plantation.",
-        description: `On 25th January 2025, as part of the NSS camp, a Rasta Sushobhikaran (Road Beautification) drive was undertaken by NSS volunteers of our college. This initiative aimed to improve the cleanliness and aesthetics of the village roads, promoting a sense of responsibility towards public spaces.
+    date: "January 24, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 37,
+    title: "Rasta Sushobhikaran",
+    coverImage: " ",
+    shortDescription: "A road beautification drive involving waste removal, vegetation clearing, stone painting, and sapling plantation.",
+    description: `On 25th January 2025, as part of the NSS camp, a Rasta Sushobhikaran (Road Beautification) drive was undertaken by NSS volunteers of our college. This initiative aimed to improve the cleanliness and aesthetics of the village roads, promoting a sense of responsibility towards public spaces.
 
 The activity involved removing waste, clearing unwanted vegetation, and leveling uneven patches on the roadside. Volunteers also painted roadside stones and walls to enhance visibility and beautify the surroundings. To further contribute to environmental well-being, saplings were planted along the roadsides, promoting greenery and sustainable development.
 
 Outcome of the Activity:
 - Enhancing Public Cleanliness: The initiative aimed to improve road conditions by removing litter and overgrown vegetation, creating a cleaner and safer environment.
 - Environmental Contribution: The planting of saplings contributed to environmental conservation, promoting awareness about the significance of green spaces.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      {
-        id: 38,
-        title: "Ghat Road Safety Measure - Radium Stickers",
-        coverImage: " ",
-        shortDescription: "Installing radium stickers at key road locations to improve nighttime visibility and reduce accident risks.",
-        description: `As part of our NSS initiative, we undertook a road safety project in Panvadi Gaon to improve nighttime visibility. The village roads lacked proper lighting, causing confusion and potential accidents. To address this, we installed radium stickers at key locations such as intersections, sharp turns, and unmarked pathways. These stickers reflect vehicle headlights, helping commuters navigate safely in the dark.
+    date: "January 25, 2025",
+    photos: []
+  },
+  *//*
+  {
+    id: 38,
+    title: "Ghat Road Safety Measure - Radium Stickers",
+    coverImage: " ",
+    shortDescription: "Installing radium stickers at key road locations to improve nighttime visibility and reduce accident risks.",
+    description: `As part of our NSS initiative, we undertook a road safety project in Panvadi Gaon to improve nighttime visibility. The village roads lacked proper lighting, causing confusion and potential accidents. To address this, we installed radium stickers at key locations such as intersections, sharp turns, and unmarked pathways. These stickers reflect vehicle headlights, helping commuters navigate safely in the dark.
 
 Before implementation, we interacted with villagers to understand their commuting challenges. Many reported difficulty identifying roads, especially during fog and rain. Based on their inputs, we strategically placed radium markers and conducted an awareness session on their benefits.
 
@@ -1060,15 +1075,15 @@ Outcome of the Activity:
 - Increased community awareness and engagement.
 - Practical problem-solving through a simple yet impactful intervention.
 - Encouragement for future NSS initiatives to address local challenges.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      {
-        id: 39,
-        title: "Menstrual Hygiene Awareness for School Girls",
-        coverImage: " ",
-        shortDescription: "An awareness session on menstruation, hygiene practices, and debunking myths for school girls at Z.P. School.",
-        description: `On 25th January, as part of the NSS camp, a Menstrual Hygiene Awareness Session was conducted for school girls at Z.P. School, Panvadi, from 3:45 PM to 4:30 PM. The session aimed to educate students about menstruation, hygiene practices, and debunk societal myths to help them manage their menstrual health confidently.
+    date: "January 25, 2025",
+    photos: []
+  },
+  {
+    id: 39,
+    title: "Menstrual Hygiene Awareness for School Girls",
+    coverImage: " ",
+    shortDescription: "An awareness session on menstruation, hygiene practices, and debunking myths for school girls at Z.P. School.",
+    description: `On 25th January, as part of the NSS camp, a Menstrual Hygiene Awareness Session was conducted for school girls at Z.P. School, Panvadi, from 3:45 PM to 4:30 PM. The session aimed to educate students about menstruation, hygiene practices, and debunk societal myths to help them manage their menstrual health confidently.
 
 The session started with an explanation of the menstrual cycle, covering why it occurs, changes in the body, and how to handle the first period. Volunteers emphasized that menstruation is a natural and healthy process, reassuring students that it should not be feared or considered a taboo.
 
@@ -1078,16 +1093,16 @@ Outcome of the Activity:
 - Girls gained a better understanding of menstruation and hygiene practices.
 - Increased awareness about the importance of using sanitary products.
 - Improved awareness and confidence among students regarding menstruation.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 40,
-        title: "Handwriting Competition for School Kids",
-        coverImage: " ",
-        shortDescription: "A handwriting competition to enhance writing skills and foster creativity and discipline among students.",
-        description: `As part of the NSS Camp: School Teaching activities, a Handwriting Competition was conducted at the Panvadi Zila Parishad school for the students on 25th January 2025 from 4:00 PM to 5:00 PM.
+    date: "January 25, 2025",
+    photos: []
+  },
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 40,
+    title: "Handwriting Competition for School Kids",
+    coverImage: " ",
+    shortDescription: "A handwriting competition to enhance writing skills and foster creativity and discipline among students.",
+    description: `As part of the NSS Camp: School Teaching activities, a Handwriting Competition was conducted at the Panvadi Zila Parishad school for the students on 25th January 2025 from 4:00 PM to 5:00 PM.
 
 The competition took place after school hours and saw enthusiastic participation from all 18 students across various age groups. The event aimed to enhance students' writing skills and foster creativity and discipline in handwriting.
 
@@ -1097,17 +1112,17 @@ Outcome of the Activity:
 - Improved handwriting skills among students.
 - Instilled a sense of discipline and patience in written communication.
 - Created a fun and engaging learning environment.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 41,
-        title: "Tree Painting & Conservation",
-        coverImage: " ",
-        shortDescription: "Painting tree trunks with eco-friendly colors to protect from pests and spread conservation awareness.",
-        description: `On January 25th, a Tree Painting and Conservation event was held in Panvadi to spread awareness about protecting trees. The goal was to involve the local community in caring for the environment, make trees look more beautiful, and educate people about their importance.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 41,
+    title: "Tree Painting & Conservation",
+    coverImage: " ",
+    shortDescription: "Painting tree trunks with eco-friendly colors to protect from pests and spread conservation awareness.",
+    description: `On January 25th, a Tree Painting and Conservation event was held in Panvadi to spread awareness about protecting trees. The goal was to involve the local community in caring for the environment, make trees look more beautiful, and educate people about their importance.
 
 NSS volunteers and local residents painted tree trunks with eco-friendly colors. This helped protect the trees from pests and infections. The paintings also had messages about saving nature, encouraging people to take care of trees. This activity made the area look better and reminded everyone how trees help the environment.
 
@@ -1119,17 +1134,17 @@ Outcome of the Activity:
 - Engaged the community, including school children, in conservation activities.
 - Enhanced the visual appeal of the environment while spreading eco-friendly messages.
 - Participants learned practical tree care methods, such as watering and protection techniques.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 42,
-        title: "Trekking",
-        coverImage: " ",
-        shortDescription: "An adventurous trek near Panvadi village with 50 volunteers and local villagers to promote fitness and unity.",
-        description: `On 25th January 2025, a trekking activity was organized near Panvadi village, bringing together 50 NSS volunteers and local villagers for an adventurous journey to a nearby mountain. The participants eagerly embarked on the trek, enjoying the breathtaking scenery and refreshing mountain air. The experience provided an excellent opportunity to break away from daily routines and engage in a physically and mentally invigorating challenge.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 42,
+    title: "Trekking",
+    coverImage: " ",
+    shortDescription: "An adventurous trek near Panvadi village with 50 volunteers and local villagers to promote fitness and unity.",
+    description: `On 25th January 2025, a trekking activity was organized near Panvadi village, bringing together 50 NSS volunteers and local villagers for an adventurous journey to a nearby mountain. The participants eagerly embarked on the trek, enjoying the breathtaking scenery and refreshing mountain air. The experience provided an excellent opportunity to break away from daily routines and engage in a physically and mentally invigorating challenge.
 
 Throughout the trek, the group embraced the spirit of togetherness, sharing moments of joy, laughter, and camaraderie. Impromptu dances and songs echoed through the trails, making the journey even more enjoyable. Volunteers and villagers encouraged each other, fostering a sense of unity and teamwork. The scenic landscapes and peaceful surroundings further enhanced the experience, making it a memorable event for everyone involved.
 
@@ -1138,17 +1153,17 @@ Outcome of the Activity:
 - Foster Unity & Teamwork: Strengthened bonds between NSS volunteers and villagers through shared experiences, teamwork, and mutual support during the trek.
 - Appreciate Nature & Environmental Awareness: Instilled a sense of responsibility towards nature by experiencing the beauty of the outdoors and understanding the importance of environmental conservation.
 - Encourage Stress Relief & Mental Well-being: Provided a refreshing break from daily routines, helping participants rejuvenate mentally and emotionally through adventure and relaxation in nature.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 43,
-        title: "Self Defence for School Kids",
-        coverImage: " ",
-        shortDescription: "A self-defence session teaching schoolchildren basic defensive techniques, emergency response, and personal safety.",
-        description: `On January 25th, a Self-Defence Awareness Session was conducted in Panvadi to empower schoolchildren, particularly young girls, with basic self-defence techniques for personal safety. This session aimed to build confidence, improve awareness about self-protection, and equip participants with essential defensive skills.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 43,
+    title: "Self Defence for School Kids",
+    coverImage: " ",
+    shortDescription: "A self-defence session teaching schoolchildren basic defensive techniques, emergency response, and personal safety.",
+    description: `On January 25th, a Self-Defence Awareness Session was conducted in Panvadi to empower schoolchildren, particularly young girls, with basic self-defence techniques for personal safety. This session aimed to build confidence, improve awareness about self-protection, and equip participants with essential defensive skills.
 
 Under the guidance of senior NSS member Ms. Kranti Kharat, students were taught practical self-defence moves, emergency response techniques, and strategies to recognize and react to potential threats. The session included demonstrations, hands-on practice, and interactive discussions on safety measures.
 
@@ -1158,17 +1173,17 @@ Outcome of the Activity:
 - Safety Preparedness: Taught how to react in emergency situations.
 - Physical Fitness: Encouraged strength, flexibility, and coordination.
 - Community Engagement: Strengthened NSS outreach and contribution to society.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 44,
-        title: "Aerobics for School Kids",
-        coverImage: " ",
-        shortDescription: "An energetic aerobics session for students from classes 1 to 7, promoting physical fitness and healthy habits.",
-        description: `The aerobics session was conducted in the school playground, with all students from classes 1 to 7 participating. The NSS volunteers, who were trained beforehand, led the session by demonstrating various aerobic exercises.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 44,
+    title: "Aerobics for School Kids",
+    coverImage: " ",
+    shortDescription: "An energetic aerobics session for students from classes 1 to 7, promoting physical fitness and healthy habits.",
+    description: `The aerobics session was conducted in the school playground, with all students from classes 1 to 7 participating. The NSS volunteers, who were trained beforehand, led the session by demonstrating various aerobic exercises.
 
 The session was structured into three main parts:
 - Warm-up (5 minutes)
@@ -1179,17 +1194,17 @@ Outcome of the Activity:
 - Students actively participated and enjoyed the aerobics session, making it a fun and engaging experience.
 - Many students reported feeling more energetic and refreshed after the activity.
 - The session helped in instilling the habit of regular exercise among students.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 45,
-        title: "Daily Hygiene Session for School Kids",
-        coverImage: " ",
-        shortDescription: "An interactive hygiene awareness session teaching children about handwashing, oral hygiene, and maintaining clean surroundings.",
-        description: `On January 25, 2025, the NSS team conducted a Daily Hygiene Awareness Session for schoolchildren in Panvadi, aiming to promote good hygiene practices. The session focused on essential habits such as handwashing, oral hygiene, regular bathing, and maintaining clean surroundings.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 45,
+    title: "Daily Hygiene Session for School Kids",
+    coverImage: " ",
+    shortDescription: "An interactive hygiene awareness session teaching children about handwashing, oral hygiene, and maintaining clean surroundings.",
+    description: `On January 25, 2025, the NSS team conducted a Daily Hygiene Awareness Session for schoolchildren in Panvadi, aiming to promote good hygiene practices. The session focused on essential habits such as handwashing, oral hygiene, regular bathing, and maintaining clean surroundings.
 
 Volunteers engaged the children with interactive demonstrations, storytelling, and hands-on activities, making the learning process fun and informative. They emphasized the importance of proper handwashing, brushing teeth twice a day, wearing clean clothes, and trimming nails.
 
@@ -1199,17 +1214,17 @@ Outcome of the Activity:
 - Encourage Healthy Lifestyle: Instilled lifelong hygiene habits that contribute to overall well-being and self-care.
 - Spread Awareness to Families: Motivated children to share hygiene knowledge with their families, creating a wider community impact.
 - Improve School Cleanliness: Encouraged students to maintain cleanliness in their surroundings, promoting a healthier school environment.`,
-        date: "January 25, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 46,
-        title: "Prabhat Feri - Republic Day",
-        coverImage: " ",
-        shortDescription: "An early morning patriotic rally through Panvadi Village to celebrate Republic Day and spread awareness about national unity.",
-        description: `On 26th January 2025, the NSS organized a Prabhat Feri in Panvadi Village to celebrate Republic Day and spread awareness about national unity, patriotism, and civic responsibilities. The event began early in the morning with NSS volunteers and faculty members gathering at the temple premises.
+    date: "January 25, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 46,
+    title: "Prabhat Feri - Republic Day",
+    coverImage: " ",
+    shortDescription: "An early morning patriotic rally through Panvadi Village to celebrate Republic Day and spread awareness about national unity.",
+    description: `On 26th January 2025, the NSS organized a Prabhat Feri in Panvadi Village to celebrate Republic Day and spread awareness about national unity, patriotism, and civic responsibilities. The event began early in the morning with NSS volunteers and faculty members gathering at the temple premises.
 
 The Prabhat Feri proceeded through the streets of Panvadi Village with participants carrying banners showcasing patriotic messages and slogans. Volunteers actively engaged with the local community, encouraging them to uphold constitutional values and contribute to nation-building. The rally emphasized key themes such as national integrity, environmental awareness, and social responsibility, reinforcing the role of youth in shaping a better future.
 
@@ -1219,17 +1234,17 @@ Outcome of the Activity:
 - Positive Youth Involvement: NSS volunteers developed leadership and teamwork skills.
 - Increased Social Responsibility: People pledged to uphold cleanliness and civic duties.
 - Stronger College-Village Relations: Strengthened the bond between students and the local community.`,
-        date: "January 26, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 47,
-        title: "Republic Day Celebration with School & Grampanchayat",
-        coverImage: " ",
-        shortDescription: "A grand Republic Day celebration with flag hoisting, patriotic rally, and cultural performances in collaboration with the local school and Grampanchayat.",
-        description: `On the 26th of January, our NSS team of 50 volunteers celebrated Republic Day with enthusiasm in Panvadi village during our social camp. It was the 7th day of our camp, and we organized various patriotic activities in collaboration with the local school and Grampanchayat.
+    date: "January 26, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 47,
+    title: "Republic Day Celebration with School & Grampanchayat",
+    coverImage: " ",
+    shortDescription: "A grand Republic Day celebration with flag hoisting, patriotic rally, and cultural performances in collaboration with the local school and Grampanchayat.",
+    description: `On the 26th of January, our NSS team of 50 volunteers celebrated Republic Day with enthusiasm in Panvadi village during our social camp. It was the 7th day of our camp, and we organized various patriotic activities in collaboration with the local school and Grampanchayat.
 
 The celebration commenced with a rally in the village, where our volunteers marched with slogans promoting national unity and awareness. The rally received a positive response from the villagers, who joined in support. Following the rally, we conducted a flag hoisting ceremony at both the Grampanchayat office and the village school, honoring the national flag with pride. The atmosphere was filled with patriotic spirit as the national anthem was sung by all present, reinforcing our collective commitment to the country.
 
@@ -1238,17 +1253,17 @@ Outcome of the Activity:
 - Teamwork & Discipline: Encouraged teamwork and discipline through activities like the parade and pyramid formation.
 - Social Responsibility: Promoted the role of NSS volunteers in fostering civic awareness and national values.
 - Youth Involvement: Motivated young minds to actively participate in national celebrations.`,
-        date: "January 26, 2025",
-        photos: []
-      },
-      */
-      /* COMMENTED OUT — not in final 12 selection
-      {
-        id: 48,
-        title: "Camp Closing Ceremony & Satkar",
-        coverImage: " ",
-        shortDescription: "The grand closing ceremony of the NSS Special Camp 2025 with prize distribution, speeches, and farewell in the presence of local dignitaries.",
-        description: `The Closing Ceremony of the NSS Special Camp 2025 was held on 26th January 2025 in the presence of Maji Amdar Mr. Haridas Lole, Sarpanch Archana Bhise, Upsarpanch Vishwanath Dhiwar, Maji Sarpanch Abasahed Lole, Maji Upsarpanch Maulibapu Bhise, local authorities, villagers, teachers, NSS volunteers, and school students. The day began with the Republic Day celebration, where students proudly performed patriotic songs, dances, and speeches. Following this, the closing ceremony of the NSS camp commenced with great enthusiasm.
+    date: "January 26, 2025",
+    photos: []
+  },
+  */
+  /* COMMENTED OUT — not in final 12 selection
+  {
+    id: 48,
+    title: "Camp Closing Ceremony & Satkar",
+    coverImage: " ",
+    shortDescription: "The grand closing ceremony of the NSS Special Camp 2025 with prize distribution, speeches, and farewell in the presence of local dignitaries.",
+    description: `The Closing Ceremony of the NSS Special Camp 2025 was held on 26th January 2025 in the presence of Maji Amdar Mr. Haridas Lole, Sarpanch Archana Bhise, Upsarpanch Vishwanath Dhiwar, Maji Sarpanch Abasahed Lole, Maji Upsarpanch Maulibapu Bhise, local authorities, villagers, teachers, NSS volunteers, and school students. The day began with the Republic Day celebration, where students proudly performed patriotic songs, dances, and speeches. Following this, the closing ceremony of the NSS camp commenced with great enthusiasm.
 
 Volunteers delivered heartwarming speeches, sharing their experiences and the life lessons they gained during the camp. They expressed their gratitude for the opportunity to serve the community and participate in various activities.
 
@@ -1260,12 +1275,12 @@ Outcome of the Activity:
 - Enhanced Social Responsibility: Deeper understanding of community needs and the importance of contributing to society.
 - Stronger Community Bonds: Strengthened relationships between the school and the community.
 - Personal Growth: Volunteers learned teamwork, empathy, and problem-solving, which will benefit them in future endeavours.`,
-        date: "January 26, 2025",
-        photos: []
-      },
-      */
-    ]
+    date: "January 26, 2025",
+    photos: []
   },
+  
+]
+},*/
 
   /*// 2024 Camp
   {
