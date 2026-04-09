@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import Dropdown from "./Dropdown";
 
 const years = ["2026", "2025"];
+const campYears = ["2026"];
 
 const Navbar = () => {
   const [activitiesOpen, setActivitiesOpen] = useState(false);
@@ -319,7 +320,7 @@ const Navbar = () => {
                   <AnimatedUnderline isVisible={isActive("/camps")} />
                 </Link>
 
-                <Dropdown items={years} basePath="/camps" isOpen={campsOpen} />
+                <Dropdown items={campYears} basePath="/camps" isOpen={campsOpen} />
               </div>
 
               {/* School Teaching */}
