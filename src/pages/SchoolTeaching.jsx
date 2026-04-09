@@ -20,7 +20,7 @@ const SchoolTeaching = () => {
   }, [activeYear]);
 
   return (
-    <div className="min-h-screen bg-softGrey pt-24 pb-16">
+    <div className="min-h-screen bg-softGrey pt-20 pb-16">
 
       {/* --- Page Header --- */}
       <div className="relative bg-secondary py-16 md:py-20 mb-12 overflow-hidden">

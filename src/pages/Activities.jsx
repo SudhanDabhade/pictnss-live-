@@ -13,9 +13,9 @@ const years = getActivityYears();
 
 const Activities = () => {
   return (
-    <div className="min-h-screen bg-softGrey pt-24 pb-16">
+    <div className="min-h-screen bg-softGrey pt-20 pb-16">
       {/* Page Header */}
-      <div className="bg-secondary py-12 md:py-16 mb-12">
+      <div className="bg-secondary py-12 md:py-20 mb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 animate-fade-in">

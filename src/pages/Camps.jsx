@@ -13,9 +13,9 @@ const years = getCampYears();
 
 const Camps = () => {
   return (
-    <div className="min-h-screen bg-softGrey pt-24 pb-16">
+    <div className="min-h-screen bg-softGrey pt-16 pb-16">
       {/* Page Header with Nature Theme */}
-      <div className="relative bg-secondary py-16 md:py-24 mb-12 overflow-hidden">
+      <div className="relative bg-secondary py-16 md:py-20 mb-12 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
           <img
@@ -79,15 +79,13 @@ const Camps = () => {
                 transition-all duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              {/* Nature Image Background 
+              {/* Nature Image Background*/}
               <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-200">
                 <img
-                  //src={`https://images.unsplash.com/photo-${469474968028 + index}-56623f02e42e?w=400&h=300&fit=crop`}
-                  src="https://res.cloudinary.com/dbntmh7wx/image/upload/v1772175526/2_nvawlj.png"
-                  alt=""
+                  src="https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775742214/IMG_20260128_065059_odqse6.jpg"
                   className="w-full h-full object-cover"
                 />
-              </div>*/}
+              </div>
 
               {/* Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent 
@@ -174,7 +172,7 @@ const Camps = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&h=400&fit=crop"
+                src="https://res.cloudinary.com/dvyqclu7y/image/upload/q_auto/f_auto/v1775557176/IMG_20260128_072537_c4zgsd.jpg"
                 alt="NSS Camp"
                 className="rounded-2xl shadow-lg"
               />
