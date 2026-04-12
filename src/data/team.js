@@ -18,7 +18,7 @@ export const teamMembers = {
     },
     {
       id: 2,
-      name: "Ms. Bhakti Mam",
+      name: "Ms. Bhakti Kadam",
       role: "NSS Program Officer",
       department: "",
       profilePic: "/about/bhakti_mam.jpeg",
