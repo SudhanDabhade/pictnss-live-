@@ -102,28 +102,51 @@ const Team = () => {
 
         {/* Tech & Development Team Section */}
         {teamMembers.technicalTeam && teamMembers.technicalTeam.length > 0 && (
-          <section className="mb-16">
-            <div className="text-center mb-20">
-              <span className="inline-block bg-primary text-secondary text-sm font-semibold 
-                px-4 py-1.5 rounded-full mb-3">
+          <section className="mb-20">
+            <div className="text-center mb-16">
+              <span className="inline-block bg-primary text-secondary text-sm font-semibold px-4 py-1.5 rounded-full mb-3 shadow-sm">
                 Behind the Scenes
               </span>
               <h2 className="text-3xl font-bold text-textDark">Tech & Development Team</h2>
-              <p className="text-gray-600 mt-2">
+              <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
                 Building and maintaining the digital presence of PICT NSS Unit
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {teamMembers.technicalTeam.map((member, index) => (
-                <div
-                  key={member.id}
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <TeamCard member={member} variant="default" />
-                </div>
-              ))}
+            <div className="flex flex-col items-center gap-12">
+              {/* Technical Head (Rushikesh Bhabad) */}
+              {(() => {
+                const head = teamMembers.technicalTeam.find(m => m.role === 'Technical Head');
+                if (!head) return null;
+                return (
+                  <div className="w-full flex justify-center z-10 animate-fade-in relative">
+                    <div className="absolute -inset-4 bg-primary/5 rounded-[3rem] blur-xl -z-10"></div>
+                    <div className="relative group">
+                      <div className="absolute top-4 right-4 z-20">
+                          <span className="bg-blue-600 text-white text-xs uppercase tracking-wider font-bold px-3 py-1.5 rounded-full shadow-lg border border-white/20">
+                            Technical Head
+                          </span>
+                      </div>
+                      <TeamCard member={head} variant="large" />
+                    </div>
+                  </div>
+                );
+              })()}
+
+              {/* Developers / Volunteers Grid */}
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8">
+                {teamMembers.technicalTeam
+                  .filter(m => m.role !== 'Technical Head')
+                  .map((member, index) => (
+                    <div
+                      key={member.id}
+                      className="w-full flex justify-center animate-fade-in"
+                      style={{ animationDelay: `${index * 150}ms` }}
+                    >
+                      <TeamCard member={member} variant="default" />
+                    </div>
+                  ))}
+              </div>
             </div>
           </section>
         )}

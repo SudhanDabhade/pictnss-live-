@@ -1,0 +1,131 @@
+# PICT NSS Backend Plan (Short Version)
+
+Tech stack: **Node.js + Express + MongoDB + Cloudinary + Nodemailer + JWT**
+
+## 1) Core Flow
+
+1. Admin enters email + password.
+2. If valid, backend sends OTP via email.
+3. Admin verifies OTP.
+4. Backend returns auth token.
+5. Admin can manage content from sidebar modules.
+
+## 2) Admin Modules
+
+- Activities settings
+- Camps settings
+- Photos settings (Gallery)
+- School teaching settings
+- Magazine settings
+
+For each module: **Create, Read, Update, Delete**
+
+Delete should support:
+- by `id`
+- by `title + date`
+
+## 3) Data & Storage
+
+- Content data -> MongoDB
+- Images/files -> Cloudinary
+- Keep frontend schema similar to current `src/data/*` so UI routes work without redesign.
+
+## 4) API Structure
+
+- Admin APIs: `/api/v1/admin/*` (protected)
+- Public APIs: `/api/v1/public/*` (read-only)
+
+Main resources:
+- `/activities`
+- `/camps`
+- `/gallery`
+- `/school-teaching`
+- `/magazines`
+
+## 5) Auth APIs
+
+- `POST /api/v1/admin/auth/login`
+- `POST /api/v1/admin/auth/verify-otp`
+- `POST /api/v1/admin/auth/refresh`
+- `POST /api/v1/admin/auth/logout`
+
+## 6) Key Rules
+
+- Only approved admin emails can log in.
+- OTP is mandatory before access.
+- Validate all inputs (title, date, year, files).
+- Protect routes with JWT middleware.
+- Rate-limit login/OTP endpoints.
+
+## 7) Route Compatibility Requirement
+
+If admin adds data for a new year (example: **2027**), it must automatically appear in frontend year routes like:
+- `/activities/2027`
+- `/camps/2027`
+- school teaching year views
+
+## 8) Suggested Backend Structure
+
+```
+backend/
+  src/
+    config/
+    modules/
+      auth/
+      activities/
+      camps/
+      gallery/
+      schoolTeaching/
+      magazines/
+    middlewares/
+    services/
+    app.js
+    server.js
+```
+
+## 9) .env (Required)
+
+```
+PORT=5000
+NODE_ENV=development
+
+MONGODB_URI=<mongo_connection_string>
+
+JWT_ACCESS_SECRET=<secret>
+JWT_REFRESH_SECRET=<secret>
+JWT_ACCESS_EXPIRES=15m
+JWT_REFRESH_EXPIRES=7d
+
+ADMIN_ALLOWED_EMAILS=admin1@domain.com,admin2@domain.com
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=<email>
+SMTP_PASS=<app_password>
+MAIL_FROM="PICT NSS Admin <no-reply@pictnss.com>"
+OTP_EXPIRY_MINUTES=5
+OTP_MAX_ATTEMPTS=5
+
+CLOUDINARY_CLOUD_NAME=<name>
+CLOUDINARY_API_KEY=<key>
+CLOUDINARY_API_SECRET=<secret>
+
+CORS_ORIGIN=http://localhost:3000
+```
+
+## 10) Implementation Order
+
+1. Setup Express + Mongo + base middleware
+2. Build admin auth + OTP
+3. Build Activities CRUD end-to-end
+4. Repeat for Camps, Gallery, School Teaching, Magazine
+5. Connect frontend read routes to backend APIs
+6. Final testing + deployment
+
+## 11) Done Criteria
+
+- Admin login + OTP works
+- CRUD works for all 5 modules
+- Delete by id and title+date works
+- Cloudinary uploads work
+- New year data (e.g., 2027) appears in frontend routes correctly

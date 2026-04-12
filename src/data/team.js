@@ -16,6 +16,16 @@ export const teamMembers = {
       email: "nss@pict.edu",
       experience: "",
     },
+    {
+      id: 2,
+      name: "Ms. Bhakti Mam",
+      role: "NSS Program Officer",
+      department: "",
+      profilePic: "/about/bhakti_mam.jpeg",
+      quote: "Empowering youth to build a stronger, self-reliant nation through dedicated social service.",
+      email: "nss@pict.edu",
+      experience: "",
+    },
   ],
 
   // Tech & Development Team
@@ -27,6 +37,7 @@ export const teamMembers = {
       year: "",
       profilePic: "/about/Rushikesh.jpeg",
       quote: "",
+      linkedin: "https://www.linkedin.com/in/rushikesh-bhabad/",
     },
     {
       id: 21,
@@ -35,6 +46,7 @@ export const teamMembers = {
       year: "",
       profilePic: "about/Mayuresh.jpeg",
       quote: "",
+      linkedin: "https://www.linkedin.com/in/mayuresh-sarode-bb87b122b/",
     },
     {
       id: 22,
@@ -43,6 +55,7 @@ export const teamMembers = {
       year: "",
       profilePic: "/about/sudhan.jpeg",
       quote: "",
+      linkedin: "https://www.linkedin.com/in/sudhandabhade/",
     },
     {
       id: 23,
@@ -51,6 +64,7 @@ export const teamMembers = {
       year: "",
       profilePic: "/about/snehal.jpeg",
       quote: "",
+      linkedin: "https://www.linkedin.com/in/snehal-phatale-388221362/",
     }
   ],
 
