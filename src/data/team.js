@@ -19,7 +19,7 @@ export const teamMembers = {
     {
       id: 2,
       name: "Ms. Bhakti Kadam",
-      role: "NSS Program Officer",
+      role: "NSS Team Member",
       department: "",
       profilePic: "/about/bhakti_mam.jpeg",
       quote: "Empowering youth to build a stronger, self-reliant nation through dedicated social service.",

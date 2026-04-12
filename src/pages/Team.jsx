@@ -80,7 +80,7 @@ const Team = () => {
                 px-4 py-1.5 rounded-full mb-3">
                 Leadership
               </span>
-              <h2 className="text-3xl font-bold text-textDark">Program Officers</h2>
+              <h2 className="text-3xl font-bold text-textDark">Program Officers & Team Members</h2>
               <p className="text-gray-600 mt-2">
                 Guiding and mentoring the NSS unit with their experience and wisdom
               </p>
